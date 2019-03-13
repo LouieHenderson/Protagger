@@ -4,7 +4,7 @@ def initialise():
     global Startime
     global Optimal
     global AccepTup
-    global AcceptorIter
+    #global AcceptorIter
     global DonorIter
     global sphereclash1
     global donorchains
