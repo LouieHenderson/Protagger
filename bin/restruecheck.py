@@ -4,6 +4,7 @@ def restruecheck(start_tagged_residue, end_tagged_residue, start_potentialTag, e
 
     #Iterate through each atom in residues of compared acceptor/donor pairs and checks for potential clash
     for resid1 in residlist:
+        #print "this is resid parent", resid1.get_parent().get_parent().get_parent()
         Checker = queue1.get()
         queue1.put(Checker)
         if Checker[0] == False or Checker[1] == False:
@@ -14,6 +15,7 @@ def restruecheck(start_tagged_residue, end_tagged_residue, start_potentialTag, e
             if globalvars.TrueCheck[0] == True:
                 for atom1 in resid1:
                     for chain2 in checkdonors:
+                        print "this is being checked", chain2, resid1.get_parent().get_parent().get_parent()
                         for resid2 in chain2:
                             CheckpointB = resid2.get_id()[1] >= (start_potentialTag + 1 + overlap) and resid2.get_id()[1] <= (end_potentialTag - 1 - overlap)
                             if CheckpointB == True and globalvars.TrueCheck[0] == True:

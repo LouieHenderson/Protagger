@@ -30,8 +30,9 @@ def findClash(listofchains, start_tagged_residue, end_tagged_residue, spherelist
 
     globalvars.TrueCheck = [True, True]
 
-    #Iterates through acceptor/donor pairs, provides rough spherical approximations which indicate overlap to identify which donors to clash check in finer grain
-    for chain in acceptorchains:#listofchains.get_list()[0].get_list():#acceptorchains:
+    #Iterates through acceptor/donor pairs, provides rough spherical approximations
+    #which indicate overlap to identify which donors to clash check in finer grain
+    for chain in acceptorchains:
         if globalvars.TrueCheck[0] == True and globalvars.TrueCheck[1] == True:
             spherex = []
             checkspheres = []
@@ -51,13 +52,12 @@ def findClash(listofchains, start_tagged_residue, end_tagged_residue, spherelist
             #Chunk object created to start multiprocessing child processes
             reschunks = list(chunks(chain.get_list(), (len(chain.get_list()) / globalvars.CPUs)+1))
 
-            #print 'reschunks', reschunks
             #Multiprocessing block which generates fine grain clash check processes.
-            #Uses TrueCheck object booleans to track the identification of a False return of clash check in any of the child processes
+            #Uses TrueCheck object booleans to track the identification of a False
+            #return of clash check in any of the child processes
             if __name__ == 'findClash':
                 queue1 = Queue()
                 for chunk in reschunks:
-                #    print "The code going through restruecheck portion"
                     process = Process(target=restruecheck, args=(start_tagged_residue, end_tagged_residue, start_potentialTag, end_potentialTag, overlap, globalvars.threshold_A, checkdonors, queue1, chunk))
                     process.Daemon = True
                     process.start()
