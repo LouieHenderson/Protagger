@@ -16,16 +16,7 @@ import cPickle as pickle
 from argparse import ArgumentParser
 from itertools import chain
 from functools import partial
-from Bio import PDB
 import Bio.PDB
-from Bio.PDB import PDBList
-from Bio.PDB import PDBParser
-from Bio.PDB import StructureBuilder
-from Bio.PDB import Selection
-from Bio.PDB import Entity
-from Bio.PDB import PDBIO
-
-import globalvars
 
 #Import Protagger functions from support scripts
 from alignCoordinates import alignCoordinates, chunks
@@ -43,50 +34,13 @@ from sphereclash import sphereclash
 from spheredefine import spheredefine
 from superimposer import AccDonsuperimposer
 from tagallchain import tagallchain
+import globalvars
 
+#Initialise global values used by modules
 globalvars.initialise()
-
-aminoAcids = globalvars.aminoAcids
-
-#from CDROM import DVD_CGMS_UNRESTRICTED
-#aminoAcids = {'ALA':1, 'ARG':1, 'ASN':1, 'ASP':1, 'CYS':1, 'GLN':1, 'GLU':1, 'GLY':1, 'HIS':1, 'ILE':1, 'LEU':1, 'LYS':1, 'MET':1, 'PHE':1, 'PRO':1, 'SER':1, 'THR':1, 'TRP':1, 'TYR':1, 'VAL':1}
-
-
-
-#Global objects used in optimal RMSD determination and tag structure formation
-
-#Checkpoint     = globalvars.Checkpoint
-#Startime       = globalvars.Startime
-#Optimal        = globalvars.Optimal
-#AccepTup       = globalvars.AccepTup
-#AcceptorIter   = globalvars.AcceptorIter
-#DonorIter      = globalvars.DonorIter
-#sphereclash1   = globalvars.sphereclash1
-#donorchains    = globalvars.donorchains
-#TrueCheck      = globalvars.TrueCheck
-#threshold_A    = globalvars.threshold_A
-#CPUs           = globalvars.CPUs
-#chainregx      = globalvars.chainregx
-#Queueregulator = globalvars.Queueregulator
-
-#Global objects used in optimal RMSD determination and tag structure formation
-#Checkpoint     = 0
-#Startime       = 0
-#Optimal        = []
-#AccepTup       = []
-#AcceptorIter   = None
-#DonorIter      = None
-#sphereclash1   = []
-#donorchains    = []
-#TrueCheck      = [True, True]
-#threshold_A    = 0
-#CPUs           = 0
-#chainregx      = []
-#Queueregulator = False
 
 #Creates time object to compare runtimes
 globalvars.Startime = time.time()
-#global threshold_A
 
 #Defines arguments to be included when running the program
 #Example - ./protagger_v0_17.py -d ./1BTL_ecoli_tag -p YYYY -n 190 -c 283 -o 3  -r 3 -u 3 -l -x A-C
