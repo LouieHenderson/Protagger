@@ -55,7 +55,7 @@ parser.add_argument('-c', '--cterm', type=int, help='Enter C-terminal residue nu
 parser.add_argument('-o', '--overlap', type=int, help='Enter overlap length used for N/C terminal alignment', required = True)
 parser.add_argument('-r', '--RMSDthreshold', type=float, help='Enter RMSD threshold under which to check. Recommended value = 3, larger values increase runtime', required = True)
 parser.add_argument('-u', '--CPU', type=int, help='Enter the number of CPUs to use during parallel processing steps. Multiple cores recommended for greater numbers of chains to tag.', required = True)
-parser.add_argument('-t', '--atomthreshold', type=float, help='Enter the threshold (in angstrom) of detection for clashes between neighboring atoms. Default is 2.5, user higher values for stricter clash check (e.g. 4)')
+parser.add_argument('-t', '--atomthreshold', type=float, help='Enter the threshold (in angstrom) of detection for clashes between neighboring atoms. Default/minimum is 2.5, user higher values for stricter clash check (e.g. 4)')
 parser.add_argument('-l', '--local', action='store_true', help='The PDB to be tagged is stored locally')
 parser.add_argument('-s', '--specific', action='store_true', help='Find the ideal tagsite for a specific protein within range N/C terminals')
 parser.add_argument('-x', '--chain', type=str, help='Enter chain identifiers of those you wish to tag. E.g. A-C,F,X')

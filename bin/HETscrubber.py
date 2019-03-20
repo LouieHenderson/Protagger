@@ -1,10 +1,7 @@
 import globalvars
 
-#print globalvars.CPUs
-
+#Iterates through list of amino acids, if heteroatom is found, residue is removed
 def HETscrubber(PDBstructure):
-    #Iterates through list of amino acids, if heteroatom is found, residue is removed
-    print globalvars.CPUs
     for chain in PDBstructure[0]:
         for residue in chain.get_list():
             resid = residue.id

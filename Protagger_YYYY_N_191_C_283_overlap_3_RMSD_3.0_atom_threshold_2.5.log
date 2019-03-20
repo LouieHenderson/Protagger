@@ -1,0 +1,40 @@
+Protagger_YYYY_N_191_C_283_overlap_3_RMSD_3.0_atom_threshold_2.5.log
+ 
+
+# 1 Name = <Structure id=['2xsk']>, RMSD = 2.0368174590922257
+Donor N term = <Residue SER het=  resseq=28 icode= >
+Donor C term = <Residue GLN het=  resseq=87 icode= >
+Acceptor N term = <Residue ALA het=  resseq=191 icode= >
+Acceptor C term = <Residue ALA het=  resseq=284 icode= > 
+
+# 2 Name = <Structure id=['1ysp']>, RMSD = 2.0234889054225365
+Donor N term = <Residue ARG het=  resseq=5 icode= >
+Donor C term = <Residue GLY het=  resseq=171 icode= >
+Acceptor N term = <Residue ALA het=  resseq=191 icode= >
+Acceptor C term = <Residue ASN het=  resseq=285 icode= > 
+
+# 3 Name = <Structure id=['5f1g']>, RMSD = 1.96650348051953
+Donor N term = <Residue ASN het=  resseq=6 icode= >
+Donor C term = <Residue GLN het=  resseq=360 icode= >
+Acceptor N term = <Residue TYR het=  resseq=190 icode= >
+Acceptor C term = <Residue ASN het=  resseq=285 icode= >
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Best Tag~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ RMSD match of N/C overlap = 1.96650348051953                             
+                                                                                 
+ Acceptor = <Structure id=YYYY>                                                
+ Acceptor optimal N terminal start residue is<Residue TYR het=  resseq=190 icode= >              
+ Acceptor optimal C terminal end residue is<Residue ASN het=  resseq=285 icode= >                 
+                                                                                 
+ Donor = <Structure id=['5f1g']>                                                 
+ Donor optimal N terminal start residue is<Residue ASN het=  resseq=6 icode= >                 
+ Donor optimal C terminal end residue is<Residue GLN het=  resseq=360 icode= >                   
+                                                                                 
+ Protagger suggests truncating Donor to residue numbers:                         
+ N terminal = 9                                 
+ C terminal = 357                                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Total time taken (seconds) = 5665.05462408

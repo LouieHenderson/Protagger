@@ -10,9 +10,8 @@ def chunks(list, n):
         yield list[i:i+n]
 
 def findClash(listofchains, start_tagged_residue, end_tagged_residue, spherelist, start_potentialTag, end_potentialTag, overlap, sphereclash):
-   #Provides the threshold at which atomic distances for clashes are rejected
-    #global threshold_A #= 3
 
+    #Provides list objects which are appended to during the main clash checking script
     acceptorchains = []
     globalvars.donorchains = []
     spherex = []
@@ -32,7 +31,8 @@ def findClash(listofchains, start_tagged_residue, end_tagged_residue, spherelist
 
     #Iterates through acceptor/donor pairs, provides rough spherical approximations
     #which indicate overlap to identify which donors to clash check in finer grain
-    for chain in acceptorchains:
+    for chain in (acceptorchains + globalvars.donorchains):
+        #print "chain", chain.get_id()
         if globalvars.TrueCheck[0] == True and globalvars.TrueCheck[1] == True:
             spherex = []
             checkspheres = []
@@ -42,12 +42,20 @@ def findClash(listofchains, start_tagged_residue, end_tagged_residue, spherelist
                 if spheres[0][2] == chain.get_id():
                     spherex.append(spheres)
             for spheres in spherex:
-                if spheres[2] == False or spheres[1][2] == (str(chain.get_id())+'tag'):
+                if spheres[2] == False or spheres[1][2] == (str(chain.get_id())+'tag') and spheres[1][2] != (str(chain.get_id())):
                     checkspheres.append(spheres)
             for donors in globalvars.donorchains:
+                #print "this is the donor", donors
                 for sphere in checkspheres:
                     if donors.get_id() == sphere[1][2]:
+                    #    print "donor", donors.get_id(), "chain", chain.get_id()
                         checkdonors.append(donors)
+
+            #print "These are the lists \n"
+            #print "sphereclash", sphereclash, "\n"
+            #print "checkspheres", checkspheres, "\n"
+            #print "spherex", spherex, "\n"
+            #print "globalvars.donorchains", globalvars.donorchains, "\n"
 
             #Chunk object created to start multiprocessing child processes
             reschunks = list(chunks(chain.get_list(), (len(chain.get_list()) / globalvars.CPUs)+1))
