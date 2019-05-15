@@ -296,7 +296,7 @@ def alignCoordinates(taggedProtein, potentialTag, start_tagged_residue, end_tagg
                         print 'RMSD of current optimal Donor without clashes', globalvars.Checkpoint
                         print ' '
                     else:
-                        break
+                        pass
             else:
                 print 'Residue missing during alignment: Acceptor = ', len(Acceptor), 'Donor = ', len(Donor)
                 pass
