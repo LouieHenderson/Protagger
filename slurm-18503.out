@@ -1,1 +1,5 @@
 mkdir: cannot create directory ‘./Campy_FliG_Ndomain_tester_280519/’: File exists
+Traceback (most recent call last):
+  File "./bin/runProtagger.py", line 214, in <module>
+    print 'Current insert site N/C tested =', tup
+IOError: [Errno 116] Stale file handle

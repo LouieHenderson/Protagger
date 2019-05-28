@@ -1,0 +1,42 @@
+Protagger_Campy_FliG_N_13_C_99_RMSD_3.log
+Database of tags = ../ecoli_tags_small_220218/*
+Target pdb = Campy_FliG
+PDB stored locally? =True
+Run specific search? =True
+N-terminal of insertion = 13
+C-terminal of insertion = 99
+Overlap alignment length = 3
+RMSD threshold = 3.0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing = 50
+ 
+
+# 1 Name = <Structure id=['1wxe']>, RMSD = 2.646527114750665
+Donor N term = <Residue GLN het=  resseq=4 icode= >
+Donor C term = <Residue LYS het=  resseq=275 icode= >
+Acceptor N term = <Residue LEU het=  resseq=15 icode= >
+Acceptor C term = <Residue ASP het=  resseq=43 icode= > 
+
+# 2 Name = <Structure id=['1wxe']>, RMSD = 1.4471820305834688
+Donor N term = <Residue GLN het=  resseq=4 icode= >
+Donor C term = <Residue LYS het=  resseq=274 icode= >
+Acceptor N term = <Residue LEU het=  resseq=15 icode= >
+Acceptor C term = <Residue THR het=  resseq=95 icode= > 
+
+# 3 Name = <Structure id=['1wxe']>, RMSD = 1.4471720320387282
+Donor N term = <Residue GLN het=  resseq=4 icode= >
+Donor C term = <Residue LYS het=  resseq=274 icode= >
+Acceptor N term = <Residue LEU het=  resseq=15 icode= >
+Acceptor C term = <Residue THR het=  resseq=95 icode= > 
+
+# 4 Name = <Structure id=['1wxe']>, RMSD = 0.9047779391241273
+Donor N term = <Residue GLN het=  resseq=6 icode= >
+Donor C term = <Residue LYS het=  resseq=274 icode= >
+Acceptor N term = <Residue VAL het=  resseq=21 icode= >
+Acceptor C term = <Residue GLY het=  resseq=97 icode= > 
+
+# 5 Name = <Structure id=['3by8']>, RMSD = 0.7367722171472295
+Donor N term = <Residue THR het=  resseq=48 icode= >
+Donor C term = <Residue ILE het=  resseq=176 icode= >
+Acceptor N term = <Residue GLU het=  resseq=69 icode= >
+Acceptor C term = <Residue GLU het=  resseq=86 icode= >
