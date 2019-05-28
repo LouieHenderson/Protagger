@@ -2,15 +2,15 @@
 Primary repository for Protagger scripts and updates
 
 ```
-         **********
-       **         **
-      **          **
-     **         **
-    ************
-   **
-  ** ******  ***
- ** **     **  **
-** **       ***
+         ##########
+       ##         ##
+      ##          ##
+     ##         ##
+    ############
+   ##
+  ## #####  ###  #####  ###   ###   ###    #####  #####
+ ## ##    ##  ##  #    # ##  # ### # ###  ###    ##
+## ##      ###   #    #   #   ###   ###  #####  ##
 
 This is the main repository
 ```
@@ -35,5 +35,5 @@ Parameters:
 -t/--atomthreshold: Enter the threshold (in angstrom) of detection for clashes between neighbouring atoms. Default/minimum is 2.5, user higher values for stricter clash check (e.g. 4)
 -l/--local:         Acceptor pdb is stored locally
 -x/--chain:         Enter chain identifiers of those you wish to tag. E.g. A-C,F,X
--d/--deepsearch:      Find the ideal tagsite for a specific protein within range N/C terminals. Use larger distances between N/C insert site for better results. Recommended to use alongside multiple cores OR fewer potential tags.
+-d/--deepsearch:    Find the ideal tagsite for a specific protein within range N/C terminals. Use larger distances between N/C insert site for better results. Recommended to use alongside multiple cores OR fewer potential tags.
 ```
