@@ -17,6 +17,7 @@ from argparse import ArgumentParser
 from itertools import chain
 from functools import partial
 import Bio.PDB
+import subprocess
 
 #Import Protagger functions from support scripts
 from alignCoordinates import alignCoordinates, chunks
@@ -48,24 +49,27 @@ globalvars.Startime = time.time()
 parser= argparse.ArgumentParser(description='Find the optimal tag for your protein')
 
 #Adds parser arguments which the user will input
-parser.add_argument('-d', '--tagdatabase', type=str, help='Enter the folder containing the tags to be tested', required = True)
+parser.add_argument('-b', '--tagdatabase', type=str, help='Enter the folder containing the tags to be tested', required = True)
+parser.add_argument('-o', '--outfolder', type=str, help='Enter the name of the output folder')
 parser.add_argument('-p', '--pdb', type=str, help='Enter pdb to tag (lower case only)', required = True)
 parser.add_argument('-n', '--nterm', type=int, help='Enter N-terminal residue number of tag site', required = True)
 parser.add_argument('-c', '--cterm', type=int, help='Enter C-terminal residue number of tag site', required = True)
-parser.add_argument('-o', '--overlap', type=int, help='Enter overlap length used for N/C terminal alignment', required = True)
+parser.add_argument('-v', '--overlap', type=int, help='Enter overlap length used for N/C terminal Ca alignment, default value is 3')
 parser.add_argument('-r', '--RMSDthreshold', type=float, help='Enter RMSD threshold under which to check. Recommended value = 3, larger values increase runtime', required = True)
 parser.add_argument('-u', '--CPU', type=int, help='Enter the number of CPUs to use during parallel processing steps. Multiple cores recommended for greater numbers of chains to tag.', required = True)
-parser.add_argument('-t', '--atomthreshold', type=float, help='Enter the threshold (in angstrom) of detection for clashes between neighboring atoms. Default/minimum is 2.5, user higher values for stricter clash check (e.g. 4)')
+parser.add_argument('-t', '--atomthreshold', type=float, help='Enter the threshold (in angstrom) of detection for clashes between neighboring atoms. Default/minimum is 2.5, use higher values for stricter clash check (e.g. 4)')
 parser.add_argument('-l', '--local', action='store_true', help='The PDB to be tagged is stored locally')
-parser.add_argument('-s', '--specific', action='store_true', help='Find the ideal tagsite for a specific protein within range N/C terminals')
+parser.add_argument('-d', '--deepsearch', action='store_true', help='Find the ideal tagsite for a specific protein within range N/C terminals')
 parser.add_argument('-x', '--chain', type=str, help='Enter chain identifiers of those you wish to tag. E.g. A-C,F,X')
+
 
 #Creates an object containing parsed argument names
 args = parser.parse_args()
 
 #Creates objects with values of parsed user input
 local1          = args.local
-specsearch      = args.specific
+outfolder       = "./" + args.outfolder + "/"
+specsearch      = args.deepsearch
 pdb_acceptor    = args.pdb
 chainlabel      = args.chain
 nterm           = args.nterm
@@ -84,11 +88,17 @@ elif threshold_A_in != None and threshold_A_in >= 2.5:
 else:
     globalvars.threshold_A = 2.5
 
+if overlap == None:
+    overlap = 3
+elif overlap < 1:
+    print "Overlap must be > 1, defaulting to 3"
+    overlap = 3
+
 #Returns user input
 print "Database of tags =", Databaseloc
 print "Target pdb =", pdb_acceptor
-print "PDB stored locally? =", local1 == True
-print "Run specific search? =", specsearch == True
+print "PDB stored locally? = ", local1 == True
+print "Run specific search? = ", specsearch == True
 print "N-terminal of insertion =", nterm
 print "C-terminal of insertion =", cterm
 print "Overlap alignment length =", overlap
@@ -100,10 +110,22 @@ if chainlabel != None:
 else:
     print "ID's of chains to tag = all chains"
 
+
 #Creates an object used to generate a run specific log file
-logname = 'Protagger_'+str(pdb_acceptor)+"_N_"+str(nterm)+"_C_"+str(cterm)+"_overlap_"+str(overlap)+"_RMSD_"+str(RMSDthreshold)+"_atom_threshold_"+str(globalvars.threshold_A)+".log"
-log = open(logname,"w")
-log.write(logname+"\n")
+subprocess.call(["mkdir", outfolder])
+logname = 'Protagger_'+str(pdb_acceptor)+"_N_"+str(nterm)+"_C_"+str(cterm)+"_RMSD_"+str(int(RMSDthreshold))+".log"
+log = open(outfolder + logname,"w")
+log.write(logname + "\n" +
+"Database of tags = " + str(Databaseloc) + "\n" +
+"Target pdb = " + str(pdb_acceptor) + "\n" +
+"PDB stored locally? =" + str(local1 == True) + "\n" +
+"Run specific search? =" + str(specsearch == True) + "\n" +
+"N-terminal of insertion = " + str(nterm) + "\n" +
+"C-terminal of insertion = " + str(cterm) + "\n" +
+"Overlap alignment length = " + str(overlap) + "\n" +
+"RMSD threshold = " + str(RMSDthreshold) + "\n" +
+"Atomic clash threshold = " + str(globalvars.threshold_A) + "\n" +
+"Number of CPUs used for processing = " + str(globalvars.CPUs) + "\n")
 
 #Creates empty objects for use in parsetag
 firstlast = []
@@ -365,7 +387,7 @@ for chains in OptimalAcceptorfinal.get_list()[0].get_list():
                 #Saves the new tag chain
                 io=Bio.PDB.PDBIO()
                 io.set_structure(TagModel)
-                io.save((str(pdb_acceptor)+'_'+Doname+'_'+str(chains.get_id())+'tag.pdb').replace(" ", ""))
+                io.save((outfolder+str(pdb_acceptor)+'_'+Doname+'_'+str(chains.get_id())+'tag.pdb').replace(" ", ""))
 
                 print str(chains.get_id()),'tag.pdb saved'
 
@@ -400,14 +422,14 @@ for chains in OptimalAcceptorfinal.get_list()[0].get_list():
         #Saves the new tag chain
         io=Bio.PDB.PDBIO()
         io.set_structure(TagModel)
-        io.save((str(pdb_acceptor)+'_'+Doname+'_'+str(chains.get_id())+'tag.pdb').replace(" ", ""))
+        io.save((outfolder+str(pdb_acceptor)+'_'+Doname+'_'+str(chains.get_id())+'tag.pdb').replace(" ", ""))
 
         print str(chains.get_id()),'tag.pdb saved'
 
 #Saves the PDB of the optimal final acceptor
 io=Bio.PDB.PDBIO()
 io.set_structure(OptimalAcceptorfinal)
-io.save(pdb_acceptor+'_optimised_for_'+Doname+'.pdb')
+io.save(outfolder+pdb_acceptor+'_optimised_for_'+Doname+'.pdb')
 
 print 'Optimised', pdb_acceptor, '.pdb saved'
 print ' '
