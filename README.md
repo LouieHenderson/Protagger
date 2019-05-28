@@ -19,10 +19,11 @@ Test code:
 
 ```
 ./bin/runProtagger.py -b ./tagdatabase_1tag -o 1yab_tester_280519 -p 1yab -n 107 -c 146 -r 2 -u 3 -t 2.5 -l -d
+```
 
 Parameters
 ~~~~~~~~~~
-
+```
 -d/--tagdatabase:   File directory location of tag database to be checked
 -p/--pdb:           Name of pdb file to be tagged (not including file extension)
 -n/--nterm:         Enter N-terminal residue position number of tag site on acceptor
