@@ -181,77 +181,83 @@ for donor in taglist:
     print "\n"
 
     #Finds first and last residues in donor chains
-    Donor = parsetag(donor)
-    firstlast = []
-    firstlast.append(getFirstAndLastResiduesInChain(Donor))
+    try:
+        #Attempts ro parse tag, skips tag if error found
+        Donor = parsetag(donor)
 
-    #Makes object for storing Acceptor tag sites and generates threshold criteria from Donor N/C terminals
-    NCtagsites = []
-    firlasdist = firstlast[0][2]['CA']-firstlast[0][3]['CA']
+        firstlast = []
+        firstlast.append(getFirstAndLastResiduesInChain(Donor))
 
-    #Appends standard input N/C terminal from user input of Acceptor
-    for Model in Acceptor:
-        for Chain in Model:
-            Nres = Chain.__getitem__(nterm)
-            Cres = Chain.__getitem__(cterm)
-            break
+        #Makes object for storing Acceptor tag sites and generates threshold criteria from Donor N/C terminals
+        NCtagsites = []
+        firlasdist = firstlast[0][2]['CA']-firstlast[0][3]['CA']
 
-    NCtagsites.append((Nres,Cres))
+        #Appends standard input N/C terminal from user input of Acceptor
+        for Model in Acceptor:
+            for Chain in Model:
+                Nres = Chain.__getitem__(nterm)
+                Cres = Chain.__getitem__(cterm)
+                break
 
-    #If deep search algorithm is to be used, various Acceptor sites for tagging are generated
-    if specsearch == True:
-        NCtagsites = AccPairGenerator(Acceptor, firlasdist, nterm, cterm)
+        NCtagsites.append((Nres,Cres))
 
-    #Object to monitor number of insert sites checked
-    tupnum = None
-    tuptop = len(NCtagsites)
-    tuprem = len(NCtagsites)
+        #If deep search algorithm is to be used, various Acceptor sites for tagging are generated
+        if specsearch == True:
+            NCtagsites = AccPairGenerator(Acceptor, firlasdist, nterm, cterm)
 
-    #Iterates through Acceptor tag sites and applies
-    for tup in NCtagsites:
+        #Object to monitor number of insert sites checked
+        tupnum = None
+        tuptop = len(NCtagsites)
+        tuprem = len(NCtagsites)
+
+        #Iterates through Acceptor tag sites and applies
+        for tup in NCtagsites:
+            print ' '
+            print 'Insert sites remaining =', tuprem, '/', tuptop
+            print 'Current insert site N/C tested =', tup
+            #print tup, tup[0].id[1], tup[1].id[1]
+            tuprem = tuprem - 1
+
+            Donorfl = []
+            Donorfl = zip(Donor, firstlast)
+
+            #global globalvars.Optimal, AccepTup
+            Begintup = time.time()
+            #Iterates through tag tuples and aligns the N/C terminals of each with the corresponding tag site
+            #Outputs an object containing information of optimal tag
+
+            output = alignCoordinates(Acceptor, Donorfl[0][0], tup[0].id[1], tup[1].id[1], Donorfl[0][1][0], Donorfl[0][1][1], overlap)
+            print ' '
+            print '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+            print 'Time taken (insert site tested) =', time.time() - Begintup, 'Donor =', donor
+            print 'Tag site N =', tup[0].id[1], 'Tag site C =', tup[1].id[1], 'Current checkpoint =', globalvars.Checkpoint
+            print '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+            if output[1] == globalvars.Checkpoint and output[0] != []:
+                #global Optimal
+                globalvars.Optimal     = []
+                globalvars.Optimal     = output
+                globalvars.Checkpoint  = output[1]
+                Besttag     = Donorfl
+                Notagsfound = Notagsfound + 1
+                globalvars.AccepTup    = []
+                globalvars.AccepTup    = tup
+                print 'New optimal found! =', globalvars.Optimal[0], globalvars.Optimal[1], globalvars.Optimal[2]
+
+                #Output every potential tag found to file
+                #log = open(logname,"w")
+                log.write(" "+"\n\n")
+                log.write("# " + str(Notagsfound) + " Name = " + str(globalvars.Optimal[0]) + ", RMSD = " + str(globalvars.Optimal[1]) + "\n")
+                log.write("Donor N term = " + str(globalvars.Optimal[3][0].get_parent()) + "\n")
+                log.write("Donor C term = " + str(globalvars.Optimal[3][overlap * 2 - 1].get_parent()) + "\n")
+                log.write("Acceptor N term = " + str(globalvars.Optimal[4][overlap - 1].get_parent()) + "\n")
+                log.write("Acceptor C term = " + str(globalvars.Optimal[4][overlap].get_parent()))
         print ' '
-        print 'Insert sites remaining =', tuprem, '/', tuptop
-        print 'Current insert site N/C tested =', tup
-        #print tup, tup[0].id[1], tup[1].id[1]
-        tuprem = tuprem - 1
-
-        Donorfl = []
-        Donorfl = zip(Donor, firstlast)
-
-        #global globalvars.Optimal, AccepTup
-        Begintup = time.time()
-        #Iterates through tag tuples and aligns the N/C terminals of each with the corresponding tag site
-        #Outputs an object containing information of optimal tag
-
-        output = alignCoordinates(Acceptor, Donorfl[0][0], tup[0].id[1], tup[1].id[1], Donorfl[0][1][0], Donorfl[0][1][1], overlap)
-        print ' '
-        print '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
-        print 'Time taken (insert site tested) =', time.time() - Begintup, 'Donor =', donor
-        print 'Tag site N =', tup[0].id[1], 'Tag site C =', tup[1].id[1], 'Current checkpoint =', globalvars.Checkpoint
-        print '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
-        if output[1] == globalvars.Checkpoint and output[0] != []:
-            #global Optimal
-            globalvars.Optimal     = []
-            globalvars.Optimal     = output
-            globalvars.Checkpoint  = output[1]
-            Besttag     = Donorfl
-            Notagsfound = Notagsfound + 1
-            globalvars.AccepTup    = []
-            globalvars.AccepTup    = tup
-            print 'New optimal found! =', globalvars.Optimal[0], globalvars.Optimal[1], globalvars.Optimal[2]
-
-            #Output every potential tag found to file
-            #log = open(logname,"w")
-            log.write(" "+"\n\n")
-            log.write("# " + str(Notagsfound) + " Name = " + str(globalvars.Optimal[0]) + ", RMSD = " + str(globalvars.Optimal[1]) + "\n")
-            log.write("Donor N term = " + str(globalvars.Optimal[3][0].get_parent()) + "\n")
-            log.write("Donor C term = " + str(globalvars.Optimal[3][overlap * 2 - 1].get_parent()) + "\n")
-            log.write("Acceptor N term = " + str(globalvars.Optimal[4][overlap - 1].get_parent()) + "\n")
-            log.write("Acceptor C term = " + str(globalvars.Optimal[4][overlap].get_parent()))
-    print ' '
-    print '========================================================================================================='
-    print 'Time taken (tag tested) =', time.time() - Begin, 'Donor =', donor, 'Current checkpoint =', globalvars.Checkpoint
-    print '========================================================================================================='
+        print '========================================================================================================='
+        print 'Time taken (tag tested) =', time.time() - Begin, 'Donor =', donor, 'Current checkpoint =', globalvars.Checkpoint
+        print '========================================================================================================='
+    except:
+        print " "
+        print "Tag", donor, "parsed incorrectly, skipping..."
 #If no tags are found, quits program and returns error message
 if globalvars.Optimal == []:
     print 'Time taken (failed) =', time.time() - globalvars.Startime
