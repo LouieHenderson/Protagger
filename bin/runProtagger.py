@@ -35,6 +35,7 @@ from sphereclash import sphereclash
 from spheredefine import spheredefine
 from superimposer import AccDonsuperimposer
 from tagallchain import tagallchain
+from databaseorder import databaseorder
 import globalvars
 
 #Initialise global values used by modules
@@ -140,7 +141,17 @@ Acceptor = HETscrubber(Acceptor1)
 print 'Acceptor acquired'
 
 #Returns list of structure object tags (donors)
-taglist = glob.glob(Databaseloc)
+#Ranks list of potential tags based on pairwise distance of N/C terminals of donors
+Acchains = Acceptor.get_chains()
+accfirstlast = []
+for chain in Acchains:
+    accfirstlast.append(chain.__getitem__(nterm))
+    accfirstlast.append(chain.__getitem__(cterm))
+    break
+
+accfirlasdist = accfirstlast[0]['CA']-accfirstlast[1]['CA']
+taglist = databaseorder(Databaseloc, accfirlasdist)
+
 print "Donor list made"
 
 #Creates objects to monitor remaining tags
@@ -182,9 +193,11 @@ for donor in taglist:
 
     #Finds first and last residues in donor chains
     try:
-        #Attempts ro parse tag, skips tag if error found
+        #Attempts to parse tag, skips tag if error found
         Donor = parsetag(donor)
+        print "This is a Donor", Donor
 
+        #Identifies first/last residues in Donors
         firstlast = []
         firstlast.append(getFirstAndLastResiduesInChain(Donor))
 

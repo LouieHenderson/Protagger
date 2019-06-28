@@ -45,13 +45,13 @@ def Flexscrubber(PDBstructure):
                             pass
 
     #Outputs the degree to which the sequences were pruned
-    print 'Tag pruned:'
-    if nreslist != []:
-        print 'N-terminal chewed by', len(nreslist), 'residues to', nreslist[len(nreslist)-1]
-    if creslist != []:
-        print 'C-terminal chewed by', len(creslist), 'residues to', creslist[len(creslist)-1]
-    if nreslist == [] and creslist == []:
-        print 'No change'
+    #print 'Tag pruned:'
+    #if nreslist != []:
+    #    print 'N-terminal chewed by', len(nreslist), 'residues to', nreslist[len(nreslist)-1]
+    #if creslist != []:
+    #    print 'C-terminal chewed by', len(creslist), 'residues to', creslist[len(creslist)-1]
+    #if nreslist == [] and creslist == []:
+    #    print 'No change'
 
 
     for residue in nreslist:
