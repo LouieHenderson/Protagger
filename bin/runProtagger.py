@@ -63,6 +63,7 @@ parser.add_argument('-l', '--local', action='store_true', help='The PDB to be ta
 parser.add_argument('-d', '--deepsearch', action='store_true', help='Find the ideal tagsite for a specific protein within range N/C terminals')
 parser.add_argument('-x', '--chain', type=str, help='Enter chain identifiers of those you wish to tag. E.g. A-C,F,X')
 parser.add_argument('-e', '--RMSDexit', type=float, help='Enter RMSD threshold under which terminate search. Recommended value')
+parser.add_argument('-m', '--MinLengthDoner', type=int, help='Enter minimum residue length of pruned Donor chains')
 
 
 
@@ -83,6 +84,7 @@ RMSDthreshold   = args.RMSDthreshold
 threshold_A_in  = args.atomthreshold
 Databaseloc     = args.tagdatabase + '/*'
 RMSDexit        = args.RMSDexit
+Minlength	= args.MinLengthDoner
 
 #Primes optional user input variables with default values
 if threshold_A_in != None and threshold_A_in < 2.5:
@@ -105,6 +107,9 @@ elif RMSDexit > RMSDthreshold:
     print "RMSDexit must be lower than RMSDthreshold, setting to 0..."
     RMSDexit = 0
 
+if Minlength == None:
+    Minlength = 0
+
 #Returns user input variables
 print "Database of tags =", Databaseloc
 print "Target pdb =", pdb_acceptor
@@ -117,6 +122,7 @@ print "RMSD search threshold =", RMSDthreshold
 print "RMSD exit threshold =", RMSDexit
 print "Atomic clash threshold =", globalvars.threshold_A
 print "Number of CPUs used for processing=", globalvars.CPUs
+print "Minimum length of pruned Donor chain =", Minlength
 if chainlabel != None:
     print "ID's of chains to tag =", chainlabel
 else:
@@ -137,7 +143,9 @@ log.write(logname + "\n" +
 "Overlap alignment length = " + str(overlap) + "\n" +
 "RMSD threshold = " + str(RMSDthreshold) + "\n" +
 "Atomic clash threshold = " + str(globalvars.threshold_A) + "\n" +
-"Number of CPUs used for processing = " + str(globalvars.CPUs) + "\n")
+"Number of CPUs used for processing = " + str(globalvars.CPUs) + "\n"
+"Minimum length of pruned Donor chain =" + str(Minlength) + "\n") 
+
 
 #Creates empty objects for use in parsetag
 firstlast = []
@@ -206,7 +214,12 @@ for donor in taglist:
         try:
             #Attempts to parse tag, skips tag if error found
             Donor = parsetag(donor)
-            print "This is a Donor", Donor
+            #print "This is a Donor", Donor
+	   # print "run test length", Donor[0].get_list()[0].get_list()[0].get_list()
+	    
+            if len(Donor[0].get_list()[0].get_list()[0].get_list()) < Minlength:
+		print "Donor length below minimum threshold, aborting loop..."
+		continue
 
             #Identifies first/last residues in Donors
             firstlast = []
@@ -407,10 +420,10 @@ PrunedDonor = prunePDB(globalvars.Optimal[0], NdeleteDon, CdeleteDon)
 PrunedAcceptor = prunePDB(Acceptor, NdeleteAcc, CdeleteAcc)
 print 'Optimal acceptor/donor pruned'
 
-for model in Acceptor:
-    for chain in model:
-        for residue in chain:
-            print residue
+#for model in Acceptor:
+#    for chain in model:
+#        for residue in chain:
+#            print residue
 
 OptimalAcceptorfinal = AccDonsuperimposer(PrunedAcceptor, globalvars.Optimal[4], globalvars.Optimal[3])
 OptimalDonorfinal = AccDonsuperimposer(PrunedDonor, globalvars.Optimal[4], globalvars.Optimal[3])
@@ -427,7 +440,7 @@ Begin = time.time()
 Donametmp = re.search("'....'", str(globalvars.Optimal[0]))
 Doname = (Donametmp.group(0)).strip("'")
 
-print "testoroony", OptimalAcceptorfinal.get_list()[0].get_list()
+#print "testoroony", OptimalAcceptorfinal.get_list()[0].get_list()
 
 #This section appends a tag to each of the monomers in the multimer, saves the output pdb
 for chains in OptimalAcceptorfinal.get_list()[0].get_list():
@@ -458,7 +471,7 @@ for chains in OptimalAcceptorfinal.get_list()[0].get_list():
                                 Acceptors.append(residue['CA'])
 
                 #Using the pulled out lists, superimposer aligns and applies transformation to atoms in tag chain
-                print "another test", Acceptors, Donors
+               # print "another test", Acceptors, Donors
                 super_imposerx = None
                 super_imposerx = Bio.PDB.Superimposer()
                 super_imposerx.set_atoms(Acceptors, Donors)

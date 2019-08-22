@@ -19,7 +19,9 @@ def parsetag(donor):
     tag_id = ''.join(donor)
 
     #Searches string, pulls out pdb 4 character code
-    tag_id1 = re.findall('....(?=\....)', donor)
+    tag_id1 = re.findall('....(?=\.pdb)', donor)
+
+    #print "test in parsetags.py", tag_id1, tag_id
 
     #Creates structure object for tag
     tags2 = parser.get_structure(tag_id1,tag_id)

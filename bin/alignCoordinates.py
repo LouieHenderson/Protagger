@@ -219,7 +219,7 @@ def alignCoordinates(taggedProtein, potentialTag, start_tagged_residue, end_tagg
                 super_imposer.set_atoms(Acceptor, Donor)
                 super_imposer.apply(potentialTag.get_atoms())
                 RMSD = super_imposer.rms
-                print RMSD
+                #print RMSD
 
                 #Produces a series of objects with N and C terminals of Acceptor/Donor for clash checking
                 if Nfuse != True:

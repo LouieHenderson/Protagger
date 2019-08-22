@@ -1,0 +1,11 @@
+Protagger_YYYY_N_235_C_244_RMSD_3.log
+Database of tags = ../../tagdatabase_250619//*
+Target pdb = YYYY
+PDB stored locally? =True
+Run specific search? =False
+N-terminal of insertion = 235
+C-terminal of insertion = 244
+Overlap alignment length = 4
+RMSD threshold = 3.0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing = 50
