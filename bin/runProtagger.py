@@ -311,8 +311,8 @@ print 'Optimal tag =', globalvars.Optimal[0], globalvars.Optimal[1], globalvars.
 #Creates a series of objects where the residue id is pulled out for the NCterms of Acceptor/Donor
 Nfuse = False
 
-for i in globalvars.Optimal[4]:
-    print i.get_full_id()
+#for i in globalvars.Optimal[4]:
+#    print i.get_full_id()
 
 if Nfuse != True:
     NAccterm1   = globalvars.Optimal[4][overlap - 1]
@@ -408,13 +408,13 @@ CdeleteAcc = range(globalvars.AccepTup[1].id[1] -1, CAccterm[1])
 NdeleteDon = range(Besttag[0][1][0] - 1, NDonterm[1])
 CdeleteDon = range(CDonterm[1] + 1, Besttag[0][1][1] + 1)
 
-for model in Acceptor:
-    for chain in model:
-        for residue in chain:
-            print residue
+#for model in Acceptor:
+#    for chain in model:
+#        for residue in chain:
+#            print residue
 
-print "tester 5", NdeleteAcc, CdeleteAcc, NAccterm[1] + 1, CAccterm[1]
-print "This is a test", NdeleteDon, CdeleteDon
+#print "tester 5", NdeleteAcc, CdeleteAcc, NAccterm[1] + 1, CAccterm[1]
+#print "This is a test", NdeleteDon, CdeleteDon
 #Chews back residues of the Acceptor/Donor to provide structure files with optimal residues
 PrunedDonor = prunePDB(globalvars.Optimal[0], NdeleteDon, CdeleteDon)
 PrunedAcceptor = prunePDB(Acceptor, NdeleteAcc, CdeleteAcc)
@@ -466,7 +466,7 @@ for chains in OptimalAcceptorfinal.get_list()[0].get_list():
                     for atom in residue:
                         for acceptor in AcceptorIter2:
                             #print "woah", acceptor
-                            print "yeye", atom.get_full_id()[3][1], acceptor.get_full_id()[3][1]
+                            #print "yeye", atom.get_full_id()[3][1], acceptor.get_full_id()[3][1]
                             if atom.get_full_id()[3][1] == acceptor.get_full_id()[3][1] and atom.get_id() == 'CA':
                                 Acceptors.append(residue['CA'])
 

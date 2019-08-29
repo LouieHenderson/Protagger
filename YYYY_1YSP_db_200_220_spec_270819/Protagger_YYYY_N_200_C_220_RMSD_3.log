@@ -1,0 +1,57 @@
+Protagger_YYYY_N_200_C_220_RMSD_3.log
+Database of tags = ../../1YSP_only//*
+Target pdb = YYYY
+PDB stored locally? =True
+Run specific search? =True
+N-terminal of insertion = 200
+C-terminal of insertion = 220
+Overlap alignment length = 3
+RMSD threshold = 3.0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing = 50
+Minimum length of pruned Donor chain =0
+ 
+
+# 1 Name = <Structure id=['1ysp']>, RMSD = 1.8231405130522782
+Donor N term = <Residue ILE het=  resseq=4 icode= >
+Donor C term = <Residue GLN het=  resseq=169 icode= >
+Acceptor N term = <Residue PHE het=  resseq=202 icode= >
+Acceptor C term = <Residue ASP het=  resseq=213 icode= > 
+
+# 2 Name = <Structure id=['1ysp']>, RMSD = 1.8231394785956148
+Donor N term = <Residue ILE het=  resseq=4 icode= >
+Donor C term = <Residue GLN het=  resseq=169 icode= >
+Acceptor N term = <Residue PHE het=  resseq=202 icode= >
+Acceptor C term = <Residue ASP het=  resseq=213 icode= > 
+
+# 3 Name = <Structure id=['1ysp']>, RMSD = 1.6597434623185785
+Donor N term = <Residue ILE het=  resseq=4 icode= >
+Donor C term = <Residue GLN het=  resseq=169 icode= >
+Acceptor N term = <Residue ALA het=  resseq=206 icode= >
+Acceptor C term = <Residue THR het=  resseq=212 icode= > 
+
+# 4 Name = <Structure id=['1ysp']>, RMSD = 1.659736821192853
+Donor N term = <Residue ILE het=  resseq=4 icode= >
+Donor C term = <Residue GLN het=  resseq=169 icode= >
+Acceptor N term = <Residue ALA het=  resseq=206 icode= >
+Acceptor C term = <Residue THR het=  resseq=212 icode= >
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Best Tag~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ RMSD match of N/C overlap = 1.659736821192853                             
+                                                                                 
+ Acceptor = <Structure id=YYYY>                                                
+ Acceptor optimal N terminal start residue is<Residue ALA het=  resseq=206 icode= >              
+ Acceptor optimal C terminal end residue is<Residue THR het=  resseq=212 icode= >                 
+                                                                                 
+ Donor = <Structure id=['1ysp']>                                                 
+ Donor optimal N terminal start residue is<Residue ILE het=  resseq=4 icode= >                 
+ Donor optimal C terminal end residue is<Residue GLN het=  resseq=169 icode= >                   
+                                                                                 
+ Protagger suggests truncating Donor to residue numbers:                         
+ N terminal = 7                                 
+ C terminal = 166                                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Total time taken (seconds) = 12865.200043

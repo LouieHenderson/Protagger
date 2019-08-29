@@ -1,0 +1,12 @@
+Protagger_YYYY_N_208_C_214_RMSD_3.log
+Database of tags = ../../1YSP_only//*
+Target pdb = YYYY
+PDB stored locally? =True
+Run specific search? =False
+N-terminal of insertion = 208
+C-terminal of insertion = 214
+Overlap alignment length = 3
+RMSD threshold = 3.0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing = 50
+Minimum length of pruned Donor chain =0
