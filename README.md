@@ -37,3 +37,10 @@ Parameters:
 -x/--chain:         Enter chain identifiers of those you wish to tag. E.g. A-C,F,X
 -d/--deepsearch:    Find the ideal tagsite for a specific protein within range N/C terminals. Use larger distances between N/C insert site for better results. Recommended to use alongside multiple cores OR fewer potential tags.
 ```
+
+Requirements:
+
+```
+NumPy
+BioPython
+```
