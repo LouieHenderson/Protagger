@@ -1,0 +1,357 @@
+Database of tags = ../../1YSP_only//*
+Target pdb = YYYY
+PDB stored locally? =  True
+Run specific search? =  False
+N-terminal of insertion = 208
+C-terminal of insertion = 214
+Overlap alignment length = 3
+RMSD search threshold = 3.0
+RMSD exit threshold = 1.5
+Atomic clash threshold = 2.5
+Number of CPUs used for processing= 50
+Minimum length of pruned Donor chain = 0
+ID's of chains to tag = all chains
+Acceptor acquired
+Time taken to order all tags =  0.155143976212
+Donor list made
+ 
+################################################################
+ 
+Tags remaining = 0 / 1
+Elapsed time (minutes) = 0.0406230529149
+Current tag being checked = ../../1YSP_only/1ysp.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue GLY het=  resseq=208 icode= >, <Residue GLN het=  resseq=214 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.8194653945647326
+Time taken (tagallchain) = 13.2219789028
+Time taken (sphereget) = 1.59481883049
+Time taken (courseclash) = 0.613055944443
+False was found
+Time taken (fineclash) = 4.11776804924
+Fine clash passed? False
+ 
+2.931492700171653
+Time taken (tagallchain) = 9.43524885178
+Time taken (sphereget) = 2.05600619316
+Time taken (courseclash) = 0.0174989700317
+False was found
+Time taken (fineclash) = 4.8874578476
+Fine clash passed? False
+ 
+2.544237638873466
+Time taken (tagallchain) = 12.8220229149
+Time taken (sphereget) = 1.467056036
+Time taken (courseclash) = 0.0162191390991
+False was found
+False was found
+Time taken (fineclash) = 3.50080704689
+Fine clash passed? False
+ 
+3.003054971744608
+3.6670020515001935
+3.6710555852615574
+2.992324875941703
+Time taken (tagallchain) = 16.6041851044
+Time taken (sphereget) = 1.68877196312
+Time taken (courseclash) = 0.0187749862671
+False was found
+False was found
+Time taken (fineclash) = 15.7314238548
+Fine clash passed? False
+ 
+3.5319279547019025
+3.128231734428245
+2.249788056323292
+Time taken (tagallchain) = 14.7703630924
+Time taken (sphereget) = 1.60393095016
+Time taken (courseclash) = 0.0152900218964
+False was found
+False was found
+Time taken (fineclash) = 4.36699104309
+Fine clash passed? False
+ 
+3.545338840505086
+2.9188234027076527
+Time taken (tagallchain) = 15.7627029419
+Time taken (sphereget) = 1.48268604279
+Time taken (courseclash) = 0.0170860290527
+False was found
+False was found
+Time taken (fineclash) = 3.19756913185
+Fine clash passed? False
+ 
+3.14046064042711
+4.200809775606891
+4.023500013685027
+3.297639841031558
+4.231790577070869
+3.983411050462631
+3.534758876293132
+4.281338467194534
+3.953631636815019
+4.176664110383864
+4.930258843059538
+4.814862959767378
+3.8508018801116006
+5.01484748927075
+4.81935976612552
+2.350057149356022
+Time taken (tagallchain) = 12.0137789249
+Time taken (sphereget) = 1.66499710083
+Time taken (courseclash) = 0.0178139209747
+False was found
+False was found
+Time taken (fineclash) = 5.98220801353
+Fine clash passed? False
+ 
+3.216228431676853
+3.346540769810153
+2.00567362653885
+Time taken (tagallchain) = 17.2509829998
+Time taken (sphereget) = 1.46191000938
+Time taken (courseclash) = 0.0161077976227
+False was found
+Time taken (fineclash) = 3.91419577599
+Fine clash passed? False
+ 
+2.7340970833357283
+Time taken (tagallchain) = 11.53393507
+Time taken (sphereget) = 1.24503111839
+Time taken (courseclash) = 0.0133800506592
+False was found
+Time taken (fineclash) = 4.22393393517
+Fine clash passed? False
+ 
+3.099125471172004
+2.0039999049155077
+Time taken (tagallchain) = 11.3905260563
+Time taken (sphereget) = 1.41491889954
+Time taken (courseclash) = 0.0188071727753
+False was found
+Time taken (fineclash) = 6.11961507797
+Fine clash passed? False
+ 
+2.594368511278258
+Time taken (tagallchain) = 15.4478487968
+Time taken (sphereget) = 2.19361901283
+Time taken (courseclash) = 0.0167560577393
+False was found
+Time taken (fineclash) = 13.6503360271
+Fine clash passed? False
+ 
+1.9315427823508622
+Time taken (tagallchain) = 14.6733460426
+Time taken (sphereget) = 1.86055898666
+Time taken (courseclash) = 0.019877910614
+False was found
+Time taken (fineclash) = 3.31626296043
+Fine clash passed? False
+ 
+2.1314750374421223
+Time taken (tagallchain) = 14.7564640045
+Time taken (sphereget) = 1.34703993797
+Time taken (courseclash) = 0.0126359462738
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 2.92225408554
+Fine clash passed? False
+ 
+3.5664610806414747
+3.3177072324056236
+1.8720419268235102
+Time taken (tagallchain) = 11.1867051125
+Time taken (sphereget) = 1.47044014931
+Time taken (courseclash) = 0.0154900550842
+False was found
+False was found
+Time taken (fineclash) = 4.34968400002
+Fine clash passed? False
+ 
+3.2824516995384796
+3.3391712315967856
+2.1105628899861353
+Time taken (tagallchain) = 12.3529012203
+Time taken (sphereget) = 1.32653307915
+Time taken (courseclash) = 0.0156891345978
+False was found
+Time taken (fineclash) = 3.27287602425
+Fine clash passed? False
+ 
+3.1371648481396504
+2.840930834358943
+Time taken (tagallchain) = 9.87042593956
+Time taken (sphereget) = 1.25017499924
+Time taken (courseclash) = 1.20490002632
+False was found
+Time taken (fineclash) = 3.7583129406
+Fine clash passed? False
+ 
+3.398707355906158
+4.140101501094917
+3.97410325419783
+3.1902352473983226
+4.017918563228519
+4.052903192875294
+2.823543708039142
+Time taken (tagallchain) = 17.9957289696
+Time taken (sphereget) = 1.22931289673
+Time taken (courseclash) = 0.0147650241852
+False was found
+Time taken (fineclash) = 3.82275819778
+Fine clash passed? False
+ 
+3.9030906886411594
+3.718459933499568
+2.339078440162324
+Time taken (tagallchain) = 10.7487649918
+Time taken (sphereget) = 1.22794795036
+Time taken (courseclash) = 0.0142350196838
+False was found
+Time taken (fineclash) = 16.8949239254
+Fine clash passed? False
+ 
+3.0057899748174073
+2.5596782437197945
+Time taken (tagallchain) = 13.5988440514
+Time taken (sphereget) = 1.72060799599
+Time taken (courseclash) = 0.0172779560089
+False was found
+Time taken (fineclash) = 3.901045084
+Fine clash passed? False
+ 
+1.9252375913073632
+Time taken (tagallchain) = 12.1150579453
+Time taken (sphereget) = 1.14302992821
+Time taken (courseclash) = 0.0122392177582
+False was found
+Time taken (fineclash) = 8.30333089828
+Fine clash passed? False
+ 
+2.541315084021159
+Time taken (tagallchain) = 12.5096669197
+Time taken (sphereget) = 1.52345609665
+Time taken (courseclash) = 0.0149230957031
+False was found
+Time taken (fineclash) = 9.89944005013
+Fine clash passed? False
+ 
+2.0379010595912908
+Time taken (tagallchain) = 12.9323091507
+Time taken (sphereget) = 1.2071928978
+Time taken (courseclash) = 0.0143430233002
+False was found
+Time taken (fineclash) = 3.13358688354
+Fine clash passed? False
+ 
+2.8736228002181856
+Time taken (tagallchain) = 11.8363528252
+Time taken (sphereget) = 1.23381614685
+Time taken (courseclash) = 0.0125179290771
+False was found
+False was found
+Time taken (fineclash) = 3.21660518646
+Fine clash passed? False
+ 
+3.4988526976002046
+2.411716368478485
+Time taken (tagallchain) = 12.4483630657
+Time taken (sphereget) = 1.19916701317
+Time taken (courseclash) = 0.013032913208
+False was found
+False was found
+Time taken (fineclash) = 3.11337900162
+Fine clash passed? False
+ 
+2.3407313917502477
+Time taken (tagallchain) = 9.25872087479
+Time taken (sphereget) = 1.48676681519
+Time taken (courseclash) = 0.0159831047058
+False was found
+Time taken (fineclash) = 11.810281992
+Fine clash passed? False
+ 
+3.4594839972212568
+3.0651458135482925
+1.8612817947960043
+Time taken (tagallchain) = 9.52843785286
+Time taken (sphereget) = 1.51520299911
+Time taken (courseclash) = 0.0186109542847
+False was found
+Time taken (fineclash) = 6.61700201035
+Fine clash passed? False
+ 
+2.97070598201349
+Time taken (tagallchain) = 12.3333189487
+Time taken (sphereget) = 1.1457221508
+Time taken (courseclash) = 0.0137360095978
+False was found
+Time taken (fineclash) = 8.94161701202
+Fine clash passed? False
+ 
+2.6477294023227747
+Time taken (tagallchain) = 12.2556669712
+Time taken (sphereget) = 1.19522500038
+Time taken (courseclash) = 0.0130481719971
+False was found
+Time taken (fineclash) = 3.75915980339
+Fine clash passed? False
+ 
+2.520318929122573
+Time taken (tagallchain) = 8.92768502235
+Time taken (sphereget) = 1.14306402206
+Time taken (courseclash) = 0.0125019550323
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.63712692261
+Fine clash passed? False
+ 
+3.5312004059091717
+3.1203884549608856
+3.256467959520012
+4.000758485129015
+3.712689652149879
+2.5514306663011075
+Time taken (tagallchain) = 12.4424128532
+Time taken (sphereget) = 1.1933400631
+Time taken (courseclash) = 0.0128059387207
+False was found
+Time taken (fineclash) = 3.09156918526
+Fine clash passed? False
+ 
+3.587975900570623
+3.3401014788601424
+2.734285215502997
+Time taken (tagallchain) = 13.1593110561
+Time taken (sphereget) = 1.14528393745
+Time taken (courseclash) = 0.0137619972229
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.34386301041
+Fine clash passed? False
+ 
+4.103286761891766
+3.6116480401120694
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 1067.091851 Donor = ../../1YSP_only/1ysp.pdb
+Tag site N = 208 Tag site C = 214 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 1067.39265919 Donor = ../../1YSP_only/1ysp.pdb Current checkpoint = 3.0
+=========================================================================================================
+Time taken (failed) = 1069.83004713

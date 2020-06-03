@@ -1,0 +1,56 @@
+Protagger_YYYY_N_195_C_281_RMSD_3.log
+Database of tags = ../../tagdatabase_250619//*
+Target pdb = YYYY
+PDB stored locally? =True
+Run specific search? =True
+N-terminal of insertion = 195
+C-terminal of insertion = 281
+Overlap alignment length = 4
+RMSD threshold = 3.0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing = 50
+ 
+
+# 1 Name = <Structure id=['3nq2']>, RMSD = 2.800840558304395
+Donor N term = <Residue LYS het=  resseq=6 icode= >
+Donor C term = <Residue ALA het=  resseq=248 icode= >
+Acceptor N term = <Residue ALA het=  resseq=196 icode= >
+Acceptor C term = <Residue ASN het=  resseq=280 icode= > 
+
+# 2 Name = <Structure id=['3nq2']>, RMSD = 2.8008186111821907
+Donor N term = <Residue LYS het=  resseq=6 icode= >
+Donor C term = <Residue ALA het=  resseq=248 icode= >
+Acceptor N term = <Residue ALA het=  resseq=196 icode= >
+Acceptor C term = <Residue ASN het=  resseq=280 icode= > 
+
+# 3 Name = <Structure id=['3nq2']>, RMSD = 2.5307639331317127
+Donor N term = <Residue ALA het=  resseq=7 icode= >
+Donor C term = <Residue LEU het=  resseq=249 icode= >
+Acceptor N term = <Residue GLY het=  resseq=211 icode= >
+Acceptor C term = <Residue GLY het=  resseq=238 icode= > 
+
+# 4 Name = <Structure id=['3nq2']>, RMSD = 2.4498976914985184
+Donor N term = <Residue SER het=  resseq=8 icode= >
+Donor C term = <Residue ALA het=  resseq=248 icode= >
+Acceptor N term = <Residue ASP het=  resseq=213 icode= >
+Acceptor C term = <Residue GLY het=  resseq=238 icode= >
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Best Tag~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ RMSD match of N/C overlap = 2.4498976914985184                             
+                                                                                 
+ Acceptor = <Structure id=YYYY>                                                
+ Acceptor optimal N terminal start residue is<Residue ASP het=  resseq=213 icode= >              
+ Acceptor optimal C terminal end residue is<Residue GLY het=  resseq=238 icode= >                 
+                                                                                 
+ Donor = <Structure id=['3nq2']>                                                 
+ Donor optimal N terminal start residue is<Residue SER het=  resseq=8 icode= >                 
+ Donor optimal C terminal end residue is<Residue ALA het=  resseq=248 icode= >                   
+                                                                                 
+ Protagger suggests truncating Donor to residue numbers:                         
+ N terminal = 12                                 
+ C terminal = 244                                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Total time taken (seconds) = 4411.93653107

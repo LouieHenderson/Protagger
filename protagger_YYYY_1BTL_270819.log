@@ -1,0 +1,274 @@
+Database of tags = ../../1BTL_ecoli_tag//*
+Target pdb = YYYY
+PDB stored locally? =  True
+Run specific search? =  False
+N-terminal of insertion = 190
+C-terminal of insertion = 283
+Overlap alignment length = 3
+RMSD search threshold = 3.0
+RMSD exit threshold = 1.5
+Atomic clash threshold = 2.5
+Number of CPUs used for processing= 50
+Minimum length of pruned Donor chain = 0
+ID's of chains to tag = all chains
+Acceptor acquired
+Time taken to order all tags =  0.197640895844
+Donor list made
+ 
+################################################################
+ 
+Tags remaining = 0 / 1
+Elapsed time (minutes) = 0.0302809635798
+Current tag being checked = ../../1BTL_ecoli_tag/1btl.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue TYR het=  resseq=190 icode= >, <Residue VAL het=  resseq=283 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4.1521681270029935
+3.5586214643896077
+3.2350917431578643
+4.06048795986511
+4.160899845962447
+4.161576192005615
+3.9782862896866558
+3.7351722889392573
+3.780687894181399
+3.7991535406582524
+3.187663672241377
+2.7777717706121274
+Time taken (tagallchain) = 7.55452609062
+Time taken (sphereget) = 1.10300898552
+Time taken (courseclash) = 0.0128190517426
+False was found
+False was found
+Time taken (fineclash) = 3.64231705666
+Fine clash passed? False
+ 
+3.448225443465194
+3.7569379790241166
+3.8348797496421
+3.4971972203787915
+3.4088840074108746
+3.5863509822254427
+2.6411916510761415
+Time taken (tagallchain) = 8.87334299088
+Time taken (sphereget) = 1.23844480515
+Time taken (courseclash) = 0.0136368274689
+False was found
+Time taken (fineclash) = 4.25261282921
+Fine clash passed? False
+ 
+3.2035185580090872
+2.936477350209903
+Time taken (tagallchain) = 9.69065690041
+Time taken (sphereget) = 1.18147993088
+Time taken (courseclash) = 0.0132927894592
+False was found
+False was found
+Time taken (fineclash) = 3.88708090782
+Fine clash passed? False
+ 
+3.5884491056546675
+4.006376970012088
+3.134266890093169
+2.969026232043304
+Time taken (tagallchain) = 10.0762109756
+Time taken (sphereget) = 1.28619003296
+Time taken (courseclash) = 0.020012140274
+Time taken (fineclash) = 683.015088081
+Fine clash passed? True
+ 
+Donor = <Structure id=['1btl']>
+RMSD of current optimal Donor without clashes 2.969026232043304
+ 
+3.8623637351952005
+3.065783506274432
+3.689247710182762
+3.0079446035751682
+2.952851780465499
+Time taken (tagallchain) = 9.69782805443
+Time taken (sphereget) = 1.05944299698
+Time taken (courseclash) = 0.014105796814
+False was found
+False was found
+Time taken (fineclash) = 4.6672000885
+Fine clash passed? False
+ 
+3.5469867076814063
+3.5742697558429297
+3.905757059269204
+3.5106248696177027
+3.154321191616452
+3.5362096313229596
+3.338101155547854
+2.5446166837308772
+Time taken (tagallchain) = 9.23824691772
+Time taken (sphereget) = 1.15111494064
+Time taken (courseclash) = 0.0136630535126
+False was found
+False was found
+Time taken (fineclash) = 4.85341000557
+Fine clash passed? False
+ 
+2.5472704902629104
+Time taken (tagallchain) = 13.7509098053
+Time taken (sphereget) = 1.05251121521
+Time taken (courseclash) = 0.015086889267
+False was found
+False was found
+Time taken (fineclash) = 3.78116393089
+Fine clash passed? False
+ 
+3.1501892448822715
+3.4513745730743617
+3.7697007718371593
+3.263746033775895
+3.215668737884784
+3.743173565336221
+2.430352138247266
+Time taken (tagallchain) = 13.9868600368
+Time taken (sphereget) = 1.03666305542
+Time taken (courseclash) = 0.0119979381561
+False was found
+Time taken (fineclash) = 8.44201898575
+Fine clash passed? False
+ 
+2.994272489747806
+2.6509781873888425
+Time taken (tagallchain) = 10.1304249763
+Time taken (sphereget) = 1.08868908882
+Time taken (courseclash) = 0.0136458873749
+False was found
+Time taken (fineclash) = 4.27045297623
+Fine clash passed? False
+ 
+3.192166382957329
+3.990653912184035
+3.1910252703504036
+2.885399247042887
+Time taken (tagallchain) = 13.9787487984
+Time taken (sphereget) = 1.10827493668
+Time taken (courseclash) = 0.0114479064941
+Time taken (fineclash) = 654.594746113
+Fine clash passed? True
+ 
+Donor = <Structure id=['1btl']>
+RMSD of current optimal Donor without clashes 2.885399247042887
+ 
+3.819025447791283
+3.35667671869723
+3.5984254524529113
+3.078483271348575
+3.1049159046589527
+3.3404039855980203
+3.2357487280999546
+3.896771049697485
+3.254962584731312
+2.517692293251979
+Time taken (tagallchain) = 11.5827200413
+Time taken (sphereget) = 1.25774312019
+Time taken (courseclash) = 0.0144319534302
+Time taken (fineclash) = 654.962550879
+Fine clash passed? True
+ 
+Donor = <Structure id=['1btl']>
+RMSD of current optimal Donor without clashes 2.517692293251979
+ 
+2.973090180385956
+3.628413705465422
+2.450319813786375
+Time taken (tagallchain) = 10.5003478527
+Time taken (sphereget) = 1.13555502892
+Time taken (courseclash) = 0.014897108078
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.64082598686
+Fine clash passed? False
+ 
+2.4296159260631827
+Time taken (tagallchain) = 13.6332559586
+Time taken (sphereget) = 1.10336899757
+Time taken (courseclash) = 0.013592004776
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 6.332269907
+Fine clash passed? False
+ 
+3.0930435580224396
+3.3311631205255807
+3.900074371163682
+3.0464362785882546
+2.5270676094357616
+3.2887438804408005
+2.5517889083241667
+2.62205407615833
+2.2907485142792003
+Time taken (tagallchain) = 10.7664620876
+Time taken (sphereget) = 0.96554684639
+Time taken (courseclash) = 0.0114178657532
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.25276708603
+Fine clash passed? False
+ 
+3.0713063058216608
+3.9930164874238963
+3.69356295344373
+2.419672086339262
+Time taken (tagallchain) = 13.933975935
+Time taken (sphereget) = 1.07468605042
+Time taken (courseclash) = 0.0126249790192
+Time taken (fineclash) = 657.340300083
+Fine clash passed? True
+ 
+Donor = <Structure id=['1btl']>
+RMSD of current optimal Donor without clashes 2.419672086339262
+ 
+3.2590221417033227
+3.277489634549188
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 3087.49184799 Donor = ../../1BTL_ecoli_tag/1btl.pdb
+Tag site N = 190 Tag site C = 283 Current checkpoint = 2.419672086339262
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+New optimal found! = <Structure id=['1btl']> 2.419672086339262 ('No clashes?', True)
+ 
+=========================================================================================================
+Time taken (tag tested) = 3087.8490901 Donor = ../../1BTL_ecoli_tag/1btl.pdb Current checkpoint = 2.419672086339262
+=========================================================================================================
+Optimal tag = <Structure id=['1btl']> 2.419672086339262 ('No clashes?', True)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Best Tag~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ RMSD match of N/C overlap =  2.419672086339262                                           
+                                                                                       
+ Acceptor =  <Structure id=YYYY>                                                              
+ Acceptor optimal N terminal start residue is <Residue THR het=  resseq=188 icode= >                            
+ Acceptor optimal C terminal end residue is <Residue ASN het=  resseq=285 icode= >                              
+                                                                                       
+ Donor =  <Structure id=['1btl']>                                                               
+ Donor optimal N terminal start residue is <Residue LEU het=  resseq=30 icode= >                               
+ Donor optimal C terminal end residue is <Residue TRP het=  resseq=290 icode= >                                 
+                                                                                       
+ Protagger suggests truncating Donor to residue numbers:                               
+ N terminal =  33                                                           
+ C terminal =  287                                                           
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Optimal acceptor/donor pruned

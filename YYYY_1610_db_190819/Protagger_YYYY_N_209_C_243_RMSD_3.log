@@ -1,0 +1,44 @@
+Protagger_YYYY_N_209_C_243_RMSD_3.log
+Database of tags = ../../tagdatabase_250619//*
+Target pdb = YYYY
+PDB stored locally? =True
+Run specific search? =False
+N-terminal of insertion = 209
+C-terminal of insertion = 243
+Overlap alignment length = 4
+RMSD threshold = 3.0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing = 50
+ 
+
+# 1 Name = <Structure id=['2l8n']>, RMSD = 2.2263019726986952
+Donor N term = <Residue LYS het=  resseq=13 icode= >
+Donor C term = <Residue GLY het=  resseq=52 icode= >
+Acceptor N term = <Residue THR het=  resseq=207 icode= >
+Acceptor C term = <Residue TYR het=  resseq=244 icode= > 
+
+# 2 Name = <Structure id=['3o1f']>, RMSD = 2.0055997623267245
+Donor N term = <Residue PHE het=  resseq=42 icode= >
+Donor C term = <Residue HIS het=  resseq=97 icode= >
+Acceptor N term = <Residue LEU het=  resseq=209 icode= >
+Acceptor C term = <Residue TYR het=  resseq=244 icode= >
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Best Tag~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ RMSD match of N/C overlap = 2.0055997623267245                             
+                                                                                 
+ Acceptor = <Structure id=YYYY>                                                
+ Acceptor optimal N terminal start residue is<Residue LEU het=  resseq=209 icode= >              
+ Acceptor optimal C terminal end residue is<Residue TYR het=  resseq=244 icode= >                 
+                                                                                 
+ Donor = <Structure id=['3o1f']>                                                 
+ Donor optimal N terminal start residue is<Residue PHE het=  resseq=42 icode= >                 
+ Donor optimal C terminal end residue is<Residue HIS het=  resseq=97 icode= >                   
+                                                                                 
+ Protagger suggests truncating Donor to residue numbers:                         
+ N terminal = 46                                 
+ C terminal = 93                                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Total time taken (seconds) = 13640.0217001

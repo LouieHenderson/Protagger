@@ -1,0 +1,62 @@
+Protagger_YYYY_N_202_C_213_RMSD_3.log
+Database of tags = ../../tagdatabase_250619//*
+Target pdb = YYYY
+PDB stored locally? =True
+Run specific search? =False
+N-terminal of insertion = 202
+C-terminal of insertion = 213
+Overlap alignment length = 3
+RMSD threshold = 3.0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing = 50
+ 
+
+# 1 Name = <Structure id=['../.', '4r4r']>, RMSD = 2.472004119896048
+Donor N term = <Residue THR het=  resseq=29 icode= >
+Donor C term = <Residue HIS het=  resseq=289 icode= >
+Acceptor N term = <Residue PHE het=  resseq=202 icode= >
+Acceptor C term = <Residue ASP het=  resseq=213 icode= > 
+
+# 2 Name = <Structure id=['../.', '2xsk']>, RMSD = 1.9068234070601682
+Donor N term = <Residue THR het=  resseq=26 icode= >
+Donor C term = <Residue LEU het=  resseq=89 icode= >
+Acceptor N term = <Residue SER het=  resseq=200 icode= >
+Acceptor C term = <Residue ASP het=  resseq=213 icode= > 
+
+# 3 Name = <Structure id=['../.', '1ysp']>, RMSD = 1.8231508618375534
+Donor N term = <Residue ILE het=  resseq=4 icode= >
+Donor C term = <Residue GLN het=  resseq=169 icode= >
+Acceptor N term = <Residue PHE het=  resseq=202 icode= >
+Acceptor C term = <Residue ASP het=  resseq=213 icode= > 
+
+# 4 Name = <Structure id=['../.', '5uyo']>, RMSD = 1.8016687048190985
+Donor N term = <Residue GLU het=  resseq=24 icode= >
+Donor C term = <Residue MET het=  resseq=64 icode= >
+Acceptor N term = <Residue THR het=  resseq=201 icode= >
+Acceptor C term = <Residue ASP het=  resseq=213 icode= > 
+
+# 5 Name = <Structure id=['../.', '2lcv']>, RMSD = 1.4511858755455211
+Donor N term = <Residue LYS het=  resseq=13 icode= >
+Donor C term = <Residue GLY het=  resseq=52 icode= >
+Acceptor N term = <Residue SER het=  resseq=200 icode= >
+Acceptor C term = <Residue LYS het=  resseq=215 icode= >
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Best Tag~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ RMSD match of N/C overlap = 1.4511858755455211                             
+                                                                                 
+ Acceptor = <Structure id=YYYY>                                                
+ Acceptor optimal N terminal start residue is<Residue SER het=  resseq=200 icode= >              
+ Acceptor optimal C terminal end residue is<Residue LYS het=  resseq=215 icode= >                 
+                                                                                 
+ Donor = <Structure id=['../.', '2lcv']>                                                 
+ Donor optimal N terminal start residue is<Residue LYS het=  resseq=13 icode= >                 
+ Donor optimal C terminal end residue is<Residue GLY het=  resseq=52 icode= >                   
+                                                                                 
+ Protagger suggests truncating Donor to residue numbers:                         
+ N terminal = 16                                 
+ C terminal = 49                                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Total time taken (seconds) = 17699.2423091

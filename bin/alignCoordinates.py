@@ -4,6 +4,7 @@ import copy
 import cPickle as pickle
 import time
 import multiprocessing as mp
+import sys
 from multiprocessing import Pool, Pipe, Queue, Process
 from Bio import PDB
 import Bio.PDB
@@ -190,27 +191,66 @@ def alignCoordinates(taggedProtein, potentialTag, start_tagged_residue, end_tagg
         for Donor in tag_atoms11, tag_atoms12, tag_atoms13, tag_atoms21, tag_atoms22, tag_atoms23, tag_atoms31, tag_atoms32, tag_atoms33:
 
             if len(Acceptor) == (tag_overlap_length * 2) and len(Donor) == (tag_overlap_length * 2):
+
+                Nfuse = False
+
+                if Nfuse == True:
+                    print "Acceptor", Acceptor
+                    print "Donor", Donor
+                    for atom in Acceptor:
+                        print atom.get_full_id()
+                    for atom in Donor:
+                        print atom.get_full_id()
+                    #for i in range((tag_overlap_length),((tag_overlap_length * 2))):
+                    #    print i
+                    #    print Acceptor
+                    #    del Acceptor[i]
+                    del Acceptor[0:(tag_overlap_length)]
+                    del Donor[(tag_overlap_length):(tag_overlap_length * 2)]
+                    print "Acceptor", Acceptor
+                    print "Donor", Donor
+                    for atom in Acceptor:
+                        print atom.get_full_id()
+                    for atom in Donor:
+                        print atom.get_full_id()
+
+            #    sys.exit()
                 #Superimposed the Acceptor/Donor of the permutations of chewed back ends and produces RMSDs
                 super_imposer.set_atoms(Acceptor, Donor)
                 super_imposer.apply(potentialTag.get_atoms())
                 RMSD = super_imposer.rms
+                #print RMSD
 
                 #Produces a series of objects with N and C terminals of Acceptor/Donor for clash checking
-                ANterm1 = Acceptor[tag_overlap_length - (tag_overlap_length - 1)]
-                ANterm2 = ANterm1.get_parent()
-                ANterm3 = ANterm2.id
+                if Nfuse != True:
+                    ANterm1 = Acceptor[tag_overlap_length - (tag_overlap_length - 1)]
+                    ANterm2 = ANterm1.get_parent()
+                    ANterm3 = ANterm2.id
 
-                ACterm1 = Acceptor[tag_overlap_length + (tag_overlap_length -1)]
-                ACterm2 = ACterm1.get_parent()
-                ACterm3 = ACterm2.id
+                    ACterm1 = Acceptor[tag_overlap_length + (tag_overlap_length - 1)]
+                    ACterm2 = ACterm1.get_parent()
+                    ACterm3 = ACterm2.id
 
-                DNterm1 = Donor[tag_overlap_length - 1]
-                DNterm2 = DNterm1.get_parent()
-                DNterm3 = DNterm2.id
+                    DNterm1 = Donor[tag_overlap_length - 1]
+                    DNterm2 = DNterm1.get_parent()
+                    DNterm3 = DNterm2.id
 
-                DCterm1 = Donor[tag_overlap_length]
-                DCterm2 = DCterm1.get_parent()
-                DCterm3 = DCterm2.id
+                    DCterm1 = Donor[tag_overlap_length]
+                    DCterm2 = DCterm1.get_parent()
+                    DCterm3 = DCterm2.id
+
+                elif Nfuse == True:
+                    ACterm1 = Acceptor[tag_overlap_length -1]
+                    ACterm2 = ACterm1.get_parent()
+                    ACterm3 = ACterm2.id
+
+                    ANterm3 = ACterm3
+
+                    DNterm1 = Donor[tag_overlap_length - 1]
+                    DNterm2 = DNterm1.get_parent()
+                    DNterm3 = DNterm2.id
+
+                    DCterm3 = DNterm3
 
                 print RMSD
 
@@ -263,14 +303,10 @@ def alignCoordinates(taggedProtein, potentialTag, start_tagged_residue, end_tagg
                         sphereget = spheredefine(chain, ANterm3[1], ACterm3[1], DNterm3[1], DCterm3[1], tag_overlap_length)
                         allsphereslist.append(sphereget)
 
-                   # print 'Contents of allsphereslist', allsphereslist
-
                     print 'Time taken (sphereget) =', time.time() - Begin
 
                     Begin = time.time()
                     courseclash = sphereclash(allsphereslist)
-                    #print ' '
-                    #print 'Contents of courseclash', courseclash
 
                     print 'Time taken (courseclash) =', time.time() - Begin
 
