@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "./bin/runProtagger.py", line 477, in <module>
+    super_imposerx.set_atoms(Acceptors, Donors)
+  File "/usr/local/lib/python2.7/dist-packages/Bio/PDB/Superimposer.py", line 35, in set_atoms
+    raise PDBException("Fixed and moving atom lists differ in size")
+Bio.PDB.PDBExceptions.PDBException: Fixed and moving atom lists differ in size

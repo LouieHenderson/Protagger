@@ -27414,3 +27414,6592 @@ False was found
 False was found
 False was found
 False was found
+Time taken (fineclash) = 4.07889199257
+Fine clash passed? False
+ 
+3.5310049174269116
+4.276930321765184
+3.7447444379162538
+4.345466930922076
+5.136220834270055
+2.35740537518711
+Time taken (tagallchain) = 18.3180420399
+Time taken (sphereget) = 2.52021789551
+Time taken (courseclash) = 0.0178258419037
+False was found
+Time taken (fineclash) = 4.02035307884
+Fine clash passed? False
+ 
+2.455380445713664
+Time taken (tagallchain) = 19.5390880108
+Time taken (sphereget) = 2.14994001389
+Time taken (courseclash) = 0.0147531032562
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.08783102036
+Fine clash passed? False
+ 
+3.081480601624082
+2.846844263714709
+Time taken (tagallchain) = 18.3692688942
+Time taken (sphereget) = 2.13685488701
+Time taken (courseclash) = 0.0167491436005
+False was found
+Time taken (fineclash) = 4.22373986244
+Fine clash passed? False
+ 
+2.579594822375067
+Time taken (tagallchain) = 21.7533559799
+Time taken (sphereget) = 2.26527810097
+Time taken (courseclash) = 0.0151669979095
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.53727698326
+Fine clash passed? False
+ 
+3.152032435807254
+4.222948193173211
+3.852510515417594
+4.242922898136389
+2.141859844998653
+Time taken (tagallchain) = 26.8021330833
+Time taken (sphereget) = 2.29346704483
+Time taken (courseclash) = 0.0148210525513
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.3811109066
+Fine clash passed? False
+ 
+1.9192895553874847
+Time taken (tagallchain) = 17.3312380314
+Time taken (sphereget) = 2.13288593292
+Time taken (courseclash) = 0.0162761211395
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.12210392952
+Fine clash passed? False
+ 
+2.9251364626156313
+Time taken (tagallchain) = 27.8587970734
+Time taken (sphereget) = 1.99450492859
+Time taken (courseclash) = 0.0159251689911
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.20220589638
+Fine clash passed? False
+ 
+2.295164747611683
+Time taken (tagallchain) = 22.4378900528
+Time taken (sphereget) = 2.05369305611
+Time taken (courseclash) = 0.0152270793915
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.29934477806
+Fine clash passed? False
+ 
+1.578368164834166
+Time taken (tagallchain) = 19.7556250095
+Time taken (sphereget) = 2.14424610138
+Time taken (courseclash) = 0.0153059959412
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.22666096687
+Fine clash passed? False
+ 
+2.6662830391427477
+Time taken (tagallchain) = 19.0990309715
+Time taken (sphereget) = 2.40293908119
+Time taken (courseclash) = 0.0193638801575
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.0525739193
+Fine clash passed? False
+ 
+3.8013986196219505
+3.1670237881236822
+3.7827174437852125
+2.352095683517767
+Time taken (tagallchain) = 18.9685871601
+Time taken (sphereget) = 2.42006111145
+Time taken (courseclash) = 0.0151741504669
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.06703805923
+Fine clash passed? False
+ 
+2.868539391220262
+Time taken (tagallchain) = 25.4328119755
+Time taken (sphereget) = 2.07413601875
+Time taken (courseclash) = 0.0140779018402
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.24944591522
+Fine clash passed? False
+ 
+3.857776924722104
+1.800281557968753
+Time taken (tagallchain) = 17.6896650791
+Time taken (sphereget) = 2.21616792679
+Time taken (courseclash) = 0.0160250663757
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.19845795631
+Fine clash passed? False
+ 
+2.5383571199490267
+Time taken (tagallchain) = 26.3905060291
+Time taken (sphereget) = 2.3782761097
+Time taken (courseclash) = 0.0190651416779
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.06925702095
+Fine clash passed? False
+ 
+3.653536215506952
+3.004069275674483
+3.634666360707074
+4.363745644444447
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 1434.76399493 Donor = ../../ecoli_tags_small_220218/3gp6.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 1434.86034298 Donor = ../../ecoli_tags_small_220218/3gp6.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 566 / 688
+Elapsed time (minutes) = 1285.61173087
+Current tag being checked = ../../ecoli_tags_small_220218/4hh5.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.608577606680874
+Time taken (tagallchain) = 18.3491010666
+Time taken (sphereget) = 2.08487582207
+Time taken (courseclash) = 0.013197183609
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.14994311333
+Fine clash passed? False
+ 
+2.59235608751466
+Time taken (tagallchain) = 18.9588179588
+Time taken (sphereget) = 2.20850491524
+Time taken (courseclash) = 0.0148811340332
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.3440887928
+Fine clash passed? False
+ 
+3.0030000077022265
+2.61396696492489
+Time taken (tagallchain) = 27.3097028732
+Time taken (sphereget) = 2.25289416313
+Time taken (courseclash) = 0.0165150165558
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.88877916336
+Fine clash passed? False
+ 
+2.4403440660828775
+Time taken (tagallchain) = 26.3089120388
+Time taken (sphereget) = 2.06620311737
+Time taken (courseclash) = 0.0160868167877
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.14840698242
+Fine clash passed? False
+ 
+2.529879810022069
+Time taken (tagallchain) = 18.7099168301
+Time taken (sphereget) = 2.1246907711
+Time taken (courseclash) = 0.014848947525
+False was found
+False was found
+Time taken (fineclash) = 4.09686994553
+Fine clash passed? False
+ 
+2.6185946021744946
+Time taken (tagallchain) = 17.6035349369
+Time taken (sphereget) = 2.29144597054
+Time taken (courseclash) = 0.0155589580536
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.9890730381
+Fine clash passed? False
+ 
+2.331847541280254
+Time taken (tagallchain) = 27.9641981125
+Time taken (sphereget) = 1.91303706169
+Time taken (courseclash) = 0.0132520198822
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.95932602882
+Fine clash passed? False
+ 
+2.0462162835447746
+Time taken (tagallchain) = 19.911659956
+Time taken (sphereget) = 2.06175899506
+Time taken (courseclash) = 0.0149459838867
+False was found
+False was found
+Time taken (fineclash) = 3.87281990051
+Fine clash passed? False
+ 
+3.1936381445264104
+3.1405769307288893
+4.186794746960707
+2.9136510575770984
+Time taken (tagallchain) = 18.9852449894
+Time taken (sphereget) = 2.06885004044
+Time taken (courseclash) = 0.0161831378937
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.09064292908
+Fine clash passed? False
+ 
+2.712238547866655
+Time taken (tagallchain) = 26.968200922
+Time taken (sphereget) = 2.38561582565
+Time taken (courseclash) = 0.0138549804688
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.26973199844
+Fine clash passed? False
+ 
+3.621059200988479
+2.58998634172345
+Time taken (tagallchain) = 19.1415660381
+Time taken (sphereget) = 2.11250185966
+Time taken (courseclash) = 0.0144009590149
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.02124810219
+Fine clash passed? False
+ 
+2.225690762803763
+Time taken (tagallchain) = 26.859621048
+Time taken (sphereget) = 1.90492510796
+Time taken (courseclash) = 0.0131340026855
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.01547503471
+Fine clash passed? False
+ 
+2.9487705740951786
+Time taken (tagallchain) = 19.1882481575
+Time taken (sphereget) = 2.16706991196
+Time taken (courseclash) = 0.0167322158813
+False was found
+False was found
+Time taken (fineclash) = 4.1203789711
+Fine clash passed? False
+ 
+3.9404624621162263
+3.9777143513107123
+5.026752512144134
+3.4076572810447576
+3.375807535209765
+4.4601340558060425
+2.9261168910002526
+Time taken (tagallchain) = 18.002065897
+Time taken (sphereget) = 2.35795998573
+Time taken (courseclash) = 0.0171101093292
+False was found
+Time taken (fineclash) = 4.61304187775
+Fine clash passed? False
+ 
+2.757621305309448
+Time taken (tagallchain) = 18.9729628563
+Time taken (sphereget) = 2.06235599518
+Time taken (courseclash) = 0.0142331123352
+False was found
+Time taken (fineclash) = 4.05938577652
+Fine clash passed? False
+ 
+3.796881080069905
+3.2771883815881426
+2.6515508988043024
+Time taken (tagallchain) = 26.6072211266
+Time taken (sphereget) = 1.91730284691
+Time taken (courseclash) = 0.0133979320526
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.21533608437
+Fine clash passed? False
+ 
+1.7357283159627581
+Time taken (tagallchain) = 18.7723600864
+Time taken (sphereget) = 2.30449485779
+Time taken (courseclash) = 0.0159130096436
+False was found
+False was found
+Time taken (fineclash) = 4.01993203163
+Fine clash passed? False
+ 
+3.1562806172181377
+2.6338889647205126
+Time taken (tagallchain) = 26.1473701
+Time taken (sphereget) = 1.93788504601
+Time taken (courseclash) = 0.0156588554382
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.88944077492
+Fine clash passed? False
+ 
+1.8564822840809725
+Time taken (tagallchain) = 17.7169589996
+Time taken (sphereget) = 2.15237188339
+Time taken (courseclash) = 0.0144131183624
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.17111301422
+Fine clash passed? False
+ 
+3.480818669727864
+3.1456137158113604
+2.5856838664854505
+Time taken (tagallchain) = 26.5002520084
+Time taken (sphereget) = 2.12130212784
+Time taken (courseclash) = 0.0147099494934
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.20158410072
+Fine clash passed? False
+ 
+2.976724473317779
+Time taken (tagallchain) = 18.5350780487
+Time taken (sphereget) = 2.13050699234
+Time taken (courseclash) = 0.0141761302948
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.90995597839
+Fine clash passed? False
+ 
+2.00767608644896
+Time taken (tagallchain) = 24.5524630547
+Time taken (sphereget) = 1.96572995186
+Time taken (courseclash) = 0.014876127243
+False was found
+False was found
+Time taken (fineclash) = 4.32060289383
+Fine clash passed? False
+ 
+2.566766458993496
+Time taken (tagallchain) = 28.4585189819
+Time taken (sphereget) = 2.0054359436
+Time taken (courseclash) = 0.0153410434723
+False was found
+False was found
+Time taken (fineclash) = 4.16007184982
+Fine clash passed? False
+ 
+2.5640985574240336
+Time taken (tagallchain) = 18.4327468872
+Time taken (sphereget) = 2.19582605362
+Time taken (courseclash) = 0.0152349472046
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.94592499733
+Fine clash passed? False
+ 
+2.0181921179494937
+Time taken (tagallchain) = 25.6784930229
+Time taken (sphereget) = 2.2030069828
+Time taken (courseclash) = 0.0156950950623
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.05925488472
+Fine clash passed? False
+ 
+2.540914500785391
+Time taken (tagallchain) = 21.3273630142
+Time taken (sphereget) = 2.13753223419
+Time taken (courseclash) = 0.0149168968201
+False was found
+False was found
+Time taken (fineclash) = 3.94274401665
+Fine clash passed? False
+ 
+2.7901796809654704
+Time taken (tagallchain) = 18.5617091656
+Time taken (sphereget) = 2.40340399742
+Time taken (courseclash) = 0.0183260440826
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.31942605972
+Fine clash passed? False
+ 
+2.652091157771289
+Time taken (tagallchain) = 27.5463449955
+Time taken (sphereget) = 2.12941217422
+Time taken (courseclash) = 0.0176870822906
+False was found
+False was found
+Time taken (fineclash) = 3.95156812668
+Fine clash passed? False
+ 
+2.595154680487051
+Time taken (tagallchain) = 18.6243538857
+Time taken (sphereget) = 2.2014040947
+Time taken (courseclash) = 0.0135469436646
+False was found
+False was found
+Time taken (fineclash) = 4.108314991
+Fine clash passed? False
+ 
+2.7248657411651505
+Time taken (tagallchain) = 26.07553792
+Time taken (sphereget) = 2.5081911087
+Time taken (courseclash) = 0.0189418792725
+False was found
+Time taken (fineclash) = 3.95327997208
+Fine clash passed? False
+ 
+2.471411219053215
+Time taken (tagallchain) = 18.7317538261
+Time taken (sphereget) = 2.11441516876
+Time taken (courseclash) = 0.0157589912415
+False was found
+Time taken (fineclash) = 4.10009503365
+Fine clash passed? False
+ 
+3.7941056867957252
+2.9300190346347765
+Time taken (tagallchain) = 17.4102499485
+Time taken (sphereget) = 2.07066702843
+Time taken (courseclash) = 0.0168480873108
+False was found
+Time taken (fineclash) = 4.13055300713
+Fine clash passed? False
+ 
+2.508617282319931
+Time taken (tagallchain) = 29.3665578365
+Time taken (sphereget) = 2.03294682503
+Time taken (courseclash) = 0.0147430896759
+False was found
+False was found
+Time taken (fineclash) = 4.31459593773
+Fine clash passed? False
+ 
+3.109711325299327
+2.710928937123328
+Time taken (tagallchain) = 20.0785028934
+Time taken (sphereget) = 2.45872592926
+Time taken (courseclash) = 0.0164268016815
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.36296701431
+Fine clash passed? False
+ 
+2.298625662866298
+Time taken (tagallchain) = 27.1063599586
+Time taken (sphereget) = 2.48795294762
+Time taken (courseclash) = 0.0160088539124
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.7360367775
+Fine clash passed? False
+ 
+2.189814319766874
+Time taken (tagallchain) = 18.6095700264
+Time taken (sphereget) = 2.17001080513
+Time taken (courseclash) = 0.0166628360748
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.08448910713
+Fine clash passed? False
+ 
+3.885579771987885
+3.6203881812198033
+2.6184877263169057
+Time taken (tagallchain) = 19.0056779385
+Time taken (sphereget) = 2.62641716003
+Time taken (courseclash) = 0.0223619937897
+False was found
+False was found
+Time taken (fineclash) = 4.25759887695
+Fine clash passed? False
+ 
+4.590781425107357
+4.153751495872376
+2.7497751425411248
+Time taken (tagallchain) = 18.5718569756
+Time taken (sphereget) = 2.22237896919
+Time taken (courseclash) = 0.0153000354767
+False was found
+False was found
+Time taken (fineclash) = 4.00513005257
+Fine clash passed? False
+ 
+5.012841526976331
+4.524688870368087
+3.1552641233296748
+3.1911906308444427
+2.8086909896225296
+Time taken (tagallchain) = 25.9550509453
+Time taken (sphereget) = 2.35844302177
+Time taken (courseclash) = 0.0151169300079
+False was found
+False was found
+Time taken (fineclash) = 3.80862021446
+Fine clash passed? False
+ 
+2.4472302859841983
+Time taken (tagallchain) = 18.2035450935
+Time taken (sphereget) = 2.08487796783
+Time taken (courseclash) = 0.0164401531219
+False was found
+False was found
+Time taken (fineclash) = 4.35705709457
+Fine clash passed? False
+ 
+3.739826162001081
+2.971255301677539
+Time taken (tagallchain) = 27.1405720711
+Time taken (sphereget) = 2.19092297554
+Time taken (courseclash) = 0.018031835556
+False was found
+False was found
+Time taken (fineclash) = 4.10932087898
+Fine clash passed? False
+ 
+2.231787572150884
+Time taken (tagallchain) = 20.4447410107
+Time taken (sphereget) = 2.50567007065
+Time taken (courseclash) = 0.0168671607971
+False was found
+False was found
+Time taken (fineclash) = 4.14520907402
+Fine clash passed? False
+ 
+3.993683557613197
+3.314007271837771
+2.4412125997753873
+Time taken (tagallchain) = 20.9139199257
+Time taken (sphereget) = 2.37832713127
+Time taken (courseclash) = 0.0172801017761
+False was found
+False was found
+Time taken (fineclash) = 4.13398599625
+Fine clash passed? False
+ 
+2.8248457565832386
+Time taken (tagallchain) = 19.1772558689
+Time taken (sphereget) = 2.17621207237
+Time taken (courseclash) = 0.0145790576935
+False was found
+False was found
+Time taken (fineclash) = 3.8236989975
+Fine clash passed? False
+ 
+2.325564703558747
+Time taken (tagallchain) = 19.3055739403
+Time taken (sphereget) = 2.38168716431
+Time taken (courseclash) = 0.0163519382477
+False was found
+False was found
+Time taken (fineclash) = 4.20630192757
+Fine clash passed? False
+ 
+2.4028979835770223
+Time taken (tagallchain) = 20.8694200516
+Time taken (sphereget) = 2.38319706917
+Time taken (courseclash) = 0.0163040161133
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.08585190773
+Fine clash passed? False
+ 
+2.920839434668496
+Time taken (tagallchain) = 17.1753129959
+Time taken (sphereget) = 2.15525507927
+Time taken (courseclash) = 0.0141859054565
+False was found
+Time taken (fineclash) = 3.90069913864
+Fine clash passed? False
+ 
+2.2846058604932886
+Time taken (tagallchain) = 18.0629458427
+Time taken (sphereget) = 2.07284188271
+Time taken (courseclash) = 0.0144739151001
+False was found
+Time taken (fineclash) = 4.25710487366
+Fine clash passed? False
+ 
+2.457318915949965
+Time taken (tagallchain) = 28.4499769211
+Time taken (sphereget) = 2.06788897514
+Time taken (courseclash) = 0.0151460170746
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.21258997917
+Fine clash passed? False
+ 
+3.3999780445681664
+2.6653025600012534
+Time taken (tagallchain) = 18.4674730301
+Time taken (sphereget) = 2.17543315887
+Time taken (courseclash) = 0.0171189308167
+False was found
+Time taken (fineclash) = 4.21172618866
+Fine clash passed? False
+ 
+2.347564649620364
+Time taken (tagallchain) = 26.6000468731
+Time taken (sphereget) = 2.27663493156
+Time taken (courseclash) = 0.0161798000336
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.00255489349
+Fine clash passed? False
+ 
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 2808.59288883 Donor = ../../ecoli_tags_small_220218/4hh5.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 2808.68761683 Donor = ../../ecoli_tags_small_220218/4hh5.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 565 / 688
+Elapsed time (minutes) = 1332.42319123
+Current tag being checked = ../../ecoli_tags_small_220218/5f5d.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4.599207384067646
+5.428405241380561
+4.8941397893252265
+4.344777909630421
+5.180855337443999
+4.586509213689104
+3.64185980435865
+4.197877318843743
+3.8234257238598004
+4.359510983292859
+4.882565518763555
+4.321214164446189
+4.3087966956713775
+4.850334721436865
+4.060738071420521
+3.619939914325336
+4.2953295888589835
+3.3281358895933475
+4.447274289895138
+4.748333954828866
+4.248981466300991
+4.877066321591612
+4.852806974959628
+4.139365822044723
+4.280600805260038
+4.387589381615257
+3.1665641367666497
+5.505492780341555
+6.396392449446161
+6.222423215046171
+5.035374525564863
+5.921943010287806
+5.771471482137514
+4.188781301143777
+5.066505217450326
+4.845369868307835
+4.770476144036835
+5.642609447377012
+5.397580396016636
+4.451765378784804
+5.398514873963845
+4.930882671881425
+3.6315513695716515
+4.565417839611913
+3.9829836316901193
+4.438887847404249
+5.184247326971125
+4.758221288520267
+4.493207074008129
+5.052727505151256
+4.3960233775421615
+3.764095856579814
+4.269545490898981
+3.512912614483345
+6.347269170358854
+7.453301718652194
+7.323490155345829
+5.826218855433019
+6.8710222256826246
+6.860854933801671
+5.186163145389345
+5.942163933716513
+6.083753356521603
+5.475951679198302
+6.390044816474442
+6.289078557693693
+4.931630881124198
+6.071466507150188
+5.838560689310603
+4.150683568726038
+5.159233329156292
+5.183842500714668
+5.023835406126645
+5.717649190119764
+5.857078965709499
+4.7067818122063185
+5.479254930765615
+5.133831700092215
+3.622976791004392
+4.64327683898272
+4.177793680926197
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 0.168313980103 Donor = ../../ecoli_tags_small_220218/5f5d.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 0.253611803055 Donor = ../../ecoli_tags_small_220218/5f5d.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 564 / 688
+Elapsed time (minutes) = 1332.42741808
+Current tag being checked = ../../ecoli_tags_small_220218/1nl5.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.7650644810848704
+3.01223502738433
+3.8053663024114144
+4.521995653051144
+3.9194353389325287
+4.502054274143929
+4.546529913296996
+3.9845389976216725
+4.618734971953676
+4.15513465032104
+3.7945791738712593
+3.940550164400273
+5.016925379814491
+4.711646912354097
+4.96740346572253
+5.246567974733724
+5.011965321935926
+5.34958240044267
+4.869043383487616
+4.101851785569282
+4.633813625677321
+5.924066253865779
+5.361905060261524
+5.883450032151091
+6.296306904663469
+5.8118372270096055
+6.355710411165459
+4.13825749593619
+3.412426072454724
+3.8446597734027077
+4.406366725236493
+3.79042582195709
+4.320900137342503
+4.221485079639169
+3.4992241866953653
+3.872103659427942
+3.8925188924874763
+3.4046618417861136
+3.372853464492937
+4.445220712509071
+4.111521139254264
+4.300714159510708
+4.440249352541378
+3.9982280754328765
+4.145212304787802
+4.296013594264223
+3.3503406131086293
+3.901662490377578
+5.092865299238117
+4.413408530451404
+4.868292207873335
+5.140781456746631
+4.506870245562565
+5.272831331930606
+4.683051027774355
+4.053407866008423
+4.452426938030231
+4.803583810657549
+4.1406519986034125
+4.348999002760868
+4.228027826430484
+3.488350946302813
+3.74530135343484
+3.9648508942527876
+3.5558934296551854
+3.7046755634659903
+4.2972321786063326
+3.7954353858533025
+3.8115461505599177
+3.950223025586202
+3.4437068602389425
+3.4663200233293594
+4.127262560001188
+3.3787659872227565
+3.4679720999912145
+4.570223796279601
+3.846991886958854
+4.382935749840121
+4.4263305870612335
+3.607793096878789
+4.3301875325130785
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 0.309401035309 Donor = ../../ecoli_tags_small_220218/1nl5.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 0.652601957321 Donor = ../../ecoli_tags_small_220218/1nl5.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 563 / 688
+Elapsed time (minutes) = 1332.43829487
+Current tag being checked = ../../ecoli_tags_small_220218/3wtr.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.214262371750994
+3.291308840119595
+3.7174826265198706
+4.099395341665747
+4.314059648770927
+4.654901561732781
+4.190084632333485
+4.272097619204468
+4.68573239291585
+2.6956406062529017
+Time taken (tagallchain) = 25.3496809006
+Time taken (sphereget) = 2.09966301918
+Time taken (courseclash) = 0.0142090320587
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.12403798103
+Fine clash passed? False
+ 
+1.9180885917699468
+Time taken (tagallchain) = 18.3697547913
+Time taken (sphereget) = 2.15720200539
+Time taken (courseclash) = 0.0251870155334
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.44088101387
+Fine clash passed? False
+ 
+2.9792393572995435
+Time taken (tagallchain) = 27.7339651585
+Time taken (sphereget) = 1.91090798378
+Time taken (courseclash) = 0.0137720108032
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.41499090195
+Fine clash passed? False
+ 
+3.6957507625652544
+3.4732932714057863
+4.049990534121946
+3.797191495600633
+3.5695170648160315
+4.188421722827885
+1.6516243321679287
+Time taken (tagallchain) = 19.0494129658
+Time taken (sphereget) = 2.0329811573
+Time taken (courseclash) = 0.0184400081635
+False was found
+Time taken (fineclash) = 4.0437309742
+Fine clash passed? False
+ 
+2.247353405906923
+Time taken (tagallchain) = 19.4443349838
+Time taken (sphereget) = 2.15789103508
+Time taken (courseclash) = 0.0167489051819
+False was found
+Time taken (fineclash) = 4.03456807137
+Fine clash passed? False
+ 
+2.985113602853507
+Time taken (tagallchain) = 20.1022920609
+Time taken (sphereget) = 2.33655810356
+Time taken (courseclash) = 0.0183629989624
+False was found
+False was found
+Time taken (fineclash) = 4.12180495262
+Fine clash passed? False
+ 
+3.364590317084523
+3.6437326051790278
+4.055029633549685
+3.6971637024417574
+4.103223716719615
+4.430202906608827
+4.622454157279272
+4.576125873984251
+4.803133452386263
+5.399994003012368
+5.536817296128746
+5.757798064367883
+5.434648612916838
+5.399129584594171
+5.720084466449032
+3.6661967420097845
+3.177391145797621
+3.68191014832169
+4.682791705617942
+4.399485775649713
+4.852326178069818
+4.720510616051176
+4.265916200196983
+4.8920711454137935
+2.764139056833099
+Time taken (tagallchain) = 18.7260439396
+Time taken (sphereget) = 2.21237397194
+Time taken (courseclash) = 0.0167591571808
+False was found
+Time taken (fineclash) = 4.03891706467
+Fine clash passed? False
+ 
+2.9255950764108487
+Time taken (tagallchain) = 25.380245924
+Time taken (sphereget) = 1.90971589088
+Time taken (courseclash) = 0.0163040161133
+False was found
+Time taken (fineclash) = 3.90595602989
+Fine clash passed? False
+ 
+3.2802847869033216
+3.856060415940476
+3.9398671271712025
+4.261260945360216
+3.8576576487137118
+4.115416463918471
+4.511479098274988
+6.107583118435011
+6.118668189938562
+6.225029118985031
+6.611137280327017
+6.601997688548591
+6.747601291591759
+6.485431897936043
+6.439805791710879
+6.6815455812267865
+5.130930094949112
+4.69805751174658
+5.031427221713793
+5.634967537876006
+5.423313466615326
+5.638695573459556
+5.534127471305106
+5.223279071757145
+5.622739000182775
+3.960306569377086
+3.857934664228551
+4.140164226468406
+5.042005530082371
+4.8813376989823025
+5.048903622594107
+4.7559213100972
+4.856684408409811
+5.093423525168443
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 438.875047922 Donor = ../../ecoli_tags_small_220218/3wtr.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 438.931895971 Donor = ../../ecoli_tags_small_220218/3wtr.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 562 / 688
+Elapsed time (minutes) = 1339.75382658
+Current tag being checked = ../../ecoli_tags_small_220218/1q0n.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.6923575608860797
+Time taken (tagallchain) = 17.4313819408
+Time taken (sphereget) = 1.92898201942
+Time taken (courseclash) = 0.0136601924896
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.82321214676
+Fine clash passed? False
+ 
+2.641929587435065
+Time taken (tagallchain) = 25.7987239361
+Time taken (sphereget) = 3.50647497177
+Time taken (courseclash) = 0.0174181461334
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.88572216034
+Fine clash passed? False
+ 
+3.526003388519627
+2.2846033072865324
+Time taken (tagallchain) = 18.1571569443
+Time taken (sphereget) = 1.96442604065
+Time taken (courseclash) = 0.0154678821564
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.10001802444
+Fine clash passed? False
+ 
+2.8026403665071946
+Time taken (tagallchain) = 20.8705220222
+Time taken (sphereget) = 2.27987504005
+Time taken (courseclash) = 0.0152969360352
+False was found
+False was found
+Time taken (fineclash) = 4.0136449337
+Fine clash passed? False
+ 
+3.62298233038382
+3.4651801693779363
+3.9528684152683744
+4.63899139214872
+2.9295904572621074
+Time taken (tagallchain) = 26.7166490555
+Time taken (sphereget) = 2.78126311302
+Time taken (courseclash) = 0.0221431255341
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.82434678078
+Fine clash passed? False
+ 
+3.2203333717717144
+4.051979150506746
+2.9554739726512556
+Time taken (tagallchain) = 17.0290820599
+Time taken (sphereget) = 2.17612409592
+Time taken (courseclash) = 0.0152771472931
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.09472489357
+Fine clash passed? False
+ 
+2.8700832308733837
+Time taken (tagallchain) = 26.2667088509
+Time taken (sphereget) = 1.93153500557
+Time taken (courseclash) = 0.0165801048279
+False was found
+Time taken (fineclash) = 4.08278799057
+Fine clash passed? False
+ 
+3.882560622748143
+3.9717059750187462
+4.125565935651572
+4.845775124653984
+3.757300509219896
+4.4182333558510525
+4.748682494024325
+3.248300738935955
+4.024341045201571
+4.486846989539616
+4.49327067530312
+4.976996194660663
+5.246817470029239
+1.9360203721781168
+Time taken (tagallchain) = 18.0689129829
+Time taken (sphereget) = 1.9834048748
+Time taken (courseclash) = 0.0148570537567
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.06784701347
+Fine clash passed? False
+ 
+2.605488952895535
+Time taken (tagallchain) = 19.5413880348
+Time taken (sphereget) = 2.02349305153
+Time taken (courseclash) = 0.0157709121704
+False was found
+False was found
+Time taken (fineclash) = 4.42462897301
+Fine clash passed? False
+ 
+3.5474096831202613
+2.6036993680382423
+Time taken (tagallchain) = 18.9543800354
+Time taken (sphereget) = 2.0749809742
+Time taken (courseclash) = 0.0150020122528
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.12265515327
+Fine clash passed? False
+ 
+3.084472666686975
+4.025712839928194
+3.9424784623377955
+4.163515271845994
+4.841264177078557
+2.3367073539573595
+Time taken (tagallchain) = 30.2242748737
+Time taken (sphereget) = 1.98794913292
+Time taken (courseclash) = 0.0153980255127
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.43879199028
+Fine clash passed? False
+ 
+2.1261786900537447
+Time taken (tagallchain) = 18.8694500923
+Time taken (sphereget) = 2.10630393028
+Time taken (courseclash) = 0.0143949985504
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.26626300812
+Fine clash passed? False
+ 
+3.4406258219798436
+2.5068291844259205
+Time taken (tagallchain) = 17.2809350491
+Time taken (sphereget) = 1.94194102287
+Time taken (courseclash) = 0.0155100822449
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.9189658165
+Fine clash passed? False
+ 
+2.4155282778427987
+Time taken (tagallchain) = 19.0804610252
+Time taken (sphereget) = 2.16431117058
+Time taken (courseclash) = 0.0160760879517
+False was found
+False was found
+Time taken (fineclash) = 4.22006201744
+Fine clash passed? False
+ 
+3.6665077432476223
+3.8661450773692088
+3.6184920251795747
+4.609372956911456
+2.189641981735109
+Time taken (tagallchain) = 19.6044290066
+Time taken (sphereget) = 2.44480085373
+Time taken (courseclash) = 0.0218160152435
+False was found
+Time taken (fineclash) = 3.97275996208
+Fine clash passed? False
+ 
+2.9868075083224137
+Time taken (tagallchain) = 18.6479010582
+Time taken (sphereget) = 2.15448999405
+Time taken (courseclash) = 0.015056848526
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.25039482117
+Fine clash passed? False
+ 
+3.6704315557425446
+2.371129293386671
+Time taken (tagallchain) = 19.6499619484
+Time taken (sphereget) = 1.93810606003
+Time taken (courseclash) = 0.0151379108429
+False was found
+False was found
+Time taken (fineclash) = 4.04939413071
+Fine clash passed? False
+ 
+2.997193163227504
+Time taken (tagallchain) = 22.947696209
+Time taken (sphereget) = 2.49198412895
+Time taken (courseclash) = 0.017637014389
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.36854600906
+Fine clash passed? False
+ 
+3.6250557904339056
+3.5577098193818686
+4.087592254082009
+4.633061485649228
+2.729297591275731
+Time taken (tagallchain) = 18.621835947
+Time taken (sphereget) = 2.2178580761
+Time taken (courseclash) = 0.0174419879913
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.17885184288
+Fine clash passed? False
+ 
+3.0047126769272023
+3.9834830777949986
+3.7639290631210622
+4.02440667220674
+4.859503436642182
+4.426207056258505
+4.667422688520063
+5.470036808642684
+2.055808897359519
+Time taken (tagallchain) = 19.2208590508
+Time taken (sphereget) = 1.99740099907
+Time taken (courseclash) = 0.0139360427856
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.02999305725
+Fine clash passed? False
+ 
+2.0702067023673503
+Time taken (tagallchain) = 19.8897938728
+Time taken (sphereget) = 2.06813406944
+Time taken (courseclash) = 0.0159878730774
+False was found
+Time taken (fineclash) = 4.23747897148
+Fine clash passed? False
+ 
+3.3214823024307734
+3.1328482966065585
+2.858603162165545
+Time taken (tagallchain) = 17.9716978073
+Time taken (sphereget) = 2.15222811699
+Time taken (courseclash) = 0.0151691436768
+False was found
+False was found
+Time taken (fineclash) = 4.2021279335
+Fine clash passed? False
+ 
+4.083481247399375
+3.8524598665765324
+3.8955492404201246
+4.7959168416850595
+2.1978631499128722
+Time taken (tagallchain) = 18.9442400932
+Time taken (sphereget) = 2.07229399681
+Time taken (courseclash) = 0.0161130428314
+False was found
+False was found
+Time taken (fineclash) = 4.24961304665
+Fine clash passed? False
+ 
+2.490385739900046
+Time taken (tagallchain) = 18.826403141
+Time taken (sphereget) = 2.18514490128
+Time taken (courseclash) = 0.0160541534424
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.8319568634
+Fine clash passed? False
+ 
+3.1969705898042666
+2.358151654313076
+Time taken (tagallchain) = 18.491339922
+Time taken (sphereget) = 2.03536200523
+Time taken (courseclash) = 0.015692949295
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.0718460083
+Fine clash passed? False
+ 
+2.731255595761033
+Time taken (tagallchain) = 17.8629720211
+Time taken (sphereget) = 2.09005999565
+Time taken (courseclash) = 0.014387845993
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.2008960247
+Fine clash passed? False
+ 
+3.578630639151954
+3.744037956547524
+3.863108656147378
+4.411938482275768
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 1386.77926803 Donor = ../../ecoli_tags_small_220218/1q0n.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 1386.8995769 Donor = ../../ecoli_tags_small_220218/1q0n.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 561 / 688
+Elapsed time (minutes) = 1362.8688196
+Current tag being checked = ../../ecoli_tags_small_220218/3ip0.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.6766910173660066
+Time taken (tagallchain) = 19.2388381958
+Time taken (sphereget) = 2.74614500999
+Time taken (courseclash) = 0.0131368637085
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.16229009628
+Fine clash passed? False
+ 
+2.6263518756818196
+Time taken (tagallchain) = 27.0723268986
+Time taken (sphereget) = 2.84330010414
+Time taken (courseclash) = 0.015429019928
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.41428899765
+Fine clash passed? False
+ 
+3.509135570172836
+2.277492373071535
+Time taken (tagallchain) = 19.6686630249
+Time taken (sphereget) = 2.42004799843
+Time taken (courseclash) = 0.0159080028534
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.448346138
+Fine clash passed? False
+ 
+2.7769449219155224
+Time taken (tagallchain) = 20.1136169434
+Time taken (sphereget) = 2.52679109573
+Time taken (courseclash) = 0.0146000385284
+False was found
+False was found
+Time taken (fineclash) = 4.40673398972
+Fine clash passed? False
+ 
+3.5974122484623465
+3.4573643870022925
+3.9458846233187206
+4.630147822830457
+2.911958239709764
+Time taken (tagallchain) = 26.6919488907
+Time taken (sphereget) = 2.32101893425
+Time taken (courseclash) = 0.015102148056
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.03006291389
+Fine clash passed? False
+ 
+3.2107591499806274
+4.026564778563089
+2.9211482070368886
+Time taken (tagallchain) = 18.8019881248
+Time taken (sphereget) = 2.38222694397
+Time taken (courseclash) = 0.0144498348236
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.50268602371
+Fine clash passed? False
+ 
+2.838052919948269
+Time taken (tagallchain) = 28.3612129688
+Time taken (sphereget) = 2.55323719978
+Time taken (courseclash) = 0.0167899131775
+False was found
+False was found
+Time taken (fineclash) = 4.80378007889
+Fine clash passed? False
+ 
+3.847446195286022
+3.9498279156972997
+4.1087419912504615
+4.8189435707870105
+3.7585985074340904
+4.402000945398819
+4.7087369214610515
+3.225475841584544
+4.0001529083792455
+4.444642939985883
+4.472184298079676
+4.944339059503622
+5.198774122618427
+1.9350735675370607
+Time taken (tagallchain) = 27.521707058
+Time taken (sphereget) = 2.23633503914
+Time taken (courseclash) = 0.0131199359894
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.35398101807
+Fine clash passed? False
+ 
+2.599093017912014
+Time taken (tagallchain) = 20.3576350212
+Time taken (sphereget) = 2.30436682701
+Time taken (courseclash) = 0.0152990818024
+False was found
+False was found
+Time taken (fineclash) = 5.40917515755
+Fine clash passed? False
+ 
+3.545607303142347
+2.602453980129075
+Time taken (tagallchain) = 28.3210949898
+Time taken (sphereget) = 2.61945796013
+Time taken (courseclash) = 0.0178580284119
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.44851207733
+Fine clash passed? False
+ 
+3.088070496184266
+4.033953801973117
+3.9517950373937514
+4.169087834213927
+4.846997180299067
+2.3209883756426763
+Time taken (tagallchain) = 20.5947329998
+Time taken (sphereget) = 2.33879709244
+Time taken (courseclash) = 0.0155069828033
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.04867196083
+Fine clash passed? False
+ 
+2.1205399702971186
+Time taken (tagallchain) = 28.150881052
+Time taken (sphereget) = 2.36017084122
+Time taken (courseclash) = 0.0141289234161
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.8468132019
+Fine clash passed? False
+ 
+3.4319972034655146
+2.4844536613477155
+Time taken (tagallchain) = 18.6263861656
+Time taken (sphereget) = 2.27354192734
+Time taken (courseclash) = 0.0144009590149
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.22730302811
+Fine clash passed? False
+ 
+2.4122221809871927
+Time taken (tagallchain) = 23.482419014
+Time taken (sphereget) = 2.39968395233
+Time taken (courseclash) = 0.0159809589386
+False was found
+False was found
+Time taken (fineclash) = 4.79649591446
+Fine clash passed? False
+ 
+3.6572412239607393
+3.8517010936973004
+3.6155096194084178
+4.603869205470162
+2.1909245972353224
+Time taken (tagallchain) = 21.276250124
+Time taken (sphereget) = 2.2832159996
+Time taken (courseclash) = 0.013062953949
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.94697904587
+Fine clash passed? False
+ 
+2.98106144890444
+Time taken (tagallchain) = 29.0931429863
+Time taken (sphereget) = 2.54166889191
+Time taken (courseclash) = 0.0179178714752
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.50192213058
+Fine clash passed? False
+ 
+3.6459689743859145
+2.358921373857896
+Time taken (tagallchain) = 21.4401199818
+Time taken (sphereget) = 2.38175415993
+Time taken (courseclash) = 0.0153279304504
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.57763504982
+Fine clash passed? False
+ 
+2.978573157457702
+Time taken (tagallchain) = 29.2290220261
+Time taken (sphereget) = 2.55475997925
+Time taken (courseclash) = 0.0193350315094
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.92128396034
+Fine clash passed? False
+ 
+3.5919563957414806
+3.5477508847239663
+4.077603871667232
+4.6116517218842965
+2.724218008007533
+Time taken (tagallchain) = 18.9852740765
+Time taken (sphereget) = 2.25892496109
+Time taken (courseclash) = 0.0143270492554
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.95614290237
+Fine clash passed? False
+ 
+3.010514865494039
+3.9972347659796164
+3.7808738863416558
+4.040465315810471
+4.879875793432063
+4.442175039248465
+4.696891380725987
+5.502093109602853
+2.0326827563935073
+Time taken (tagallchain) = 22.1349358559
+Time taken (sphereget) = 2.41743898392
+Time taken (courseclash) = 0.0148429870605
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.39764690399
+Fine clash passed? False
+ 
+2.079819225106253
+Time taken (tagallchain) = 19.3858690262
+Time taken (sphereget) = 2.48676896095
+Time taken (courseclash) = 0.0142228603363
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.66059207916
+Fine clash passed? False
+ 
+3.3215805530378044
+3.1337684755511597
+2.8663620023991103
+Time taken (tagallchain) = 27.1948778629
+Time taken (sphereget) = 2.62268805504
+Time taken (courseclash) = 0.0161628723145
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.50154590607
+Fine clash passed? False
+ 
+4.09576406742634
+3.8563577896705303
+3.9225764324945867
+4.810434483641292
+2.1957458679031077
+Time taken (tagallchain) = 18.3120219707
+Time taken (sphereget) = 2.49167609215
+Time taken (courseclash) = 0.0155770778656
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.95998907089
+Fine clash passed? False
+ 
+2.4950637030989053
+Time taken (tagallchain) = 22.8986721039
+Time taken (sphereget) = 2.31359100342
+Time taken (courseclash) = 0.014955997467
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.46675300598
+Fine clash passed? False
+ 
+3.18001075428884
+2.3511681073978394
+Time taken (tagallchain) = 19.3462209702
+Time taken (sphereget) = 2.25577712059
+Time taken (courseclash) = 0.0148520469666
+False was found
+False was found
+Time taken (fineclash) = 4.5016310215
+Fine clash passed? False
+ 
+2.7386841214980033
+Time taken (tagallchain) = 26.9224069118
+Time taken (sphereget) = 2.2727189064
+Time taken (courseclash) = 0.0138580799103
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.1717710495
+Fine clash passed? False
+ 
+3.5791829351941526
+3.749974618441164
+3.86433524947475
+4.40476201527092
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 1500.95692396 Donor = ../../ecoli_tags_small_220218/3ip0.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 1501.11220908 Donor = ../../ecoli_tags_small_220218/3ip0.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 560 / 688
+Elapsed time (minutes) = 1387.88735677
+Current tag being checked = ../../ecoli_tags_small_220218/4pdn.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.2255267538467187
+3.304526517258109
+3.7180716993973006
+4.104724182094202
+4.3104000660476
+4.647952225505257
+4.196822909580042
+4.272238601844374
+4.679799931755651
+2.7092290288823633
+Time taken (tagallchain) = 19.2679460049
+Time taken (sphereget) = 1.98144006729
+Time taken (courseclash) = 0.0183701515198
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.0015771389
+Fine clash passed? False
+ 
+1.9308376741244326
+Time taken (tagallchain) = 25.0121519566
+Time taken (sphereget) = 1.96930408478
+Time taken (courseclash) = 0.0140628814697
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.94738507271
+Fine clash passed? False
+ 
+2.973866809078616
+Time taken (tagallchain) = 19.4579110146
+Time taken (sphereget) = 2.00804185867
+Time taken (courseclash) = 0.015643119812
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.9264729023
+Fine clash passed? False
+ 
+3.69698394492673
+3.4684395782607824
+4.042557758275388
+3.8048993156546054
+3.5642144568857854
+4.182142521862238
+1.6554535261491015
+Time taken (tagallchain) = 24.9104750156
+Time taken (sphereget) = 1.96768307686
+Time taken (courseclash) = 0.0137000083923
+False was found
+Time taken (fineclash) = 3.7246530056
+Fine clash passed? False
+ 
+2.2350249091919423
+Time taken (tagallchain) = 26.3607559204
+Time taken (sphereget) = 1.93052887917
+Time taken (courseclash) = 0.0154640674591
+False was found
+Time taken (fineclash) = 4.00154590607
+Fine clash passed? False
+ 
+2.986392499346806
+Time taken (tagallchain) = 19.5446581841
+Time taken (sphereget) = 2.27044200897
+Time taken (courseclash) = 0.022047996521
+False was found
+False was found
+Time taken (fineclash) = 4.30004000664
+Fine clash passed? False
+ 
+3.362160789835442
+3.6404646512196446
+4.059791631832441
+3.6929014920138514
+4.095995995803946
+4.435254956760551
+4.63987313057519
+4.583226266565929
+4.801567938777655
+5.406994295293264
+5.536176661782133
+5.754135919266074
+5.442838701067718
+5.400022967571704
+5.714729444576853
+3.6820744152048746
+3.1834847515874944
+3.67915248202746
+4.6873650460210605
+4.401089557929403
+4.848778628797465
+4.731839140495021
+4.262837249708667
+4.881749919545988
+2.7784109020090866
+Time taken (tagallchain) = 29.8529429436
+Time taken (sphereget) = 2.62359309196
+Time taken (courseclash) = 0.019476890564
+False was found
+Time taken (fineclash) = 4.37008500099
+Fine clash passed? False
+ 
+2.9310470910031117
+Time taken (tagallchain) = 25.6526927948
+Time taken (sphereget) = 2.0992398262
+Time taken (courseclash) = 0.0168828964233
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.84123086929
+Fine clash passed? False
+ 
+3.2910057119743206
+3.8597458577751134
+3.935698551924135
+4.261862023050196
+3.8587605563538943
+4.106199389474636
+4.511002869207007
+6.122584178691418
+6.126777537244799
+6.225580093621847
+6.623686656841532
+6.600788953340914
+6.742778437040839
+6.496162645707006
+6.442040056028198
+6.675705238022517
+5.143406338670435
+4.709376984316233
+5.031620485066469
+5.645393666658464
+5.41898550004395
+5.6340340091465295
+5.5475282533718415
+5.222811769037985
+5.6168244657392785
+3.9766597611993357
+3.8619640883077966
+4.145669430551925
+5.048709485852356
+4.882143546476505
+5.055361786699842
+4.7628561732858135
+4.851166701939408
+5.093486042240871
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 455.686512947 Donor = ../../ecoli_tags_small_220218/4pdn.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 455.759762049 Donor = ../../ecoli_tags_small_220218/4pdn.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 559 / 688
+Elapsed time (minutes) = 1395.4833528
+Current tag being checked = ../../ecoli_tags_small_220218/1k4n.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.632633725420029
+4.402590029797445
+3.3186964323130588
+3.9021964521013914
+4.485637341186984
+3.6514694334302975
+3.538430183236646
+4.197376724735667
+3.43102965345569
+4.299705548727799
+4.475913699959366
+3.4297120686060683
+4.592010782085072
+4.963557595469438
+3.847751476981065
+4.175394035649566
+4.738257879007169
+3.5917588443867094
+5.081596355764544
+4.834266120494883
+4.233860639422102
+5.59358245921022
+5.335545851036112
+4.545235249673005
+5.215697387150825
+5.073270900361601
+4.2604496596145225
+3.5805103188879035
+4.604673720104566
+4.060412570206461
+3.576084766869264
+4.526353394348515
+4.048315241637126
+3.2815412797333874
+4.287635930349256
+3.9699882542789395
+3.607239848619029
+4.294920125972614
+3.534139939890577
+3.7480035087396364
+4.555807316393263
+3.631356916805119
+3.3028322912340573
+4.334711380210175
+3.4470696318945953
+4.188266357304796
+4.252734108206858
+3.7490835036551062
+4.627466492859898
+4.5607636527566315
+3.8964552978213187
+4.269104111831866
+4.332586410664238
+3.590704979207798
+3.927055264869746
+5.165517182764992
+5.033646299065856
+3.925000410589088
+4.927348547066697
+5.030047790675216
+3.7972227592115773
+4.815756843790182
+4.923141101514291
+3.3680736951084813
+4.600017117275296
+4.062287044575479
+3.3793402329939104
+4.619869333074825
+4.191258188756059
+3.0898186405520605
+4.404546273629152
+4.0805648696267545
+3.9426523142867342
+4.076546096202894
+3.7626218994946496
+4.009726659871504
+4.411742684207485
+3.7205556689800043
+3.5850331296888696
+4.257786585988533
+3.5734535328591037
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 0.160951852798 Donor = ../../ecoli_tags_small_220218/1k4n.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 0.27080488205 Donor = ../../ecoli_tags_small_220218/1k4n.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 558 / 688
+Elapsed time (minutes) = 1395.48786621
+Current tag being checked = ../../ecoli_tags_small_220218/4mat.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.3927424370348596
+3.7431198326537523
+3.766579616081785
+3.3698208537311927
+3.9152126561281744
+4.025682884684271
+4.472048168182178
+4.845381923857875
+4.5868091260448685
+3.8864633193331093
+3.998118705450835
+3.5211727840246736
+3.7844825981331485
+4.160313776800432
+3.7742196394666188
+4.849740827767741
+5.160035393672686
+4.592420960522424
+4.810132559838752
+4.766194973027427
+4.212100840886418
+4.991298804712173
+4.90105716527563
+4.107674121703112
+5.748390214424694
+5.6939641778984305
+5.019150746833032
+3.4584389393330235
+4.063704098437933
+4.531564596402281
+3.441336532267078
+4.211532889226181
+4.661272157339402
+4.160716645403551
+4.752960135755115
+5.127047972852667
+3.2520997431779666
+3.7123539551782563
+3.7587280213944068
+3.167603741576445
+3.8673662895084013
+3.9363999908457954
+4.079257075779416
+4.595651836331231
+4.629683904234612
+3.9001295265178477
+4.088596087837932
+3.9017223352573867
+4.05308503003096
+4.198116755014001
+3.818860222883812
+4.904149164042986
+5.0182830665793805
+4.632574700662226
+3.861552430345155
+4.690321230779689
+5.619013984184626
+4.023507347983986
+4.887005143637448
+5.673324693996402
+4.676103157586166
+5.172975396120598
+5.701387503532263
+3.0351317923457275
+3.920862516417134
+4.579406032862207
+3.122142899766852
+4.2494577745516295
+4.731486042233568
+4.03219487147973
+4.67743280051574
+4.89186412811578
+3.6302375583324706
+3.874652941331322
+4.066491390096159
+3.710126344618145
+3.9367006493920345
+4.050366091542424
+4.183596572089905
+4.4679008273764085
+4.676153000650239
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 0.22137093544 Donor = ../../ecoli_tags_small_220218/4mat.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 0.406805992126 Donor = ../../ecoli_tags_small_220218/4mat.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 557 / 688
+Elapsed time (minutes) = 1395.49464637
+Current tag being checked = ../../ecoli_tags_small_220218/3zmi.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5.4302563547086224
+4.940096358971983
+4.8999229721110416
+5.150221272456408
+4.662763425856816
+4.412882772723341
+4.208508266834532
+3.908063265045761
+3.5287013521839308
+4.856142787149686
+4.339804901737407
+4.147656487416802
+4.845163468412697
+4.112527928428664
+3.7521067901663527
+4.279641845148085
+3.42851181582113
+2.636322731088711
+Time taken (tagallchain) = 18.9390258789
+Time taken (sphereget) = 2.27456498146
+Time taken (courseclash) = 0.0152039527893
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.33519005775
+Fine clash passed? False
+ 
+4.652742213263091
+4.277554390378798
+3.8934985482654962
+4.827163210382804
+4.191751642816672
+4.013202629571823
+4.434175764021209
+3.273135361991854
+2.8712536766543977
+Time taken (tagallchain) = 19.4833710194
+Time taken (sphereget) = 2.40911006927
+Time taken (courseclash) = 0.0164740085602
+False was found
+False was found
+Time taken (fineclash) = 4.39507007599
+Fine clash passed? False
+ 
+6.424274470099836
+6.270139281493732
+6.2551437583501475
+5.938645051312513
+5.8382837933851714
+5.667076658506961
+5.081608716731215
+4.922566320012188
+4.758812240664788
+5.632735594144816
+5.422944474587578
+5.193676484400931
+5.413252387002577
+5.005210951554751
+4.626948483809875
+4.60441808781286
+4.070113631540267
+3.613958806562885
+5.106747189265655
+4.8334149979203165
+4.539173024534054
+5.040123241687325
+4.4873960373797415
+4.2719511968547135
+4.27563206492822
+3.611396172960268
+3.2608098608974907
+7.472823128760502
+7.395138817700553
+7.3684711374737395
+6.883804727716002
+6.934140120791891
+6.789173468917236
+5.9696870047250945
+6.1212337704854285
+6.178086450006845
+6.404772901164547
+6.341362099695746
+6.288890209105699
+6.074970550505887
+5.897269047421099
+5.619043284683373
+5.171903017830117
+5.229463726269521
+4.866046009347443
+5.6884885618901615
+5.91165927493937
+5.665913306708347
+5.478902800264756
+5.219775539511642
+5.076065735316385
+4.619675833706019
+4.280149136035981
+3.929741797932114
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 106.616313934 Donor = ../../ecoli_tags_small_220218/3zmi.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 106.691241026 Donor = ../../ecoli_tags_small_220218/3zmi.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 556 / 688
+Elapsed time (minutes) = 1397.27283387
+Current tag being checked = ../../ecoli_tags_small_220218/4m5j.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.8525238990228785
+Time taken (tagallchain) = 18.9492101669
+Time taken (sphereget) = 1.94272685051
+Time taken (courseclash) = 0.014139175415
+False was found
+False was found
+Time taken (fineclash) = 4.23052310944
+Fine clash passed? False
+ 
+3.6275868837149603
+2.807937959501454
+Time taken (tagallchain) = 19.8085851669
+Time taken (sphereget) = 2.08897900581
+Time taken (courseclash) = 0.0167360305786
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.17782711983
+Fine clash passed? False
+ 
+4.011055570813722
+4.647553409526543
+3.8676192909142224
+3.6561784723304185
+4.339936519014899
+3.735171372072447
+3.0058423984695897
+3.9544447423579245
+3.2158773779927188
+4.235494890423024
+4.907106956787698
+4.116342084156843
+4.062456430234737
+4.786978018619195
+3.9915126721672842
+4.209153121424953
+4.542110570757247
+3.7198742455503537
+5.121212172775393
+5.3066267807062335
+4.76250726341358
+5.19619641238191
+5.350940512121521
+4.649396053338262
+3.027586156076438
+3.9646298977472756
+3.1839987208495164
+4.137942251250681
+4.810047072989635
+4.3504110689866735
+3.4989961842754327
+4.324376992573335
+4.2233492002126605
+2.4477109539386444
+Time taken (tagallchain) = 28.1650431156
+Time taken (sphereget) = 1.98257899284
+Time taken (courseclash) = 0.0141150951385
+False was found
+False was found
+Time taken (fineclash) = 3.92046809196
+Fine clash passed? False
+ 
+3.671090875541526
+2.83708798520513
+Time taken (tagallchain) = 18.1640529633
+Time taken (sphereget) = 2.12088704109
+Time taken (courseclash) = 0.0154149532318
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.92162799835
+Fine clash passed? False
+ 
+3.6647160885496186
+4.627124211419862
+4.1669369377918155
+3.197499801734495
+4.272785306539094
+3.8826756313902
+3.126731661480263
+3.6400974007222233
+3.138875147102435
+4.207272253035141
+4.6400312448037155
+4.06018716201838
+4.239247499511319
+4.697327171976793
+3.832713322622175
+3.913332419568658
+4.772338589890618
+4.296079221271533
+4.586591599174341
+5.384559234691308
+5.000912596726627
+4.106871233798447
+4.9671671738483845
+4.786241417878291
+2.779508340432389
+Time taken (tagallchain) = 26.3178319931
+Time taken (sphereget) = 2.15082788467
+Time taken (courseclash) = 0.0159120559692
+False was found
+Time taken (fineclash) = 4.23555517197
+Fine clash passed? False
+ 
+4.045047575729293
+3.5196676395892625
+3.8503512605479546
+4.746120597683309
+4.270547770926837
+3.25648812102985
+4.471318541139256
+4.118582636049151
+2.768560811474542
+Time taken (tagallchain) = 17.8935878277
+Time taken (sphereget) = 2.02548098564
+Time taken (courseclash) = 0.0139629840851
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.83648896217
+Fine clash passed? False
+ 
+3.529285298013992
+3.257524624353666
+3.8887270122060915
+4.386957299819381
+4.347424152072267
+3.631315105704646
+4.261646797011133
+3.8511710321313073
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 327.283519983 Donor = ../../ecoli_tags_small_220218/4m5j.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 327.382542133 Donor = ../../ecoli_tags_small_220218/4m5j.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 555 / 688
+Elapsed time (minutes) = 1402.72920967
+Current tag being checked = ../../ecoli_tags_small_220218/3zmj.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5.397511196982551
+4.892336939199244
+4.865882079668569
+5.09643597148087
+4.640461382813783
+4.404389212141129
+4.148957349448302
+3.8634487314772556
+3.4925689174944377
+4.824905571404291
+4.303963147171961
+4.124822980964956
+4.823165311049477
+4.11253307450428
+3.764387578563429
+4.224308323654571
+3.404481128014211
+2.6233924651225715
+Time taken (tagallchain) = 28.9827468395
+Time taken (sphereget) = 2.50094008446
+Time taken (courseclash) = 0.0204648971558
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.28225898743
+Fine clash passed? False
+ 
+4.605735611566479
+4.271449405964997
+3.8953633060927007
+4.8223834428165855
+4.223645535602063
+4.042678784286837
+4.4241608236674805
+3.293340205296917
+2.8889373482725005
+Time taken (tagallchain) = 27.3032598495
+Time taken (sphereget) = 2.45544099808
+Time taken (courseclash) = 0.0179212093353
+False was found
+False was found
+Time taken (fineclash) = 4.2066090107
+Fine clash passed? False
+ 
+6.3777171885348976
+6.208816767984405
+6.214517331409822
+5.8838041699631445
+5.794312245444079
+5.637308344485368
+5.0139032447557526
+4.857656492349914
+4.706483302967864
+5.591207279408586
+5.369264097785084
+5.160162450604831
+5.373052507195997
+4.97237935768503
+4.6081973455487875
+4.566430073348458
+4.012346558526193
+3.569524646602196
+5.040066961957391
+4.797650051576914
+4.5138537231505635
+5.00291050259053
+4.478544939830146
+4.272703893754819
+4.213327509717506
+3.5845486549992045
+3.2409592378307086
+7.409443098109425
+7.326993486301903
+7.319735975363782
+6.8165007085818905
+6.8734582737959276
+6.750446857052849
+5.9040778857111995
+6.0485329173941755
+6.120822009346241
+6.346785821171163
+6.274228798915428
+6.2416955889209085
+6.011884947098235
+5.844513768850627
+5.587364531952342
+5.113431992679151
+5.1579732476461
+4.811596950475865
+5.621024745927303
+5.8602382920141185
+5.634615492199266
+5.434923720232174
+5.18636996643219
+5.053292076970341
+4.538288909796416
+4.22358685299264
+3.8862268290605315
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 122.158896923 Donor = ../../ecoli_tags_small_220218/3zmj.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 122.245357037 Donor = ../../ecoli_tags_small_220218/3zmj.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 554 / 688
+Elapsed time (minutes) = 1404.76663237
+Current tag being checked = ../../ecoli_tags_small_220218/3zot.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5.430823087097548
+4.90264390434141
+4.8793349817156075
+5.139120296925151
+4.634210919003164
+4.405262162090781
+4.195579930879781
+3.876858415972478
+3.510479660941405
+4.857214750794529
+4.312407762356585
+4.123293208121249
+4.845562339760178
+4.100085443930464
+3.744061097961343
+4.259051221520346
+3.406483777203535
+2.615921870861933
+Time taken (tagallchain) = 19.652971983
+Time taken (sphereget) = 2.10794496536
+Time taken (courseclash) = 0.015743970871
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.41568493843
+Fine clash passed? False
+ 
+4.639231012931544
+4.2495791854020295
+3.8924310903809816
+4.821588950527605
+4.182718611361083
+4.0250393342107795
+4.424213192159931
+3.2574525549209783
+2.8845664216680187
+Time taken (tagallchain) = 20.1562681198
+Time taken (sphereget) = 1.99312496185
+Time taken (courseclash) = 0.0149331092834
+False was found
+Time taken (fineclash) = 4.38635492325
+Fine clash passed? False
+ 
+6.419637145403044
+6.232351401174857
+6.230497436949237
+5.9302582127028955
+5.80711423510611
+5.647393559381184
+5.070404310700787
+4.88802730351875
+4.7350324013959035
+5.634566158720733
+5.3907368371484345
+5.163505823653822
+5.414352380258855
+4.98071181626268
+4.603616447314304
+4.612431367992137
+4.041493465908774
+3.5814832114312893
+5.095382757551828
+4.794951039022747
+4.524091215701271
+5.0333256358125515
+4.461696303916438
+4.269688704447947
+4.26399526516837
+3.576786394419925
+3.250906680548801
+7.469672126401165
+7.355879869956965
+7.340325288443115
+6.873149722982407
+6.899518474768558
+6.766535827855121
+5.963818126129037
+6.088194521724853
+6.149352224920926
+6.403642296744018
+6.306190411704182
+6.2535780473355445
+6.068719308082233
+5.869109871302121
+5.590967986111045
+5.1703337250891455
+5.199080274452751
+4.82770152543789
+5.677123871189541
+5.872207095192506
+5.645036596138421
+5.473424248566213
+5.186447001424008
+5.058892559782957
+4.615961459745784
+4.234401469733084
+3.9073810387349215
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 107.943814039 Donor = ../../ecoli_tags_small_220218/3zot.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 108.029309034 Donor = ../../ecoli_tags_small_220218/3zot.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 553 / 688
+Elapsed time (minutes) = 1406.56712093
+Current tag being checked = ../../ecoli_tags_small_220218/1mbb.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4.994763088715242
+4.332173505885369
+4.349544636388247
+4.369161715229978
+3.8134624517806914
+3.986822666017507
+5.136803249098756
+4.718645268249227
+4.982631541482037
+4.38166724042411
+3.6696017894871895
+3.312735481023193
+3.6790287094495016
+3.0039766675229544
+2.583723324198228
+Time taken (tagallchain) = 19.4575090408
+Time taken (sphereget) = 2.42899012566
+Time taken (courseclash) = 0.0164940357208
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.20652699471
+Fine clash passed? False
+ 
+4.297619024740473
+3.8918500863544403
+3.801075910203779
+4.3643728327578275
+3.284181071784879
+3.4208472550292446
+3.553096258308052
+2.1161785005975813
+Time taken (tagallchain) = 20.6162369251
+Time taken (sphereget) = 2.37241601944
+Time taken (courseclash) = 0.0151860713959
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.31168484688
+Fine clash passed? False
+ 
+2.3000213169069608
+Time taken (tagallchain) = 30.0825731754
+Time taken (sphereget) = 2.35604906082
+Time taken (courseclash) = 0.0142180919647
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 6.59290194511
+Fine clash passed? False
+ 
+4.163857294396379
+3.2324236267178073
+3.3886234934538866
+6.035805852244571
+5.740901202861355
+5.7221751986823906
+5.765651782694753
+5.378937336066841
+5.393055719282466
+6.449842403719294
+6.194080281747525
+6.422714264720397
+5.264651205991249
+4.877636656464616
+4.396245708220764
+4.709615514508458
+4.257800589008318
+3.979239652614947
+5.375154404985541
+5.188439115931131
+5.237333408522071
+4.746024396503407
+3.872694242765695
+3.895319985162188
+4.210355142479157
+3.380649506363289
+3.5237613494705218
+4.9099532539137725
+4.486336082625853
+4.456003131986931
+7.188775695843821
+6.920490730822849
+6.963488232989706
+6.974621138503349
+6.814077910417798
+6.980069307673789
+7.850415940435489
+7.673645800745006
+7.785955531248419
+6.126988088385126
+5.897799247647577
+5.708676607756939
+5.856075490825813
+5.746523787044957
+5.629659232571669
+6.659777379074601
+6.5405837033131595
+6.533323277979977
+5.578004022624224
+5.11148881512901
+4.965731648899332
+5.2104889307517785
+4.765366225852816
+4.666441775149594
+6.008727177165321
+5.858203664723118
+5.846898098183617
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 174.527938128 Donor = ../../ecoli_tags_small_220218/1mbb.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 174.796494961 Donor = ../../ecoli_tags_small_220218/1mbb.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 552 / 688
+Elapsed time (minutes) = 1409.4803961
+Current tag being checked = ../../ecoli_tags_small_220218/4zck.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5.065514534034588
+4.814653402649345
+4.9847046787497815
+4.850205227613563
+4.49021528165817
+4.358037495113369
+4.657044144663499
+4.30551791764326
+4.10447913910887
+4.553622277275206
+4.227990003595182
+4.31938490388943
+4.860883493280082
+4.173941434940587
+3.913519365844002
+5.020021061216451
+4.338251048711947
+3.8294029246292345
+4.485972259443292
+4.4328914540964695
+4.201399599267286
+4.971192348441505
+4.483378022703459
+4.302944662478806
+5.440975365855706
+4.658530288494933
+4.290353602579086
+5.963715452624076
+6.0702937854176495
+6.259577499053943
+5.470891876431602
+5.283707047084712
+5.346875524823222
+4.939869079525378
+4.7227614334097545
+4.859693507752261
+5.219824460614083
+5.1502820445678825
+5.261447877013465
+4.94623759958414
+4.564687078819648
+4.562022878301019
+4.695076093749964
+4.34931558316813
+4.2329166506747935
+4.7437652014298095
+4.820463265849238
+4.920202791760485
+4.665065622576412
+4.568405660069824
+4.527811800739206
+4.81095444239117
+4.465188419418767
+4.082649715048139
+7.022621774304527
+7.198521496006454
+7.439242144435542
+6.107746567819393
+6.452443984797132
+6.472512995391181
+5.49741449126306
+5.635887680464239
+5.790776537722788
+6.040639126635292
+6.097472328350835
+6.332827303526323
+5.5164241886120955
+5.4456480893636305
+5.355082212226148
+4.953803520576558
+4.885293905339115
+4.789242646528293
+5.246290568116064
+5.600587729328887
+5.913043542323874
+4.969363920158781
+4.849126716409982
+4.9965062278407215
+4.765160936546871
+4.5052875845819855
+4.362105227720346
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 0.24419093132 Donor = ../../ecoli_tags_small_220218/4zck.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 0.493191957474 Donor = ../../ecoli_tags_small_220218/4zck.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 551 / 688
+Elapsed time (minutes) = 1409.48861595
+Current tag being checked = ../../ecoli_tags_small_220218/1g7v.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5.332914292842512
+4.669436273690332
+4.554129987965095
+5.107646434770363
+4.447763406140253
+4.2115794969198905
+6.11160488534176
+5.670467271902745
+5.385065146055843
+4.589640360190289
+3.9912961678500847
+3.5920602944497637
+4.0886196767200715
+3.4163273914254053
+2.9339567558187816
+Time taken (tagallchain) = 27.6796841621
+Time taken (sphereget) = 2.67768001556
+Time taken (courseclash) = 0.0147480964661
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.2131690979
+Fine clash passed? False
+ 
+5.010959898151597
+4.57324526766797
+4.072583757342259
+4.245583621384509
+3.5179422968999745
+3.121631103350074
+3.70033206195845
+2.9092411140194177
+Time taken (tagallchain) = 19.6331319809
+Time taken (sphereget) = 2.57053089142
+Time taken (courseclash) = 0.0160081386566
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.22442293167
+Fine clash passed? False
+ 
+2.546515374775811
+Time taken (tagallchain) = 26.5139079094
+Time taken (sphereget) = 2.40634298325
+Time taken (courseclash) = 0.0156991481781
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.97516298294
+Fine clash passed? False
+ 
+4.407842118311164
+3.75562645737202
+3.4234792622772567
+6.489132033554623
+6.079883894680348
+5.9703398581621805
+6.545345702000038
+6.2006809265016685
+5.980377040058424
+7.467942614219014
+7.3204274956361335
+6.9150721216753634
+5.509150554020787
+5.172057191767992
+4.891689081113704
+5.475096209594258
+5.130980288628077
+4.533555379488034
+6.288928219840259
+6.080142758960394
+5.54540770901574
+4.822528840089869
+4.470469450827453
+4.013544877654946
+4.653472154468383
+4.014385952268541
+3.6520581217043704
+5.584287961591047
+5.136686926622852
+4.916452794996418
+7.674438578527514
+7.433630265228652
+7.226291717666953
+7.8346106528468225
+7.61446341068941
+7.357067191383008
+8.996637317071038
+8.871033620683905
+8.579477907213324
+6.533881077818634
+6.351874778869052
+6.0808281375983215
+6.592851943257592
+6.416224159998915
+6.047622006989378
+7.792351026568247
+7.69574472841511
+7.208607078904848
+5.802074500741062
+5.765972659714038
+5.313048954284726
+5.814963575803226
+5.639111459202833
+5.340566869236264
+6.890465702710613
+6.6361987066900525
+6.30316440977257
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 179.040758133 Donor = ../../ecoli_tags_small_220218/1g7v.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 179.217230082 Donor = ../../ecoli_tags_small_220218/1g7v.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 550 / 688
+Elapsed time (minutes) = 1412.47556997
+Current tag being checked = ../../ecoli_tags_small_220218/3w9z.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5.0981890996386285
+5.808987027720263
+5.28873426565476
+5.94729722886542
+6.686234553797144
+6.224369274429537
+5.7776748160257405
+6.324868094395065
+5.823304099665609
+4.0984428505906205
+4.62901600388393
+4.138752460654021
+5.011200579923901
+5.655183223429953
+5.233493841515772
+4.823266030911769
+5.371472683599619
+4.961229057369474
+3.628772438494763
+4.141477930983666
+3.502647158179653
+4.725615726745547
+5.215835511239636
+4.497283880313085
+4.459132928350784
+4.952037969771094
+4.207437867825795
+6.517789622266024
+7.402999669729969
+7.052972320827219
+7.237726136455807
+7.986358327596036
+7.654506263122832
+7.104603519293006
+7.634703723851247
+7.258423080714635
+5.320020400075594
+6.147663395175784
+5.814206707931713
+6.184966962682062
+6.816884695582959
+6.5290459573356525
+6.055958987843165
+6.512815787961182
+6.227763377167174
+4.83542710189074
+5.385995902113472
+4.842897434391192
+5.662200417349681
+6.1656436211759695
+5.833028424475273
+5.316223372124961
+5.894241244233864
+5.555233058502511
+7.986063021368278
+8.797828403125749
+8.558595276726853
+8.584840982939397
+9.42448196298123
+9.197988227276129
+8.342998688137275
+9.000827611355215
+8.707959657909091
+6.762778337089526
+7.517850403784585
+7.315028149462246
+7.3775773495497345
+8.238131865667091
+8.027423058992827
+7.160943780143201
+7.809347111240796
+7.58833032524942
+6.072653187259754
+6.716389386399165
+6.403336165615709
+6.796880713683746
+7.385600987897029
+6.972682384154533
+6.520800813090931
+7.097010854141548
+6.730540281627619
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 0.239583015442 Donor = ../../ecoli_tags_small_220218/3w9z.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 0.448511123657 Donor = ../../ecoli_tags_small_220218/3w9z.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 549 / 688
+Elapsed time (minutes) = 1412.48304513
+Current tag being checked = ../../ecoli_tags_small_220218/1dy3.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.8401885252261718
+Time taken (tagallchain) = 19.1357619762
+Time taken (sphereget) = 2.43787121773
+Time taken (courseclash) = 0.0171189308167
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.0360429287
+Fine clash passed? False
+ 
+2.74635219067614
+Time taken (tagallchain) = 26.6260349751
+Time taken (sphereget) = 1.96335697174
+Time taken (courseclash) = 0.0152168273926
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.09808516502
+Fine clash passed? False
+ 
+3.56840625787223
+2.396879777026803
+Time taken (tagallchain) = 18.3162300587
+Time taken (sphereget) = 2.43734502792
+Time taken (courseclash) = 0.0248868465424
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.0828769207
+Fine clash passed? False
+ 
+2.8804829390015962
+Time taken (tagallchain) = 18.7492699623
+Time taken (sphereget) = 2.21589708328
+Time taken (courseclash) = 0.014331817627
+False was found
+False was found
+Time taken (fineclash) = 4.28556799889
+Fine clash passed? False
+ 
+3.650935257882156
+3.5378587011466687
+4.0363162613375785
+4.680639095852317
+3.0321042657834756
+3.350797253090729
+4.115032054052134
+3.006229321356526
+3.006195392421746
+3.967225581772319
+4.0610038917926525
+4.253228109281303
+4.909411755832644
+3.9126162204169885
+4.559205327820921
+4.777985258881777
+3.418891850621179
+4.180132268994229
+4.508429373899118
+4.652379084251536
+5.111935718371772
+5.280413344430371
+1.9925968600020372
+Time taken (tagallchain) = 25.6711380482
+Time taken (sphereget) = 2.00176405907
+Time taken (courseclash) = 0.01398396492
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.87628006935
+Fine clash passed? False
+ 
+2.634778815793445
+Time taken (tagallchain) = 18.1335279942
+Time taken (sphereget) = 2.07078695297
+Time taken (courseclash) = 0.0164670944214
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.27136588097
+Fine clash passed? False
+ 
+3.567981944658273
+2.6029154923072055
+Time taken (tagallchain) = 18.9543440342
+Time taken (sphereget) = 2.0688419342
+Time taken (courseclash) = 0.0169348716736
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.94577908516
+Fine clash passed? False
+ 
+3.098876499508664
+4.043154479951913
+3.942099746163852
+4.176899423189883
+4.840715037915997
+2.376069634956145
+Time taken (tagallchain) = 26.9865689278
+Time taken (sphereget) = 1.97306895256
+Time taken (courseclash) = 0.014720916748
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.86548018456
+Fine clash passed? False
+ 
+2.2386480836223934
+Time taken (tagallchain) = 17.8139309883
+Time taken (sphereget) = 2.06375789642
+Time taken (courseclash) = 0.017786026001
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.15957593918
+Fine clash passed? False
+ 
+3.527183688819583
+2.5058536855936615
+Time taken (tagallchain) = 17.5947890282
+Time taken (sphereget) = 2.33015298843
+Time taken (courseclash) = 0.0168440341949
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.8967859745
+Fine clash passed? False
+ 
+2.4998613067376203
+Time taken (tagallchain) = 28.0339508057
+Time taken (sphereget) = 2.21605205536
+Time taken (courseclash) = 0.0173380374908
+False was found
+False was found
+Time taken (fineclash) = 4.0499830246
+Fine clash passed? False
+ 
+3.7124583380246747
+3.837801725263412
+3.700605370159678
+4.674514615477554
+2.312571872881356
+Time taken (tagallchain) = 19.4548659325
+Time taken (sphereget) = 2.17252779007
+Time taken (courseclash) = 0.0157091617584
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.87197089195
+Fine clash passed? False
+ 
+3.1397043135141125
+3.6872890018644746
+2.4789714198999167
+Time taken (tagallchain) = 18.1435079575
+Time taken (sphereget) = 2.22139692307
+Time taken (courseclash) = 0.0180838108063
+False was found
+False was found
+Time taken (fineclash) = 4.13216090202
+Fine clash passed? False
+ 
+3.1315512266180017
+3.639055579684098
+3.6668184586825205
+4.220682042117542
+4.653349627354241
+2.628933471668566
+Time taken (tagallchain) = 28.2511069775
+Time taken (sphereget) = 2.28797388077
+Time taken (courseclash) = 0.0207951068878
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.85004091263
+Fine clash passed? False
+ 
+2.9860885273843327
+Time taken (tagallchain) = 18.0114398003
+Time taken (sphereget) = 2.0281829834
+Time taken (courseclash) = 0.0165390968323
+False was found
+False was found
+Time taken (fineclash) = 4.02829504013
+Fine clash passed? False
+ 
+3.987742011675594
+3.6982091819145673
+3.9993814016526796
+4.8669456159302955
+4.334339553266565
+4.645264232998159
+5.453840424747093
+1.979008440328607
+Time taken (tagallchain) = 22.2576849461
+Time taken (sphereget) = 2.16681718826
+Time taken (courseclash) = 0.0152227878571
+False was found
+False was found
+Time taken (fineclash) = 4.11557412148
+Fine clash passed? False
+ 
+2.101426719400696
+Time taken (tagallchain) = 27.096724987
+Time taken (sphereget) = 2.00130391121
+Time taken (courseclash) = 0.0151700973511
+False was found
+Time taken (fineclash) = 4.01004004478
+Fine clash passed? False
+ 
+3.340793707534562
+3.069556975917333
+2.8746979010279268
+Time taken (tagallchain) = 19.004732132
+Time taken (sphereget) = 1.98203587532
+Time taken (courseclash) = 0.0155580043793
+False was found
+Time taken (fineclash) = 4.06427502632
+Fine clash passed? False
+ 
+4.127805725488135
+3.787948491026624
+3.9169036288530905
+4.78029522976085
+2.2417494147855135
+Time taken (tagallchain) = 19.4950039387
+Time taken (sphereget) = 2.07992887497
+Time taken (courseclash) = 0.0154838562012
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.42252016068
+Fine clash passed? False
+ 
+2.5876474441446304
+Time taken (tagallchain) = 27.2505478859
+Time taken (sphereget) = 2.05948901176
+Time taken (courseclash) = 0.0175898075104
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.89072680473
+Fine clash passed? False
+ 
+3.199821628306861
+2.3361449432275174
+Time taken (tagallchain) = 17.900673151
+Time taken (sphereget) = 2.25350379944
+Time taken (courseclash) = 0.0185618400574
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.19992089272
+Fine clash passed? False
+ 
+2.807708888635197
+Time taken (tagallchain) = 17.6985359192
+Time taken (sphereget) = 2.2148630619
+Time taken (courseclash) = 0.019339799881
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.06083607674
+Fine clash passed? False
+ 
+3.564512864001384
+3.7536025774270545
+3.9229461227532205
+4.404707731128415
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 1200.12828898 Donor = ../../ecoli_tags_small_220218/1dy3.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 1200.20780182 Donor = ../../ecoli_tags_small_220218/1dy3.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 548 / 688
+Elapsed time (minutes) = 1432.48650867
+Current tag being checked = ../../ecoli_tags_small_220218/2evm.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.549932934377902
+3.125915390740479
+3.5643521223710315
+4.335345062608051
+3.9000714167558113
+4.320152686408414
+5.196162701010215
+4.825064584886539
+5.253488423058922
+2.3164307293984066
+Time taken (tagallchain) = 27.5911397934
+Time taken (sphereget) = 2.10385513306
+Time taken (courseclash) = 0.0121929645538
+False was found
+False was found
+Time taken (fineclash) = 4.64829111099
+Fine clash passed? False
+ 
+2.4377042851091595
+Time taken (tagallchain) = 19.0342879295
+Time taken (sphereget) = 2.25582885742
+Time taken (courseclash) = 0.0142171382904
+False was found
+False was found
+Time taken (fineclash) = 4.8504319191
+Fine clash passed? False
+ 
+2.4520383002605883
+Time taken (tagallchain) = 19.6408770084
+Time taken (sphereget) = 2.72966504097
+Time taken (courseclash) = 0.0258309841156
+False was found
+Time taken (fineclash) = 5.80396294594
+Fine clash passed? False
+ 
+3.0644427416287554
+3.006249695386123
+3.0567108043669133
+4.053996831106562
+3.963156635523391
+4.11001551752907
+2.5836130266403363
+Time taken (tagallchain) = 26.6333529949
+Time taken (sphereget) = 2.06702685356
+Time taken (courseclash) = 0.0134098529816
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.72265696526
+Fine clash passed? False
+ 
+2.557535420322999
+Time taken (tagallchain) = 18.248716116
+Time taken (sphereget) = 2.39884400368
+Time taken (courseclash) = 0.0135760307312
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.59691309929
+Fine clash passed? False
+ 
+2.7496160609790437
+Time taken (tagallchain) = 18.6855070591
+Time taken (sphereget) = 2.28149199486
+Time taken (courseclash) = 0.0164589881897
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.36397504807
+Fine clash passed? False
+ 
+3.0539750281705014
+2.880126762386079
+Time taken (tagallchain) = 18.9386458397
+Time taken (sphereget) = 2.15176916122
+Time taken (courseclash) = 0.0141439437866
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.45170307159
+Fine clash passed? False
+ 
+3.0879510389415645
+4.021834188876347
+3.802902408256902
+3.931602834052736
+4.788553393621733
+4.311986584266152
+4.8137639848314535
+5.731056810660191
+5.3195100880492125
+5.877138403129774
+6.72362990609752
+6.363547186554846
+6.736318976484617
+3.329294920477696
+3.218043398775791
+3.5391459225487165
+4.468410942735629
+4.350976740056587
+4.644329179224977
+5.4422692186687245
+5.2433433471375395
+5.38092406184947
+3.4216964093732107
+3.2110872196153557
+3.540324545016723
+3.8640109123980073
+3.5888577035581
+3.858580040971765
+4.701365541165715
+4.398694103432531
+4.767950915620087
+6.41275896027117
+5.962389407423151
+6.402430357440914
+7.171252790028473
+6.738303209682883
+7.216774121111716
+7.849786382103287
+7.499375993176141
+8.05626910063131
+5.015204903574031
+4.781408568411204
+5.009383455076086
+5.796852950407054
+5.559779930611926
+5.870006957169033
+6.5620845727198525
+6.398375440197802
+6.802677962578422
+4.247994725797731
+3.9263452893337085
+4.397611001055395
+5.259915253537315
+4.936186007959863
+5.325317759240544
+5.958636037730719
+5.708455426050254
+6.039484118589152
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 388.000505924 Donor = ../../ecoli_tags_small_220218/2evm.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 388.183295012 Donor = ../../ecoli_tags_small_220218/2evm.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 547 / 688
+Elapsed time (minutes) = 1438.95623033
+Current tag being checked = ../../ecoli_tags_small_220218/2mbr.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5.0244838453441325
+4.35865200398341
+4.36782536052901
+4.459275770911466
+3.9170620062340404
+4.074007573190544
+5.231856631054209
+4.825657227332513
+5.085273094056877
+4.386819627151105
+3.6718087364978405
+3.3021302321472668
+3.749472428034292
+3.0840060145442942
+2.6503507736840355
+Time taken (tagallchain) = 19.8235969543
+Time taken (sphereget) = 2.29355287552
+Time taken (courseclash) = 0.01247215271
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.38680315018
+Fine clash passed? False
+ 
+4.3831068297874225
+3.986581061968601
+3.882103235237256
+4.335200419470518
+3.242041601727471
+3.397692563845358
+3.5743963419997873
+2.14144312551669
+Time taken (tagallchain) = 28.187762022
+Time taken (sphereget) = 2.27667593956
+Time taken (courseclash) = 0.0145528316498
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.58384513855
+Fine clash passed? False
+ 
+2.342244644516932
+Time taken (tagallchain) = 20.0002758503
+Time taken (sphereget) = 2.38272094727
+Time taken (courseclash) = 0.0150899887085
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 6.56548905373
+Fine clash passed? False
+ 
+4.212997668819896
+3.2834810847529265
+3.4445351324262963
+6.088951792498991
+5.786770362516642
+5.751070285316942
+5.867436508217042
+5.4861192894197535
+5.49889806057145
+6.558836692876056
+6.3096753399004095
+6.5378467994339715
+5.302769811735706
+4.903987708504853
+4.4133848916411145
+4.806901627916464
+4.363511182660751
+4.078886523148156
+5.484435975222349
+5.303139751725579
+5.337135492683696
+4.7612394913751865
+3.8760054373058117
+3.9119791876387042
+4.283225578224741
+3.4578068817265266
+3.596486379894748
+4.996046505509165
+4.559881990911761
+4.538114399092887
+7.254031604663029
+6.980140154004907
+7.016676786995728
+7.090296989949743
+6.928236858811499
+7.08800534174224
+7.958838019718745
+7.783702177256108
+7.902059559178587
+6.188583279355474
+5.953647114441918
+5.7466319894143085
+5.97132458629131
+5.8600687601595025
+5.729241636128127
+6.768932675960086
+6.6539564290774775
+6.647417981174018
+5.619450078702899
+5.131429788269756
+4.99403617333196
+5.305827770603407
+4.855444807693301
+4.7615406094707335
+6.105428112014862
+5.958370771927938
+5.933597074066738
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 175.002197027 Donor = ../../ecoli_tags_small_220218/2mbr.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 175.316581011 Donor = ../../ecoli_tags_small_220218/2mbr.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 546 / 688
+Elapsed time (minutes) = 1441.87817347
+Current tag being checked = ../../ecoli_tags_small_220218/4h1d.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5.36850837743436
+4.817168971716857
+4.80071628801828
+4.974741542340091
+4.545180803989435
+4.308870351093026
+4.116521755316183
+3.8267540743929156
+3.4791892220885043
+4.802836412578212
+4.262721089051623
+4.069279322150332
+4.723880038957019
+4.032448883342543
+3.658358474602645
+4.157374144861972
+3.3942847652233272
+2.60157123800392
+Time taken (tagallchain) = 27.8641841412
+Time taken (sphereget) = 2.02436685562
+Time taken (courseclash) = 0.0141730308533
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.13536000252
+Fine clash passed? False
+ 
+4.563635113429394
+4.237160535352755
+3.8829301447879683
+4.750662517473961
+4.140129908627521
+3.9896486614161772
+4.381250198789539
+3.2737127743921457
+2.8966627447936975
+Time taken (tagallchain) = 18.6431941986
+Time taken (sphereget) = 2.12218618393
+Time taken (courseclash) = 0.0157208442688
+False was found
+False was found
+Time taken (fineclash) = 4.01801395416
+Fine clash passed? False
+ 
+6.344550766206253
+6.126514887573968
+6.128650937759191
+5.80124460110644
+5.688711323716977
+5.544836383380508
+4.989004172612689
+4.816796810297032
+4.681666591943657
+5.572093149369946
+5.30188717090305
+5.066844641442336
+5.268470060987014
+4.87788508355068
+4.5073316560121
+4.533439563747126
+3.9887784510808415
+3.529980634270594
+4.988333122042153
+4.7205142445523816
+4.463791749144608
+4.89750838961448
+4.381820782870146
+4.194734333450696
+4.167050213800615
+3.537783007691628
+3.221822640786633
+7.3451657515038375
+7.224037066807021
+7.2260418964994955
+6.726069173246009
+6.777862778335361
+6.6575869521363575
+5.909151259272987
+5.992929736257326
+6.095788376547688
+6.29408975663398
+6.186804739219436
+6.14675768277779
+5.910970915171423
+5.751143571615785
+5.478111727711832
+5.1036736785521555
+5.120139100052251
+4.787969054695668
+5.561125761762357
+5.776901865283246
+5.54751809078675
+5.365222564590838
+5.070620999814205
+4.960373550621392
+4.475595646972593
+4.181671056813418
+3.865419068963919
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 114.948114157 Donor = ../../ecoli_tags_small_220218/4h1d.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 115.027332067 Donor = ../../ecoli_tags_small_220218/4h1d.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 545 / 688
+Elapsed time (minutes) = 1443.79529588
+Current tag being checked = ../../ecoli_tags_small_220218/5cof.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  4
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+Residue missing during alignment: Acceptor =  6 Donor =  3
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 0.00611901283264 Donor = ../../ecoli_tags_small_220218/5cof.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 0.191121101379 Donor = ../../ecoli_tags_small_220218/5cof.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 544 / 688
+Elapsed time (minutes) = 1443.79848117
+Current tag being checked = ../../ecoli_tags_small_220218/2ior.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.7358734278004204
+Time taken (tagallchain) = 18.1568171978
+Time taken (sphereget) = 2.14950489998
+Time taken (courseclash) = 0.0134859085083
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.29822587967
+Fine clash passed? False
+ 
+2.335146952396702
+Time taken (tagallchain) = 20.3245239258
+Time taken (sphereget) = 2.26569414139
+Time taken (courseclash) = 0.0169320106506
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.86345911026
+Fine clash passed? False
+ 
+3.2201522004069503
+2.682647768800516
+Time taken (tagallchain) = 28.6068542004
+Time taken (sphereget) = 2.35100412369
+Time taken (courseclash) = 0.0167520046234
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.0687110424
+Fine clash passed? False
+ 
+3.2320387144337595
+3.9439155464397677
+3.3183511568905457
+3.7160714429452506
+4.387346283126868
+2.6874944387761426
+Time taken (tagallchain) = 27.5644140244
+Time taken (sphereget) = 1.97704219818
+Time taken (courseclash) = 0.0131947994232
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.11439204216
+Fine clash passed? False
+ 
+2.805228809914893
+Time taken (tagallchain) = 18.1306679249
+Time taken (sphereget) = 2.47866296768
+Time taken (courseclash) = 0.0150899887085
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.19581794739
+Fine clash passed? False
+ 
+3.7055783315910213
+3.2125239104173398
+3.3568120306106604
+4.079378500518955
+3.6722765029990647
+3.8745716053273576
+4.498876043797938
+3.3643731191326665
+4.1305017873801875
+4.534564163179157
+3.770517699137953
+4.340186296561859
+4.647086385309245
+4.296311508403321
+4.74621437901791
+4.9490918441540845
+1.4525720659464927
+Time taken (tagallchain) = 27.8180110455
+Time taken (sphereget) = 2.31049799919
+Time taken (courseclash) = 0.0180559158325
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.22076916695
+Fine clash passed? False
+ 
+2.1535505919228726
+Time taken (tagallchain) = 27.9197130203
+Time taken (sphereget) = 2.46706604958
+Time taken (courseclash) = 0.0160808563232
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.34121179581
+Fine clash passed? False
+ 
+3.2588046879207937
+3.059862874157065
+3.671117813453774
+4.353955589891976
+3.957334437287087
+3.938023345845672
+4.601875011295028
+1.400800917129238
+Time taken (tagallchain) = 18.7790548801
+Time taken (sphereget) = 2.14512896538
+Time taken (courseclash) = 0.0142750740051
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.28146195412
+Fine clash passed? False
+ 
+1.8501182506275973
+Time taken (tagallchain) = 19.945109129
+Time taken (sphereget) = 2.12705302238
+Time taken (courseclash) = 0.0143580436707
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.33154702187
+Fine clash passed? False
+ 
+2.9950970738829326
+Time taken (tagallchain) = 18.7155799866
+Time taken (sphereget) = 2.55788302422
+Time taken (courseclash) = 0.0186870098114
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.12196207047
+Fine clash passed? False
+ 
+3.031600803913079
+3.0421402243841227
+4.026309092794697
+3.5797350194364292
+3.322215164889017
+4.313366498538341
+2.239055275628616
+Time taken (tagallchain) = 23.4976549149
+Time taken (sphereget) = 2.01997089386
+Time taken (courseclash) = 0.0138700008392
+False was found
+Time taken (fineclash) = 4.25497102737
+Fine clash passed? False
+ 
+2.959517016164251
+Time taken (tagallchain) = 18.2934720516
+Time taken (sphereget) = 2.204641819
+Time taken (courseclash) = 0.0145080089569
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.241563797
+Fine clash passed? False
+ 
+3.3838306078419285
+2.8384228419982023
+Time taken (tagallchain) = 19.4691109657
+Time taken (sphereget) = 2.61088895798
+Time taken (courseclash) = 0.0163261890411
+False was found
+False was found
+Time taken (fineclash) = 4.5800049305
+Fine clash passed? False
+ 
+3.2828694747229212
+3.833763870650838
+3.2953542035556884
+3.8965109136866
+4.4803896494836115
+3.0831138950606647
+3.2294621213387518
+4.098940511010928
+3.983640446466942
+4.276629731854293
+5.027000386574232
+4.454756196660944
+4.724079075122094
+5.493016113703243
+2.3261457436262516
+Time taken (tagallchain) = 28.0972349644
+Time taken (sphereget) = 2.04551410675
+Time taken (courseclash) = 0.0147478580475
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.2506070137
+Fine clash passed? False
+ 
+1.902975783719423
+Time taken (tagallchain) = 19.8686249256
+Time taken (sphereget) = 2.18729400635
+Time taken (courseclash) = 0.0147261619568
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.31194591522
+Fine clash passed? False
+ 
+3.3712306314992766
+3.243947272438206
+3.343260721961734
+4.191354019390416
+3.776405930887329
+3.8508491060186585
+4.708733038521648
+1.2938508103584037
+Time taken (tagallchain) = 17.5069217682
+Time taken (sphereget) = 2.30520296097
+Time taken (courseclash) = 0.0154030323029
+False was found
+Time taken (fineclash) = 4.16044712067
+Fine clash passed? False
+ 
+2.2473082281414145
+Time taken (tagallchain) = 27.0724880695
+Time taken (sphereget) = 2.13563108444
+Time taken (courseclash) = 0.0146100521088
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.2821059227
+Fine clash passed? False
+ 
+3.251292485849489
+3.071130412118922
+3.315898710085457
+3.8573699097634706
+3.50091413537707
+3.7150625702029583
+4.274930914306585
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 946.533635139 Donor = ../../ecoli_tags_small_220218/2ior.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 946.700005054 Donor = ../../ecoli_tags_small_220218/2ior.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 543 / 688
+Elapsed time (minutes) = 1459.57681487
+Current tag being checked = ../../ecoli_tags_small_220218/3b45.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5.415745394511844
+4.928022848618125
+4.892063595501509
+5.120117608385109
+4.660114631718605
+4.423520123690597
+4.118788759659511
+3.890681046293512
+3.5140957331970992
+4.845236771332825
+4.335712880327618
+4.133974590797315
+4.857351550255406
+4.12641882109958
+3.765476885891211
+4.184874562752996
+3.4223433635201554
+2.6256775892593662
+Time taken (tagallchain) = 19.5196459293
+Time taken (sphereget) = 2.38195705414
+Time taken (courseclash) = 0.0170810222626
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.24232602119
+Fine clash passed? False
+ 
+4.597001065990427
+4.2676424162451
+3.894925455252678
+4.765931160585422
+4.210971085072314
+4.0370170401649546
+4.350256758883311
+3.2789249499605595
+2.8922012578312213
+Time taken (tagallchain) = 28.0476751328
+Time taken (sphereget) = 2.12381100655
+Time taken (courseclash) = 0.0161690711975
+False was found
+Time taken (fineclash) = 3.93896412849
+Fine clash passed? False
+ 
+6.39282093790717
+6.250956265962379
+6.245815929074878
+5.897533312669894
+5.831268787315574
+5.66808484929606
+5.0134123823697205
+4.896557541758946
+4.737477905071366
+5.612895968434743
+5.4111429645793905
+5.185204760335962
+5.401500290166364
+5.008100959287612
+4.62677245233451
+4.545620365371186
+4.052210061810832
+3.5896772622309947
+5.071319648544359
+4.821087121426795
+4.533177814131546
+4.998534724050402
+4.488432924628951
+4.283292500668237
+4.201490611505503
+3.595977055126048
+3.2595156045047413
+7.507169938803919
+7.378307033427651
+7.356981510815725
+6.864213890123875
+6.915225285301199
+6.782639063438413
+5.920192917112257
+6.092761558203191
+6.150752871025069
+6.425695559552208
+6.328273416561599
+6.272472232839788
+6.094303619104153
+5.886479552607022
+5.614410312571055
+5.109191488508337
+5.2045558806432295
+4.835395284386948
+5.656872742772909
+5.894563993993809
+5.661134513451206
+5.4383106930708
+5.218238700015539
+5.08316297293205
+4.603451536882831
+4.249549370295267
+3.915505491168849
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 113.147056103 Donor = ../../ecoli_tags_small_220218/3b45.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 113.256206989 Donor = ../../ecoli_tags_small_220218/3b45.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 542 / 688
+Elapsed time (minutes) = 1461.46441843
+Current tag being checked = ../../ecoli_tags_small_220218/6b8b.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.012035427416356
+Time taken (tagallchain) = 26.9286339283
+Time taken (sphereget) = 3.18028092384
+Time taken (courseclash) = 0.0129489898682
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 6.62645101547
+Fine clash passed? False
+ 
+2.1590609141169446
+Time taken (tagallchain) = 28.9905741215
+Time taken (sphereget) = 2.72778701782
+Time taken (courseclash) = 0.013768196106
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 7.12935400009
+Fine clash passed? False
+ 
+3.062967855063342
+2.0035459302292336
+Time taken (tagallchain) = 21.3947441578
+Time taken (sphereget) = 2.52896714211
+Time taken (courseclash) = 0.0135219097137
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 6.72249507904
+Fine clash passed? False
+ 
+1.8016335135590227
+Time taken (tagallchain) = 28.367923975
+Time taken (sphereget) = 2.45968103409
+Time taken (courseclash) = 0.0131378173828
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 6.99423313141
+Fine clash passed? False
+ 
+2.846378562340492
+Time taken (tagallchain) = 21.6042730808
+Time taken (sphereget) = 2.62115097046
+Time taken (courseclash) = 0.0140709877014
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 7.1536359787
+Fine clash passed? False
+ 
+2.8025073892447683
+Time taken (tagallchain) = 28.6988070011
+Time taken (sphereget) = 2.83427095413
+Time taken (courseclash) = 0.0145659446716
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 6.30114006996
+Fine clash passed? False
+ 
+2.9359032454930705
+Time taken (tagallchain) = 21.6941351891
+Time taken (sphereget) = 2.56514811516
+Time taken (courseclash) = 0.0136978626251
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 7.80860996246
+Fine clash passed? False
+ 
+3.863723745570074
+2.849456676751611
+Time taken (tagallchain) = 22.9732658863
+Time taken (sphereget) = 2.60536789894
+Time taken (courseclash) = 0.0157449245453
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 7.18448019028
+Fine clash passed? False
+ 
+2.5740997830462926
+Time taken (tagallchain) = 19.3754999638
+Time taken (sphereget) = 2.48522996902
+Time taken (courseclash) = 0.0150458812714
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 7.29881000519
+Fine clash passed? False
+ 
+3.4077906349045985
+2.1515341194634425
+Time taken (tagallchain) = 21.04322505
+Time taken (sphereget) = 3.29503512383
+Time taken (courseclash) = 0.0182437896729
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.77119398117
+Fine clash passed? False
+ 
+1.3962684288774216
+Time taken (tagallchain) = 29.7662410736
+Time taken (sphereget) = 2.54856610298
+Time taken (courseclash) = 0.0151238441467
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 7.20815610886
+Fine clash passed? False
+ 
+2.6527409251346272
+Time taken (tagallchain) = 30.3739829063
+Time taken (sphereget) = 3.34024906158
+Time taken (courseclash) = 0.0173299312592
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.48646998405
+Fine clash passed? False
+ 
+2.4278878590832167
+Time taken (tagallchain) = 20.7548410892
+Time taken (sphereget) = 2.63168883324
+Time taken (courseclash) = 0.0143949985504
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.99821996689
+Fine clash passed? False
+ 
+2.1428110448928037
+Time taken (tagallchain) = 30.2820329666
+Time taken (sphereget) = 3.02880096436
+Time taken (courseclash) = 0.0169222354889
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 6.9569401741
+Fine clash passed? False
+ 
+3.1768951221930437
+3.48304742523224
+3.6017928773671453
+4.266242815942317
+2.500404770311375
+Time taken (tagallchain) = 29.6549630165
+Time taken (sphereget) = 2.69809508324
+Time taken (courseclash) = 0.014436006546
+False was found
+False was found
+Time taken (fineclash) = 6.28270196915
+Fine clash passed? False
+ 
+2.6295279707913117
+Time taken (tagallchain) = 29.2775969505
+Time taken (sphereget) = 2.57361006737
+Time taken (courseclash) = 0.0133450031281
+False was found
+Time taken (fineclash) = 7.16321206093
+Fine clash passed? False
+ 
+3.525663196590416
+2.357962935119309
+Time taken (tagallchain) = 20.9071009159
+Time taken (sphereget) = 2.42965507507
+Time taken (courseclash) = 0.012836933136
+False was found
+Time taken (fineclash) = 6.74160408974
+Fine clash passed? False
+ 
+2.143859085604879
+Time taken (tagallchain) = 31.2565348148
+Time taken (sphereget) = 3.10387992859
+Time taken (courseclash) = 0.017991065979
+False was found
+False was found
+Time taken (fineclash) = 7.62772488594
+Fine clash passed? False
+ 
+3.068763128066441
+2.6032718673923974
+Time taken (tagallchain) = 31.8858249187
+Time taken (sphereget) = 2.85358500481
+Time taken (courseclash) = 0.0153608322144
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 6.06978797913
+Fine clash passed? False
+ 
+2.1424858962058715
+Time taken (tagallchain) = 21.8852949142
+Time taken (sphereget) = 2.73879694939
+Time taken (courseclash) = 0.0153601169586
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 7.29450702667
+Fine clash passed? False
+ 
+3.0206602369495963
+2.9438504406727315
+Time taken (tagallchain) = 29.3620181084
+Time taken (sphereget) = 3.43226790428
+Time taken (courseclash) = 0.0165009498596
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 6.89121890068
+Fine clash passed? False
+ 
+2.915445571300077
+Time taken (tagallchain) = 22.9084820747
+Time taken (sphereget) = 3.39371585846
+Time taken (courseclash) = 0.0154099464417
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 6.76251411438
+Fine clash passed? False
+ 
+3.8098940382086006
+4.3655837024809205
+4.220870479288143
+4.902339118890787
+2.286122329081877
+Time taken (tagallchain) = 29.0504169464
+Time taken (sphereget) = 3.09942889214
+Time taken (courseclash) = 0.0145480632782
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 6.25093984604
+Fine clash passed? False
+ 
+1.2770765606946894
+Time taken (tagallchain) = 22.4370980263
+Time taken (sphereget) = 2.96548819542
+Time taken (courseclash) = 0.0156240463257
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 6.66137194633
+Fine clash passed? False
+ 
+2.609267554317646
+Time taken (tagallchain) = 28.0042648315
+Time taken (sphereget) = 2.69995212555
+Time taken (courseclash) = 0.0180768966675
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 7.74285101891
+Fine clash passed? False
+ 
+2.321651741751823
+Time taken (tagallchain) = 19.0480651855
+Time taken (sphereget) = 2.77059698105
+Time taken (courseclash) = 0.01522397995
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 7.25932717323
+Fine clash passed? False
+ 
+1.8704800920971207
+Time taken (tagallchain) = 21.700304985
+Time taken (sphereget) = 2.64264202118
+Time taken (courseclash) = 0.0158898830414
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 7.33841896057
+Fine clash passed? False
+ 
+2.9996202132623773
+Time taken (tagallchain) = 20.2910180092
+Time taken (sphereget) = 3.1903090477
+Time taken (courseclash) = 0.0161600112915
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 7.69066619873
+Fine clash passed? False
+ 
+3.4415625848369475
+2.9731571962385726
+Time taken (tagallchain) = 20.9778978825
+Time taken (sphereget) = 2.61415290833
+Time taken (courseclash) = 0.0160160064697
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 6.4684920311
+Fine clash passed? False
+ 
+3.8525289150802315
+2.2786157919788605
+Time taken (tagallchain) = 30.0069839954
+Time taken (sphereget) = 2.47297716141
+Time taken (courseclash) = 0.0143189430237
+False was found
+Time taken (fineclash) = 6.16335010529
+Fine clash passed? False
+ 
+2.4573619594668266
+Time taken (tagallchain) = 29.0261950493
+Time taken (sphereget) = 3.3606710434
+Time taken (courseclash) = 0.018856048584
+False was found
+Time taken (fineclash) = 7.62215399742
+Fine clash passed? False
+ 
+3.4974136716405777
+2.172339188907562
+Time taken (tagallchain) = 22.2769429684
+Time taken (sphereget) = 2.62865495682
+Time taken (courseclash) = 0.0175559520721
+False was found
+Time taken (fineclash) = 6.85007214546
+Fine clash passed? False
+ 
+1.8515352580004587
+Time taken (tagallchain) = 29.3723728657
+Time taken (sphereget) = 2.7184150219
+Time taken (courseclash) = 0.0150079727173
+False was found
+False was found
+Time taken (fineclash) = 8.38906002045
+Fine clash passed? False
+ 
+2.844338464128977
+Time taken (tagallchain) = 30.8739430904
+Time taken (sphereget) = 3.16902399063
+Time taken (courseclash) = 0.0229089260101
+False was found
+False was found
+Time taken (fineclash) = 5.20112419128
+Fine clash passed? False
+ 
+2.8215906560014354
+Time taken (tagallchain) = 29.3110311031
+Time taken (sphereget) = 3.59050107002
+Time taken (courseclash) = 0.0154769420624
+False was found
+False was found
+Time taken (fineclash) = 7.38696813583
+Fine clash passed? False
+ 
+2.641589252337537
+Time taken (tagallchain) = 20.7919590473
+Time taken (sphereget) = 2.70623278618
+Time taken (courseclash) = 0.0139901638031
+False was found
+Time taken (fineclash) = 5.84775495529
+Fine clash passed? False
+ 
+3.4796717682943816
+3.454318265479404
+3.4875437718587476
+4.174358148097175
+4.497252927203622
+4.289726873140779
+4.87718554871157
+5.682460773939358
+5.591783567300467
+6.2287727591518305
+2.81324398859338
+Time taken (tagallchain) = 30.2042779922
+Time taken (sphereget) = 2.73805212975
+Time taken (courseclash) = 0.0158641338348
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 7.85351991653
+Fine clash passed? False
+ 
+2.3943817196637713
+Time taken (tagallchain) = 30.0891959667
+Time taken (sphereget) = 3.21906900406
+Time taken (courseclash) = 0.0171639919281
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 7.46092605591
+Fine clash passed? False
+ 
+3.2490250871563298
+3.521177179264534
+2.9185078351418983
+Time taken (tagallchain) = 21.6127791405
+Time taken (sphereget) = 2.7391397953
+Time taken (courseclash) = 0.014533996582
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 6.23247599602
+Fine clash passed? False
+ 
+3.729073408743706
+4.619509225462568
+4.42643754271576
+5.120318355209485
+2.3098236209604375
+Time taken (tagallchain) = 21.0044867992
+Time taken (sphereget) = 2.59272193909
+Time taken (courseclash) = 0.0132110118866
+False was found
+False was found
+Time taken (fineclash) = 5.82962799072
+Fine clash passed? False
+ 
+1.8378693615716013
+Time taken (tagallchain) = 21.8524010181
+Time taken (sphereget) = 2.46500086784
+Time taken (courseclash) = 0.0132520198822
+False was found
+Time taken (fineclash) = 5.78395009041
+Fine clash passed? False
+ 
+2.9352163481221436
+Time taken (tagallchain) = 28.4731628895
+Time taken (sphereget) = 2.84496903419
+Time taken (courseclash) = 0.0153019428253
+False was found
+False was found
+Time taken (fineclash) = 5.40788793564
+Fine clash passed? False
+ 
+2.7648766822418738
+Time taken (tagallchain) = 19.5740168095
+Time taken (sphereget) = 2.79642605782
+Time taken (courseclash) = 0.0155742168427
+False was found
+Time taken (fineclash) = 5.62949585915
+Fine clash passed? False
+ 
+2.495724945432342
+Time taken (tagallchain) = 28.8218681812
+Time taken (sphereget) = 3.1046538353
+Time taken (courseclash) = 0.0161700248718
+False was found
+False was found
+Time taken (fineclash) = 7.77129101753
+Fine clash passed? False
+ 
+3.4757545827173355
+4.1414147085206165
+3.665900133856905
+4.2321162866672335
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 2735.88429594 Donor = ../../ecoli_tags_small_220218/6b8b.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 2736.10105586 Donor = ../../ecoli_tags_small_220218/6b8b.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 541 / 688
+Elapsed time (minutes) = 1507.06610273
+Current tag being checked = ../../ecoli_tags_small_220218/1c22.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.5998349095498696
+3.1259106773899026
+3.5687190256576153
+4.380557243535025
+3.90458199878453
+4.330418864687312
+5.221040418037042
+4.817457699801422
+5.252434812385268
+2.3530342854575887
+Time taken (tagallchain) = 18.7391209602
+Time taken (sphereget) = 2.28949403763
+Time taken (courseclash) = 0.0133111476898
+False was found
+False was found
+Time taken (fineclash) = 4.69158101082
+Fine clash passed? False
+ 
+2.3984839698883293
+Time taken (tagallchain) = 28.9310629368
+Time taken (sphereget) = 2.55399513245
+Time taken (courseclash) = 0.0170001983643
+False was found
+Time taken (fineclash) = 4.44719099998
+Fine clash passed? False
+ 
+2.4329408265575334
+Time taken (tagallchain) = 27.230052948
+Time taken (sphereget) = 2.15384984016
+Time taken (courseclash) = 0.0148270130157
+False was found
+False was found
+Time taken (fineclash) = 5.14989995956
+Fine clash passed? False
+ 
+3.1215773455691864
+3.0116534159814683
+3.0710555695365342
+4.0781405233420545
+3.9468024011182066
+4.104789782537644
+2.5877296638983243
+Time taken (tagallchain) = 20.1503520012
+Time taken (sphereget) = 2.26933693886
+Time taken (courseclash) = 0.0144019126892
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.71592020988
+Fine clash passed? False
+ 
+2.4625662241297817
+Time taken (tagallchain) = 20.9529538155
+Time taken (sphereget) = 2.36159706116
+Time taken (courseclash) = 0.0170588493347
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.69290685654
+Fine clash passed? False
+ 
+2.7519620724293885
+Time taken (tagallchain) = 21.2766211033
+Time taken (sphereget) = 2.36925601959
+Time taken (courseclash) = 0.0173799991608
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.46167206764
+Fine clash passed? False
+ 
+3.0997668874988755
+2.8440384079575822
+Time taken (tagallchain) = 28.017264843
+Time taken (sphereget) = 2.1363389492
+Time taken (courseclash) = 0.0131998062134
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.89557886124
+Fine clash passed? False
+ 
+3.1175152533116695
+4.033965267968998
+3.7672037588239995
+3.9428456453577065
+4.855247101015268
+4.340437183565694
+4.827401424026737
+5.779886555225313
+5.31935319357133
+5.876620908174484
+6.747682124875053
+6.365682129444321
+6.735731747258277
+3.3997246478458343
+3.225412749643883
+3.539576839125496
+4.515011067602314
+4.3514374638280655
+4.63952092506202
+5.471823144113299
+5.24994253178219
+5.379431737206527
+3.4532782049057147
+3.1579254237113457
+3.5424787786474354
+3.89096377500195
+3.5869358210605924
+3.8730786772972694
+4.72700901467276
+4.374824228977996
+4.7714627219187
+6.478957171311661
+5.997005564153442
+6.4148697444202325
+7.2044552693369175
+6.744441823520456
+7.21055540956012
+7.875764317875067
+7.499872103296593
+8.049914817645156
+5.084396118875601
+4.811084792595234
+5.015052120520213
+5.837481769653012
+5.57023783471798
+5.866012093474107
+6.587075578787864
+6.396655567471956
+6.793716279810062
+4.30374101909281
+3.9117988520892357
+4.4036277223977125
+5.288472776459545
+4.9259970006544975
+5.321192550670128
+5.966632792152212
+5.706039401974055
+6.036856404426588
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 404.425616026 Donor = ../../ecoli_tags_small_220218/1c22.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 404.593682051 Donor = ../../ecoli_tags_small_220218/1c22.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 540 / 688
+Elapsed time (minutes) = 1513.80933085
+Current tag being checked = ../../ecoli_tags_small_220218/2mat.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.6231277171894027
+3.1475384699922393
+3.6020519103656663
+4.410252428289057
+3.9320292517103166
+4.367245729639198
+5.2566897886320465
+4.851833221062309
+5.293991077197591
+2.3745589354995906
+Time taken (tagallchain) = 19.3122119904
+Time taken (sphereget) = 2.34028887749
+Time taken (courseclash) = 0.0159997940063
+False was found
+False was found
+Time taken (fineclash) = 5.22952795029
+Fine clash passed? False
+ 
+2.4065640202719574
+Time taken (tagallchain) = 29.0971448421
+Time taken (sphereget) = 2.45714402199
+Time taken (courseclash) = 0.0148990154266
+False was found
+Time taken (fineclash) = 4.63982081413
+Fine clash passed? False
+ 
+2.4621091272458933
+Time taken (tagallchain) = 18.8055830002
+Time taken (sphereget) = 2.67113995552
+Time taken (courseclash) = 0.0181670188904
+False was found
+False was found
+Time taken (fineclash) = 5.37410211563
+Fine clash passed? False
+ 
+3.148103022556277
+3.0277048778036213
+3.1018148401642995
+4.115070099462275
+3.976562403306601
+4.144545022423364
+2.5997736360575687
+Time taken (tagallchain) = 18.8953881264
+Time taken (sphereget) = 2.22674512863
+Time taken (courseclash) = 0.0157370567322
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.7163169384
+Fine clash passed? False
+ 
+2.459448973518622
+Time taken (tagallchain) = 21.3032450676
+Time taken (sphereget) = 2.3901450634
+Time taken (courseclash) = 0.0160119533539
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.77385997772
+Fine clash passed? False
+ 
+2.75981646208289
+Time taken (tagallchain) = 19.669137001
+Time taken (sphereget) = 2.8614461422
+Time taken (courseclash) = 0.0203709602356
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.9318459034
+Fine clash passed? False
+ 
+3.105674810302521
+2.837276282358892
+Time taken (tagallchain) = 18.8968629837
+Time taken (sphereget) = 2.27326202393
+Time taken (courseclash) = 0.0165610313416
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.00868010521
+Fine clash passed? False
+ 
+3.1249650647258895
+4.0606712356911325
+3.7873287938334315
+3.97082030736436
+4.886463458889508
+4.373738687557917
+4.867457094541221
+5.812592023524193
+5.349730554136306
+5.912548878285381
+6.7850112712467086
+6.4035536899731005
+6.783095995098246
+3.434185295151033
+3.253258302693841
+3.5769384931739654
+4.544998158653284
+4.374834026519063
+4.6756835414680795
+5.512830018124065
+5.289622956728253
+5.42814162168367
+3.4759368017259544
+3.172218304575589
+3.569405065295798
+3.918282262996655
+3.6103178855989206
+3.904785033161897
+4.762090869620839
+4.406505370976
+4.806079860025429
+6.510671355107744
+6.031378543455795
+6.455625155424788
+7.2429792539993185
+6.784142841560098
+7.255318618020093
+7.913375429147611
+7.538030934774397
+8.091780874863225
+5.116889077652035
+4.842442944925417
+5.056724805406148
+5.877267817654164
+5.6076000952082445
+5.909153322654549
+6.626247467040827
+6.433479325681408
+6.836173822064148
+4.335710652616586
+3.9409625102048906
+4.440048087511685
+5.317444822730615
+4.952082928837902
+5.355436820864998
+6.005239898118965
+5.744009840541975
+6.078542566335682
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 387.625015974 Donor = ../../ecoli_tags_small_220218/2mat.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 387.789788008 Donor = ../../ecoli_tags_small_220218/2mat.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 539 / 688
+Elapsed time (minutes) = 1520.27249407
+Current tag being checked = ../../ecoli_tags_small_220218/1la1.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4.532082115380321
+3.86432526939403
+4.221869072541572
+4.0603834992597525
+3.387754487663297
+3.756425683923002
+3.4294856981121256
+2.61429138320079
+Time taken (tagallchain) = 19.4321639538
+Time taken (sphereget) = 2.40575504303
+Time taken (courseclash) = 0.014878988266
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.3643219471
+Fine clash passed? False
+ 
+3.201542219309379
+4.016869984417384
+3.543032290550206
+3.748683908545514
+3.776900995758138
+3.3504553784629234
+3.409846546301784
+3.0140127892476847
+2.6043111063152278
+Time taken (tagallchain) = 28.653249979
+Time taken (sphereget) = 1.99495196342
+Time taken (courseclash) = 0.0151460170746
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.70656204224
+Fine clash passed? False
+ 
+2.756390998226254
+Time taken (tagallchain) = 18.0092191696
+Time taken (sphereget) = 2.13516998291
+Time taken (courseclash) = 0.0146610736847
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.07759594917
+Fine clash passed? False
+ 
+4.371991836569991
+3.6526068860840364
+4.230934831304332
+4.067206937103319
+3.3110774386454356
+4.155126807405534
+3.499510159123134
+2.635169731071907
+Time taken (tagallchain) = 26.464261055
+Time taken (sphereget) = 2.4798579216
+Time taken (courseclash) = 0.0175139904022
+False was found
+False was found
+Time taken (fineclash) = 4.31986808777
+Fine clash passed? False
+ 
+3.4334810652563506
+5.613082794603507
+5.00600584067681
+5.1194533540709335
+4.789719076876177
+4.114198618473071
+4.36267841107942
+4.542026392175698
+3.8527665236560367
+4.1635167454554685
+4.728817130658064
+4.198025223128165
+4.19765817269655
+3.9883839668658285
+3.503206085220704
+3.602712024278378
+3.6716148217021605
+3.2301743010382196
+3.20122194007775
+4.570972838803483
+3.8126422230384867
+4.378853743497158
+4.152446398697789
+3.4308452144990915
+3.782433120370288
+3.580309526949326
+2.6678879864150975
+Time taken (tagallchain) = 19.2731750011
+Time taken (sphereget) = 2.07850193977
+Time taken (courseclash) = 0.0152261257172
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.3771469593
+Fine clash passed? False
+ 
+3.10990257089024
+6.794425918533884
+6.245181894028921
+6.1748466157656825
+6.125106918111503
+5.555449232330643
+5.4433008381517665
+5.82006716327657
+5.180444744673272
+5.134027159035342
+5.732118115551185
+5.186533221312743
+5.000580568413101
+5.139540821123432
+4.5857216711058815
+4.2479773771265865
+4.696753814456904
+4.158993236190843
+3.8877240114829603
+5.145919033039652
+4.390930228607428
+4.974326111286797
+4.5483734044205395
+3.632028091500686
+4.24846893849381
+4.368142188987146
+3.4155027820667256
+3.7139290301423062
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 274.651129007 Donor = ../../ecoli_tags_small_220218/1la1.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 274.768583059 Donor = ../../ecoli_tags_small_220218/1la1.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 538 / 688
+Elapsed time (minutes) = 1524.85197058
+Current tag being checked = ../../ecoli_tags_small_220218/2fwf.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.717172611940252
+Time taken (tagallchain) = 27.2512378693
+Time taken (sphereget) = 2.02689409256
+Time taken (courseclash) = 0.0130228996277
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.84916591644
+Fine clash passed? False
+ 
+3.477882115423364
+3.0194899299749194
+3.5470788051599085
+4.163791774423289
+3.954972137289769
+4.468034169592841
+4.8933255231645
+4.723259872217443
+1.753937453510568
+Time taken (tagallchain) = 19.1939899921
+Time taken (sphereget) = 2.00254893303
+Time taken (courseclash) = 0.0150990486145
+False was found
+False was found
+Time taken (fineclash) = 4.10411691666
+Fine clash passed? False
+ 
+2.804178646888161
+Time taken (tagallchain) = 17.9037292004
+Time taken (sphereget) = 2.38711500168
+Time taken (courseclash) = 0.0210869312286
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.17387390137
+Fine clash passed? False
+ 
+2.433676268877642
+Time taken (tagallchain) = 17.7201690674
+Time taken (sphereget) = 2.46547579765
+Time taken (courseclash) = 0.0201089382172
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.10911917686
+Fine clash passed? False
+ 
+2.5353028921277985
+Time taken (tagallchain) = 29.2699279785
+Time taken (sphereget) = 2.02034592628
+Time taken (courseclash) = 0.0184900760651
+False was found
+False was found
+Time taken (fineclash) = 4.2590880394
+Fine clash passed? False
+ 
+3.400736661447894
+3.236781898584463
+3.5599846873173937
+4.162274210136888
+4.127023306574205
+2.0616955610078453
+Time taken (tagallchain) = 18.9727020264
+Time taken (sphereget) = 2.04015517235
+Time taken (courseclash) = 0.014946937561
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.08229494095
+Fine clash passed? False
+ 
+2.9124682013723193
+Time taken (tagallchain) = 29.6746740341
+Time taken (sphereget) = 1.80617380142
+Time taken (courseclash) = 0.0142650604248
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.07333707809
+Fine clash passed? False
+ 
+2.7771899952454193
+Time taken (tagallchain) = 18.9174118042
+Time taken (sphereget) = 2.01332616806
+Time taken (courseclash) = 0.0183038711548
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.94942307472
+Fine clash passed? False
+ 
+2.5428539167184137
+Time taken (tagallchain) = 19.581758976
+Time taken (sphereget) = 2.51073002815
+Time taken (courseclash) = 0.0227100849152
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.13381886482
+Fine clash passed? False
+ 
+3.352436083464217
+3.288644651746973
+3.591619181560441
+4.234566873255119
+4.042368293117747
+4.207363487907527
+4.604785870697698
+4.517719157842326
+4.839284766533389
+5.263683328432656
+5.2283272138228405
+5.690288091014678
+6.032964804889468
+5.751867020003752
+2.726561376772473
+Time taken (tagallchain) = 18.1820960045
+Time taken (sphereget) = 1.89798212051
+Time taken (courseclash) = 0.0157699584961
+False was found
+False was found
+Time taken (fineclash) = 4.12431001663
+Fine clash passed? False
+ 
+3.469809491353587
+3.5302387999807685
+3.576217674891544
+4.168871744337367
+4.162996557704008
+4.732404461316776
+5.080073544864338
+4.8465159950258165
+2.2512122655102824
+Time taken (tagallchain) = 26.0174219608
+Time taken (sphereget) = 2.11449289322
+Time taken (courseclash) = 0.0179240703583
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.20769906044
+Fine clash passed? False
+ 
+3.227115749893263
+2.9403131758838597
+Time taken (tagallchain) = 18.3839831352
+Time taken (sphereget) = 1.92696595192
+Time taken (courseclash) = 0.0186831951141
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.07496094704
+Fine clash passed? False
+ 
+3.4347590746594845
+3.888825356933644
+3.9557972863178037
+4.160739086500412
+4.490851809009144
+4.536497844571457
+5.52432642046085
+5.884356109248043
+5.689940259764904
+6.406756738415
+6.668976054389536
+6.685585876958696
+6.965202805936316
+7.14651952495439
+7.124198872012068
+4.278527370647944
+4.680604719460978
+4.519291282467285
+5.076488830839939
+5.462446494955892
+5.543667010412395
+5.699441469417184
+5.980913213374805
+6.049825469954521
+3.5469990292265785
+3.930629992335252
+4.046396183007012
+4.455970955842355
+4.945874241071275
+4.901991649691103
+5.171680353677365
+5.586654368559148
+5.440309509102141
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 650.557204962 Donor = ../../ecoli_tags_small_220218/2fwf.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 650.622684956 Donor = ../../ecoli_tags_small_220218/2fwf.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 537 / 688
+Elapsed time (minutes) = 1535.69568208
+Current tag being checked = ../../ecoli_tags_small_220218/2fwh.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.7853907140678067
+Time taken (tagallchain) = 26.6870529652
+Time taken (sphereget) = 1.96769714355
+Time taken (courseclash) = 0.0152540206909
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.99892401695
+Fine clash passed? False
+ 
+3.475947846788551
+2.964715205691524
+Time taken (tagallchain) = 18.727298975
+Time taken (sphereget) = 2.18078303337
+Time taken (courseclash) = 0.0173170566559
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.12954497337
+Fine clash passed? False
+ 
+3.551318434830114
+4.132319493531997
+3.8891288200585135
+4.454067941373624
+4.861224916147354
+4.665554346576361
+1.7419330625670912
+Time taken (tagallchain) = 25.3019468784
+Time taken (sphereget) = 2.15916609764
+Time taken (courseclash) = 0.0162720680237
+False was found
+False was found
+Time taken (fineclash) = 3.65897989273
+Fine clash passed? False
+ 
+2.866866965573227
+Time taken (tagallchain) = 18.7915980816
+Time taken (sphereget) = 2.05585289001
+Time taken (courseclash) = 0.0146379470825
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.01484489441
+Fine clash passed? False
+ 
+2.4169958476675135
+Time taken (tagallchain) = 26.6733300686
+Time taken (sphereget) = 2.2744269371
+Time taken (courseclash) = 0.0173361301422
+False was found
+Time taken (fineclash) = 3.92485499382
+Fine clash passed? False
+ 
+2.5018966256876944
+Time taken (tagallchain) = 18.5035669804
+Time taken (sphereget) = 1.98514986038
+Time taken (courseclash) = 0.0141129493713
+False was found
+False was found
+Time taken (fineclash) = 4.14364004135
+Fine clash passed? False
+ 
+3.4240292438422815
+3.1985648592767726
+3.527856162162606
+4.178838510613844
+4.09605428691229
+2.1481174751032848
+Time taken (tagallchain) = 27.8846580982
+Time taken (sphereget) = 1.80083680153
+Time taken (courseclash) = 0.0131487846375
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.94292998314
+Fine clash passed? False
+ 
+2.958394691505892
+Time taken (tagallchain) = 18.4066739082
+Time taken (sphereget) = 2.14762091637
+Time taken (courseclash) = 0.0169141292572
+False was found
+False was found
+Time taken (fineclash) = 4.06856393814
+Fine clash passed? False
+ 
+2.7857978536210246
+Time taken (tagallchain) = 18.077796936
+Time taken (sphereget) = 2.04360389709
+Time taken (courseclash) = 0.0193128585815
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.00165390968
+Fine clash passed? False
+ 
+2.6171237594868986
+Time taken (tagallchain) = 26.0341131687
+Time taken (sphereget) = 2.01800203323
+Time taken (courseclash) = 0.0190920829773
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.96162295341
+Fine clash passed? False
+ 
+3.3725286933256786
+3.2796888203745658
+3.6943636050495052
+4.252540035161364
+4.030173461151294
+4.149904623125385
+4.558765412177323
+4.45706696887229
+4.801534063425234
+5.20537579481383
+5.155008491530967
+5.683514579480983
+5.975241629354499
+5.680226548899606
+2.612935493018792
+Time taken (tagallchain) = 18.9857079983
+Time taken (sphereget) = 2.08916497231
+Time taken (courseclash) = 0.0159900188446
+False was found
+False was found
+Time taken (fineclash) = 3.94128489494
+Fine clash passed? False
+ 
+3.468580972291877
+3.485701207583898
+3.5294939651542556
+4.1452329048966225
+4.101115647013256
+4.698926226644782
+5.050262388060124
+4.793458095028172
+2.3461512016863817
+Time taken (tagallchain) = 18.5661420822
+Time taken (sphereget) = 2.06145095825
+Time taken (courseclash) = 0.0158607959747
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.05009007454
+Fine clash passed? False
+ 
+3.2263578025939155
+2.9091470082522353
+Time taken (tagallchain) = 17.8767001629
+Time taken (sphereget) = 2.07107806206
+Time taken (courseclash) = 0.0165100097656
+False was found
+False was found
+False was found
+Time taken (fineclash) = 3.96624493599
+Fine clash passed? False
+ 
+3.316378383170218
+3.8488056958916
+3.8996418805174518
+4.094913210728067
+4.461315412110939
+4.503167660252595
+5.517415426008135
+5.830089217367703
+5.624651320737125
+6.3335701990963
+6.591510512605894
+6.60906124520711
+6.881825043689568
+7.067621974632786
+7.046895817544756
+4.234365744856498
+4.649270223058111
+4.463131006234067
+4.979688966351503
+5.407303596364219
+5.473244408203961
+5.604088053440246
+5.924352769954386
+5.980661905950172
+3.454067577368045
+3.8804746291476193
+4.003883314957956
+4.4506628832678725
+4.884690106393239
+4.838080041380992
+5.129733905486894
+5.522552071493967
+5.373251206683939
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 708.244012833 Donor = ../../ecoli_tags_small_220218/2fwh.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 708.325080156 Donor = ../../ecoli_tags_small_220218/2fwh.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 536 / 688
+Elapsed time (minutes) = 1547.50110018
+Current tag being checked = ../../ecoli_tags_small_220218/2p9a.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.5881687082654348
+3.136211538580736
+3.5788138370489304
+4.351492671865584
+3.8828954693557085
+4.297080696144422
+5.23265737763395
+4.832239474899102
+5.249732225875528
+2.3383862480719744
+Time taken (tagallchain) = 27.5678479671
+Time taken (sphereget) = 2.09325003624
+Time taken (courseclash) = 0.0122120380402
+False was found
+Time taken (fineclash) = 4.74534702301
+Fine clash passed? False
+ 
+2.434302833197428
+Time taken (tagallchain) = 18.2061669827
+Time taken (sphereget) = 2.3230509758
+Time taken (courseclash) = 0.017648935318
+False was found
+Time taken (fineclash) = 4.61289405823
+Fine clash passed? False
+ 
+2.4772069179207357
+Time taken (tagallchain) = 29.8685240746
+Time taken (sphereget) = 2.11072707176
+Time taken (courseclash) = 0.0141260623932
+False was found
+Time taken (fineclash) = 5.60815787315
+Fine clash passed? False
+ 
+3.056203460714498
+2.9679087558641055
+Time taken (tagallchain) = 19.6606738567
+Time taken (sphereget) = 2.13185310364
+Time taken (courseclash) = 0.013612985611
+False was found
+Time taken (fineclash) = 5.32115507126
+Fine clash passed? False
+ 
+3.0266346201749794
+4.082027187934942
+3.9643210807043143
+4.108549815510204
+2.5984851646981064
+Time taken (tagallchain) = 19.7374339104
+Time taken (sphereget) = 2.54148411751
+Time taken (courseclash) = 0.0189170837402
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.73136806488
+Fine clash passed? False
+ 
+2.5504548814647268
+Time taken (tagallchain) = 19.0263581276
+Time taken (sphereget) = 2.38070583344
+Time taken (courseclash) = 0.016138792038
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.78235578537
+Fine clash passed? False
+ 
+2.7694116229612185
+Time taken (tagallchain) = 18.3521840572
+Time taken (sphereget) = 2.76239800453
+Time taken (courseclash) = 0.0170629024506
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.4509999752
+Fine clash passed? False
+ 
+3.0386066463858623
+2.8358243572636557
+Time taken (tagallchain) = 20.9341039658
+Time taken (sphereget) = 2.67967820168
+Time taken (courseclash) = 0.0203819274902
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 5.04857087135
+Fine clash passed? False
+ 
+3.068336232158636
+4.040358436011474
+3.7989486179547463
+3.9315799213798526
+4.841961115668038
+4.334949540602882
+4.823094096149413
+5.758392333498739
+5.309735921925175
+5.856518142535541
+6.763918859544936
+6.374444004171303
+6.730316136226866
+3.3764034560689167
+3.2272993374751304
+3.548299145359446
+4.480397949539506
+4.327940591641261
+4.622736452622629
+5.477723946719361
+5.253148465617457
+5.375785629110956
+3.457962630434804
+3.2130854254309145
+3.5651314533697636
+3.8770032699962127
+3.575532030046597
+3.843459270452757
+4.737534495404439
+4.402803248008593
+4.7625543740842895
+6.4671062187297315
+5.986734016700561
+6.412035755663061
+7.211163246463689
+6.745591773915055
+7.203527980239016
+7.894489542225685
+7.5117080564771515
+8.049083032938654
+5.066515927978114
+4.802282157393561
+5.021618545069941
+5.829453019144547
+5.5572942311732305
+5.850617468499307
+6.604588369278623
+6.408330567067152
+6.796533223089138
+4.2996867315749725
+3.942281925307189
+4.409475934837173
+5.27848843018649
+4.918440688053645
+5.306527399925176
+5.995498037843698
+5.7177974016993325
+6.03232833002058
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 449.309309006 Donor = ../../ecoli_tags_small_220218/2p9a.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 449.491647959 Donor = ../../ecoli_tags_small_220218/2p9a.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 535 / 688
+Elapsed time (minutes) = 1554.9926278
+Current tag being checked = ../../ecoli_tags_small_220218/4dt4.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.8630734416327517
+3.2551070435862894
+3.1264648740959
+4.347918550347524
+3.5612254747775696
+3.3302544351382526
+4.835955872769235
+3.847998018169501
+3.3997872066936505
+2.825689313191244
+Time taken (tagallchain) = 18.4793860912
+Time taken (sphereget) = 2.05750989914
+Time taken (courseclash) = 0.0153059959412
+False was found
+False was found
+Time taken (fineclash) = 4.24940299988
+Fine clash passed? False
+ 
+2.795233181937676
+Time taken (tagallchain) = 18.0575311184
+Time taken (sphereget) = 2.05168890953
+Time taken (courseclash) = 0.0163631439209
+False was found
+Time taken (fineclash) = 4.25200295448
+Fine clash passed? False
+ 
+2.5507480131103706
+Time taken (tagallchain) = 26.3842208385
+Time taken (sphereget) = 2.13065099716
+Time taken (courseclash) = 0.0150439739227
+False was found
+Time taken (fineclash) = 4.05528998375
+Fine clash passed? False
+ 
+3.2658745917454515
+3.0790515818849826
+2.708546396096437
+Time taken (tagallchain) = 18.7310841084
+Time taken (sphereget) = 2.42563080788
+Time taken (courseclash) = 0.0177869796753
+False was found
+Time taken (fineclash) = 4.25655293465
+Fine clash passed? False
+ 
+3.4624932818715313
+2.953110772623353
+Time taken (tagallchain) = 19.2578630447
+Time taken (sphereget) = 2.11700105667
+Time taken (courseclash) = 0.0155220031738
+False was found
+False was found
+Time taken (fineclash) = 4.34640002251
+Fine clash passed? False
+ 
+2.387510603067526
+Time taken (tagallchain) = 27.5784220695
+Time taken (sphereget) = 1.98459410667
+Time taken (courseclash) = 0.013326883316
+False was found
+False was found
+Time taken (fineclash) = 4.09610486031
+Fine clash passed? False
+ 
+3.1077384615933825
+2.9295689373156737
+Time taken (tagallchain) = 18.2587370872
+Time taken (sphereget) = 2.07719707489
+Time taken (courseclash) = 0.0140869617462
+False was found
+False was found
+Time taken (fineclash) = 3.95404815674
+Fine clash passed? False
+ 
+3.024814317093194
+3.2424647050892896
+3.0819584440270815
+3.028063975757959
+3.342843223243263
+2.705175990208411
+Time taken (tagallchain) = 28.0454599857
+Time taken (sphereget) = 2.51569700241
+Time taken (courseclash) = 0.0195569992065
+False was found
+False was found
+Time taken (fineclash) = 4.30895495415
+Fine clash passed? False
+ 
+2.527367099484137
+Time taken (tagallchain) = 18.4612259865
+Time taken (sphereget) = 2.08686208725
+Time taken (courseclash) = 0.0159831047058
+False was found
+False was found
+Time taken (fineclash) = 4.23160004616
+Fine clash passed? False
+ 
+5.064566047804918
+4.376141189247805
+4.065896536525981
+5.785625712765353
+4.967508180475576
+4.563625469500268
+6.415617045189506
+5.4125163015409985
+4.797665253002061
+3.800376818873153
+3.5046557736424826
+2.944612466553983
+Time taken (tagallchain) = 19.9797120094
+Time taken (sphereget) = 2.06633400917
+Time taken (courseclash) = 0.0140471458435
+False was found
+Time taken (fineclash) = 4.17006802559
+Fine clash passed? False
+ 
+4.514462334225908
+4.071842308484642
+3.495810911982752
+5.034579944164236
+4.349456126478807
+3.531234286205462
+3.6135264558277456
+3.432387786259001
+2.9466475724857335
+Time taken (tagallchain) = 27.5860052109
+Time taken (sphereget) = 1.99883008003
+Time taken (courseclash) = 0.0134809017181
+False was found
+False was found
+Time taken (fineclash) = 3.68029308319
+Fine clash passed? False
+ 
+4.160122925503115
+3.6904729554766478
+3.2998378351134026
+4.465095885168623
+3.758834085481149
+3.0358621611909045
+6.561521427141464
+5.922082136961177
+5.560276516540021
+7.108377951890204
+6.277778764579451
+5.783905482531568
+7.897855353021952
+6.934280304123008
+6.267649175305648
+5.201613396142391
+4.793999048580142
+4.309784088383365
+5.760908370262669
+5.18430889907502
+4.5361272425119665
+6.483158797141005
+5.719886970528565
+4.954856681011424
+4.838369107588725
+4.209494162300798
+3.8896803250477276
+5.335693893061213
+4.835724442037694
+4.097825953543775
+5.936728367416245
+4.98407630882896
+4.272917259703096
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 607.370160103 Donor = ../../ecoli_tags_small_220218/4dt4.pdb
+Tag site N = 264 Tag site C = 282 Current checkpoint = 3.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+=========================================================================================================
+Time taken (tag tested) = 607.482374907 Donor = ../../ecoli_tags_small_220218/4dt4.pdb Current checkpoint = 3.0
+=========================================================================================================
+ 
+################################################################
+ 
+Tags remaining = 534 / 688
+Elapsed time (minutes) = 1565.11733413
+Current tag being checked = ../../ecoli_tags_small_220218/1c21.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue THR het=  resseq=264 icode= >, <Residue GLN het=  resseq=282 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.627374783138883
+3.1546350514555
+3.5820366097313174
+4.415372571931315
+3.944687032745532
+4.35701411693384
+5.253504995303616
+4.854874968206895
+5.278774488927715
+2.369276157810987
+Time taken (tagallchain) = 27.649960041
+Time taken (sphereget) = 2.06396484375
+Time taken (courseclash) = 0.0126841068268
+False was found
+False was found
+Time taken (fineclash) = 4.34967112541
+Fine clash passed? False
+ 
+2.412557305904722
+Time taken (tagallchain) = 20.0401592255
+Time taken (sphereget) = 2.81127882004
+Time taken (courseclash) = 0.0216708183289
+False was found
+Time taken (fineclash) = 4.69904088974
+Fine clash passed? False
+ 
+2.4319807971326717
+Time taken (tagallchain) = 18.6283340454
+Time taken (sphereget) = 2.35804200172
+Time taken (courseclash) = 0.0174589157104
+False was found
+False was found
+Time taken (fineclash) = 4.9206609726
+Fine clash passed? False
+ 
+3.149261373496661
+3.04145811472216
+3.0885149409527655
+4.106307882554086
+3.978536329321569
+4.126957628666185
+2.5875316675985673
+Time taken (tagallchain) = 17.8001251221
+Time taken (sphereget) = 2.50951910019
+Time taken (courseclash) = 0.0165841579437
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.84349894524
+Fine clash passed? False
+ 
+2.466735234975407
+Time taken (tagallchain) = 19.8090529442
+Time taken (sphereget) = 2.25153303146
+Time taken (courseclash) = 0.0147309303284
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.31353807449
+Fine clash passed? False
+ 
+2.7316984365639856
+Time taken (tagallchain) = 18.6748080254
+Time taken (sphereget) = 2.50199508667
+Time taken (courseclash) = 0.0172238349915
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 4.48672199249
+Fine clash passed? False
+ 
+3.103107162153459
+2.856971473567553
+Time taken (tagallchain) = 26.5833261013
+Time taken (sphereget) = 2.38697600365
+Time taken (courseclash) = 0.0177471637726
+False was found
+False was found
+False was found
+False was found
+False was found
+False was found
