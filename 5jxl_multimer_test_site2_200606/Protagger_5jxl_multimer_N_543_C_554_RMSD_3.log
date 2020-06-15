@@ -1,0 +1,12 @@
+Protagger_5jxl_multimer_N_543_C_554_RMSD_3.log
+Database of tags = ./database_200606/*
+Target pdb = 5jxl_multimer
+PDB stored locally? =True
+Run specific search? =False
+N-terminal of insertion = 543
+C-terminal of insertion = 554
+Overlap alignment length = 3
+RMSD threshold = 3.0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing = 50
+Minimum length of pruned Donor chain =0
