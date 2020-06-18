@@ -1,5 +1,0 @@
-usage: runProtagger.py [-h] -b TAGDATABASE [-o OUTFOLDER] -p PDB -n NTERM -c
-                       CTERM [-v OVERLAP] -r RMSDTHRESHOLD -u CPU
-                       [-t ATOMTHRESHOLD] [-l] [-d] [-x CHAIN] [-e RMSDEXIT]
-                       [-m MINLENGTHDONER]
-runProtagger.py: error: unrecognized arguments: -s

@@ -1,7 +1,0 @@
-mkdir: cannot create directory ‘./YYYY_1610_db_170819/’: File exists
-Traceback (most recent call last):
-  File "./bin/runProtagger.py", line 470, in <module>
-    io.save((outfolder+str(pdb_acceptor)+'_'+Doname+'_'+str(chains.get_id())+'tag.pdb').replace(" ", ""))
-  File "/usr/local/lib/python2.7/dist-packages/Bio/PDB/PDBIO.py", line 179, in save
-    fp = open(file, "w")
-IOError: [Errno 2] No such file or directory: './YYYY_1610_db_170819/YYYY_../._Atag.pdb'

@@ -1,9 +1,0 @@
-mkdir: cannot create directory ‘./1yab_2fwg/’: File exists
-Traceback (most recent call last):
-  File "./bin/runProtagger.py", line 483, in <module>
-    io.save((outfolder+str(pdb_acceptor)+'_'+Doname+'_'+str(chains.get_id())+'tag.pdb').replace(" ", ""))
-  File "/usr/local/lib/python2.7/dist-packages/Bio/PDB/PDBIO.py", line 215, in save
-    for atom in residue.get_unpacked_list():
-  File "/usr/local/lib/python2.7/dist-packages/Bio/PDB/Residue.py", line 83, in get_unpacked_list
-    undisordered_atom_list = (undisordered_atom_list + atom.disordered_get_list())
-AttributeError: 'Atom' object has no attribute 'disordered_get_list'

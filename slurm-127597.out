@@ -1,2 +1,0 @@
-mkdir: cannot create directory ‘./5jxl_multimer_test_200604/’: File exists
-slurmstepd-heartofgold1: error: *** JOB 127597 ON heartofgold1 CANCELLED AT 2020-06-05T16:47:14 ***
