@@ -39,9 +39,30 @@ for letter in range(65, 91):
 for letter in range(97,123):
     alphabet.append(chain_id + chr(letter))
 
+#for model in Init_PDB:
+#    print model
+#    for chain in model:
+#        print chain
+#        for residue in chain:
+#            #print residue.id[1]
+#            if (residue.id[1] == 5) == True:
+#                print residue
+
 #Rename chain ids
 for chain, new_id in zip(Init_PDB.get_chains(), alphabet):
+    print type(new_id)
+    print type(str(new_id))
     chain.id = new_id
+
+#for model in Init_PDB:
+#    print model
+#    for chain in model:
+#        print chain
+#        for residue in chain:
+#            #print residue.id[1]
+#            if (residue.id[1] == 5) == True:
+#                print residue
+
 
 #print pdb_output
 print "Complete!"
