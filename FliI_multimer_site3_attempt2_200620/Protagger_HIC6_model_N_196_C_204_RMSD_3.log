@@ -1,0 +1,12 @@
+Protagger_HIC6_model_N_196_C_204_RMSD_3.log
+Database of tags = ./database_200606/*
+Target pdb = HIC6_model
+PDB stored locally? =True
+Run specific search? =False
+N-terminal of insertion = 196
+C-terminal of insertion = 204
+Overlap alignment length = 2
+RMSD threshold = 3.0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing = 20
+Minimum length of pruned Donor chain =100
