@@ -1,0 +1,39 @@
+Protagger_C-ring_portion_15mer_N_255_C_262_RMSD_3.log
+Database of tags = ./database_200625/*
+Target pdb = C-ring_portion_15mer
+PDB stored locally? =True
+Run specific search? =False
+N-terminal of insertion = 255
+C-terminal of insertion = 262
+Overlap alignment length = 3
+RMSD threshold = 3.0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing = 15
+Minimum length of pruned Donor chain =80
+ 
+
+# 1 Name = <Structure id=['3by8']>, RMSD = 2.8755959382245546
+Donor N term = <Residue THR het=  resseq=48 icode= >
+Donor C term = <Residue ASN het=  resseq=177 icode= >
+Acceptor N term = <Residue LYS het=  resseq=255 icode= >
+Acceptor C term = <Residue LEU het=  resseq=262 icode= >
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Best Tag~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ RMSD match of N/C overlap = 2.8755959382245546                             
+                                                                                 
+ Acceptor = <Structure id=C-ring_portion_15mer>                                                
+ Acceptor optimal N terminal start residue is<Residue LYS het=  resseq=255 icode= >              
+ Acceptor optimal C terminal end residue is<Residue LEU het=  resseq=262 icode= >                 
+                                                                                 
+ Donor = <Structure id=['3by8']>                                                 
+ Donor optimal N terminal start residue is<Residue THR het=  resseq=48 icode= >                 
+ Donor optimal C terminal end residue is<Residue ASN het=  resseq=177 icode= >                   
+                                                                                 
+ Protagger suggests truncating Donor to residue numbers:                         
+ N terminal = 51                                 
+ C terminal = 174                                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Total time taken (seconds) = 90812.907758
