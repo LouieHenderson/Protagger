@@ -1,0 +1,51 @@
+Protagger_C-ring_portion_15mer_N_86_C_91_RMSD_3.log
+Database of tags = ./database_200625/*
+Target pdb = C-ring_portion_15mer
+PDB stored locally? =True
+Run specific search? =False
+N-terminal of insertion = 86
+C-terminal of insertion = 91
+Overlap alignment length = 3
+RMSD threshold = 3.0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing = 15
+Minimum length of pruned Donor chain =80
+ 
+
+# 1 Name = <Structure id=['2aji']>, RMSD = 2.941461190415925
+Donor N term = <Residue ASP het=  resseq=240 icode= >
+Donor C term = <Residue VAL het=  resseq=408 icode= >
+Acceptor N term = <Residue ASP het=  resseq=85 icode= >
+Acceptor C term = <Residue ILE het=  resseq=93 icode= > 
+
+# 2 Name = <Structure id=['2ajh']>, RMSD = 2.918383685077694
+Donor N term = <Residue ASP het=  resseq=240 icode= >
+Donor C term = <Residue VAL het=  resseq=408 icode= >
+Acceptor N term = <Residue ASP het=  resseq=85 icode= >
+Acceptor C term = <Residue ILE het=  resseq=93 icode= > 
+
+# 3 Name = <Structure id=['3qa9']>, RMSD = 2.3702782294810114
+Donor N term = <Residue THR het=  resseq=8 icode= >
+Donor C term = <Residue GLY het=  resseq=139 icode= >
+Acceptor N term = <Residue GLN het=  resseq=86 icode= >
+Acceptor C term = <Residue PHE het=  resseq=92 icode= >
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Best Tag~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ RMSD match of N/C overlap = 2.3702782294810114                             
+                                                                                 
+ Acceptor = <Structure id=C-ring_portion_15mer>                                                
+ Acceptor optimal N terminal start residue is<Residue GLN het=  resseq=86 icode= >              
+ Acceptor optimal C terminal end residue is<Residue PHE het=  resseq=92 icode= >                 
+                                                                                 
+ Donor = <Structure id=['3qa9']>                                                 
+ Donor optimal N terminal start residue is<Residue THR het=  resseq=8 icode= >                 
+ Donor optimal C terminal end residue is<Residue GLY het=  resseq=139 icode= >                   
+                                                                                 
+ Protagger suggests truncating Donor to residue numbers:                         
+ N terminal = 11                                 
+ C terminal = 136                                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Total time taken (seconds) = 392757.232015
