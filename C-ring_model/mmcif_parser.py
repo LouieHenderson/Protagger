@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import Bio.PDB
 from Bio import PDB
+from Bio.PDB import *
 from argparse import ArgumentParser
 import sys, os
 import time
@@ -16,6 +17,10 @@ def HETscrubber(PDBstructure):
 
     return PDBstructure
 
+class NotDisordered(Select):
+    def accept_atom(self, atom):
+        return not atom.is_disordered() or atom.get_altloc() == 'A'
+
 parser = ArgumentParser(description='Rename protein chains')
 
 #Adds parser arguments which the user will input
@@ -27,7 +32,7 @@ args         = parser.parse_args()
 pdb_input    = args.pdb
 pdb_output   = str(args.out)
 
-parser = PDB.MMCIFParser(QUIET = True)
+parser = PDB.PDBParser(PERMISSIVE=1)
 structure = parser.get_structure(pdb_input, pdb_input)
 
 scrubbed_cif = HETscrubber(structure)
@@ -44,7 +49,7 @@ print scrubbed_cif
 #Saves the PDB of the optimal final acceptor
 io=Bio.PDB.PDBIO()
 io.set_structure(scrubbed_cif)
-io.save(pdb_output + ".cif", scrubbed_cif)
+io.save(pdb_output + ".pdb")#, select=NotDisordered())
 
 print "Complete!"
 

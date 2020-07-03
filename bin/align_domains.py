@@ -1,5 +1,4 @@
-#!/usr/bin/python
-
+#!/usr/bin/env python
 import re
 import copy
 import argparse
@@ -25,7 +24,7 @@ def HETscrubber(PDBstructure):
 
     return PDBstructure
 
-def align_regions(FixedPDB, MovingPDB, FixedResListN, FixedResListC, MovingResListN, MovingResListC):
+def align_regions(FixedPDB, MovingPDB, FixedResListN, FixedResListC, MovingResListN, MovingResListC, chainregx):
 
     parser = PDB.PDBParser(PERMISSIVE=1)
     FixedInit = parser.get_structure(FixedPDB,"./"+FixedPDB+".pdb")
@@ -42,12 +41,14 @@ def align_regions(FixedPDB, MovingPDB, FixedResListN, FixedResListC, MovingResLi
     #Removes residues not in range of region to align
     for model in Fixed:
         for chain in model:
-            for residue in chain.get_list():
-                if residue.get_id()[1] in range(FixedResListN, FixedResListC + 1):
-                    FixedCA.append(residue['CA'])
+            if (chain.id == chainregx[0]) == True:
+                for residue in chain.get_list():
+                    if residue.get_id()[1] in range(FixedResListN, FixedResListC + 1):
+                        FixedCA.append(residue['CA'])
 
     for model in Moving:
         for chain in model:
+            chain.id = chainregx[0]
             for residue in chain.get_list():
                 if residue.get_id()[1] in range(MovingResListN, MovingResListC + 1):
                     MovingCA.append(residue['CA'])
@@ -69,6 +70,7 @@ def main():
     parser.add_argument('-d', '--fixedlistC', type=int, help='Enter the C residue to align in fixed list', required = True)
     parser.add_argument('-e', '--movinglistN', type=int, help='Enter the N residue to align in moving list', required = True)
     parser.add_argument('-f', '--movinglistC', type=int, help='Enter the C residue to align in moving list', required = True)
+    parser.add_argument('-x', '--chain', type=str, help='Enter chain identifiers of those you wish to tag. E.g. A-C,F,X')
 
     args = parser.parse_args()
 
@@ -78,12 +80,23 @@ def main():
     FixedListC      =   args.fixedlistC
     MovingListN     =   args.movinglistN
     MovingListC     =   args.movinglistC
+    chainlabel      =   args.chain
 
-    OptMoving = align_regions(FixedPDB, MovingPDB, FixedListN, FixedListC, MovingListN, MovingListC)
+    #Creates the list containing parameters for the regular expression for chain IDs
+    chainregx   = []
+
+    if chainlabel != None and ((',' in chainlabel) == True):
+        chainregx = str(chainlabel).split(",")
+    elif chainlabel != None and ((',' in chainlabel) != True):
+        chainregx.append(str(chainlabel))
+    else:
+        chainregx.append('\D')
+
+    OptMoving = align_regions(FixedPDB, MovingPDB, FixedListN, FixedListC, MovingListN, MovingListC, chainregx)
 
     io=Bio.PDB.PDBIO()
     io.set_structure(OptMoving)
-    io.save("./"+MovingPDB+'_optimised_for_'+FixedPDB+'.pdb')
+    io.save("./"+MovingPDB+'_aligned_to_'+FixedPDB+'_chain_'+chainregx[0]+'.pdb')
 
     print "Regions successfully aligned!"
 

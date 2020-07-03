@@ -17,6 +17,7 @@ from argparse import ArgumentParser
 from itertools import chain
 from functools import partial
 import Bio.PDB
+from Bio.PDB import *
 import subprocess
 
 #Import Protagger functions from support scripts
@@ -144,7 +145,7 @@ log.write(logname + "\n" +
 "RMSD threshold = " + str(RMSDthreshold) + "\n" +
 "Atomic clash threshold = " + str(globalvars.threshold_A) + "\n" +
 "Number of CPUs used for processing = " + str(globalvars.CPUs) + "\n"
-"Minimum length of pruned Donor chain =" + str(Minlength) + "\n") 
+"Minimum length of pruned Donor chain =" + str(Minlength) + "\n")
 
 
 #Creates empty objects for use in parsetag
@@ -216,7 +217,7 @@ for donor in taglist:
             Donor = parsetag(donor)
             #print "This is a Donor", Donor
 	   # print "run test length", Donor[0].get_list()[0].get_list()[0].get_list()
-	    
+
             if len(Donor[0].get_list()[0].get_list()[0].get_list()) < Minlength:
 		print "Donor length below minimum threshold, aborting loop..."
 		continue
