@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "./bin/runProtagger.py", line 168, in <module>
+    accfirstlast.append(chain.__getitem__(nterm))
+  File "/usr/local/lib/python2.7/dist-packages/Bio/PDB/Chain.py", line 104, in __getitem__
+    return Entity.__getitem__(self, id)
+  File "/usr/local/lib/python2.7/dist-packages/Bio/PDB/Entity.py", line 41, in __getitem__
+    return self.child_dict[id]
+KeyError: (' ', 86, ' ')

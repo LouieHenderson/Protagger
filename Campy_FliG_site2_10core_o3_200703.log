@@ -1,0 +1,216 @@
+Database of tags = ./FliG_1tag/*
+Target pdb = Campy_FliGM_cring
+PDB stored locally? =  True
+Run specific search? =  False
+N-terminal of insertion = 229
+C-terminal of insertion = 238
+Overlap alignment length = 3
+RMSD search threshold = 3.0
+RMSD exit threshold = 0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing= 10
+Minimum length of pruned Donor chain = 80
+ID's of chains to tag = I,J,K,L,M
+Acceptor acquired
+Time taken to order all tags =  0.0559320449829
+Donor list made
+ 
+################################################################
+ 
+Tags remaining = 0 / 1
+Elapsed time (minutes) = 0.00481599966685
+Current tag being checked = ./FliG_1tag/3by8.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue ILE het=  resseq=229 icode= >, <Residue GLU het=  resseq=238 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.016203201728521
+3.700937740334926
+3.5134014874015884
+2.3298475299316097
+Time taken (tagallchain) = 0.514503002167
+Time taken (sphereget) = 0.148243904114
+Time taken (courseclash) = 0.000899076461792
+Time taken (fineclash) = 16.6191082001
+Fine clash passed? True
+ 
+Donor = <Structure id=['3by8']>
+RMSD of current optimal Donor without clashes 2.3298475299316097
+ 
+2.420582615107813
+2.050664793310343
+Time taken (tagallchain) = 0.586255073547
+Time taken (sphereget) = 0.176450967789
+Time taken (courseclash) = 0.000942945480347
+Time taken (fineclash) = 16.3686299324
+Fine clash passed? True
+ 
+Donor = <Structure id=['3by8']>
+RMSD of current optimal Donor without clashes 2.050664793310343
+ 
+1.8857643558966541
+Time taken (tagallchain) = 1.34904909134
+Time taken (sphereget) = 0.195780038834
+Time taken (courseclash) = 0.000993013381958
+False was found
+Time taken (fineclash) = 6.92953896523
+Fine clash passed? False
+ 
+2.8269021109194234
+2.3442270135937826
+3.201291783221013
+3.393279064822779
+2.8288608328826905
+3.428230257772676
+2.099398248869754
+1.8820136071018405
+Time taken (tagallchain) = 0.596976041794
+Time taken (sphereget) = 0.170799016953
+Time taken (courseclash) = 0.000878810882568
+Time taken (fineclash) = 19.2716860771
+Fine clash passed? True
+ 
+Donor = <Structure id=['3by8']>
+RMSD of current optimal Donor without clashes 1.8820136071018405
+ 
+2.906572454587013
+2.32253286281151
+1.2651573108752037
+Time taken (tagallchain) = 0.832484960556
+Time taken (sphereget) = 0.157634019852
+Time taken (courseclash) = 0.000879049301147
+False was found
+Time taken (fineclash) = 6.53683590889
+Fine clash passed? False
+ 
+3.115431249801958
+2.9384648387461594
+3.639050542059529
+2.2874025391869712
+1.9507470254506691
+3.4854306842195273
+2.7571328101098524
+1.3718188730385372
+Time taken (tagallchain) = 0.571335077286
+Time taken (sphereget) = 0.165467023849
+Time taken (courseclash) = 0.000924825668335
+False was found
+Time taken (fineclash) = 6.33961105347
+Fine clash passed? False
+ 
+2.88499193318617
+1.9529386303010483
+2.559122088301078
+2.1710735839304935
+2.5543409765768423
+2.375361377975404
+2.113152092579027
+2.8277293771349843
+3.216697419930156
+2.9335243229295056
+2.85338765060585
+2.1641377414572793
+1.472956266210802
+Time taken (tagallchain) = 0.596060991287
+Time taken (sphereget) = 0.171253919601
+Time taken (courseclash) = 0.000975847244263
+False was found
+Time taken (fineclash) = 6.61230993271
+Fine clash passed? False
+ 
+3.3205490878544794
+2.4724022909703387
+1.908882823728858
+3.5179809503447013
+3.2785470930183007
+2.616166264206876
+2.4269867652482806
+1.6808569182480677
+Time taken (tagallchain) = 0.673419952393
+Time taken (sphereget) = 0.140909910202
+Time taken (courseclash) = 0.000793933868408
+False was found
+Time taken (fineclash) = 6.61462306976
+Fine clash passed? False
+ 
+3.118578050567665
+2.692691266428631
+2.096186047883821
+3.32510241027622
+3.3121494636640545
+2.655343425641516
+3.528652695977885
+2.9414836977363037
+3.1087284078470705
+2.73387656776467
+3.621250434875478
+2.9870958344425578
+3.049441046666357
+3.0248393556472797
+2.5429866404972405
+2.22667252962492
+3.533340877662163
+2.9283230704355274
+2.2767600512841737
+3.333698209268411
+3.4531491245848844
+3.454485910615697
+3.675593148316778
+2.8035068292871874
+2.512512624754707
+3.2657696416596167
+2.44963373430894
+3.6085954516512015
+2.6317719842015497
+3.16478616131753
+3.5643528562457285
+2.598419015643794
+2.2832239122561733
+3.5410533946426677
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 103.132633924 Donor = ./FliG_1tag/3by8.pdb
+Tag site N = 229 Tag site C = 238 Current checkpoint = 1.8820136071018405
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+New optimal found! = <Structure id=['3by8']> 1.8820136071018405 ('No clashes?', True)
+ 
+=========================================================================================================
+Time taken (tag tested) = 103.188218117 Donor = ./FliG_1tag/3by8.pdb Current checkpoint = 1.8820136071018405
+=========================================================================================================
+Optimal tag = <Structure id=['3by8']> 1.8820136071018405 ('No clashes?', True)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Best Tag~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ RMSD match of N/C overlap =  1.8820136071018405                                           
+                                                                                       
+ Acceptor =  <Structure id=Campy_FliGM_cring>                                                              
+ Acceptor optimal N terminal start residue is <Residue ILE het=  resseq=229 icode= >                            
+ Acceptor optimal C terminal end residue is <Residue THR het=  resseq=239 icode= >                              
+                                                                                       
+ Donor =  <Structure id=['3by8']>                                                               
+ Donor optimal N terminal start residue is <Residue ARG het=  resseq=49 icode= >                               
+ Donor optimal C terminal end residue is <Residue ILE het=  resseq=176 icode= >                                 
+                                                                                       
+ Protagger suggests truncating Donor to residue numbers:                               
+ N terminal =  52                                                           
+ C terminal =  173                                                           
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Optimal acceptor/donor pruned
+I tag.pdb saved
+J tag.pdb saved
+K tag.pdb saved
+L tag.pdb saved
+M tag.pdb saved
+Optimised Campy_FliGM_cring .pdb saved
+ 
+Optimal acceptor/donor pairs generated and saved
+Protagger is done!
+Time taken (total) = 106.508532047
