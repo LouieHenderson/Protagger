@@ -1,0 +1,37 @@
+Database of tags = ./FliM_1tag/*
+Target pdb = Campy_FliGM_cring
+PDB stored locally? =  True
+Run specific search? =  True
+N-terminal of insertion = 76
+C-terminal of insertion = 101
+Overlap alignment length = 3
+RMSD search threshold = 3.0
+RMSD exit threshold = 0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing= 10
+Minimum length of pruned Donor chain = 80
+ID's of chains to tag = W,X,Y,Z,a
+Acceptor acquired
+W
+yo [<Residue MET het=  resseq=76 icode= >, <Residue SER het=  resseq=101 icode= >]
+('Campy_FliGM_cring', 0, 'W', (' ', 76, ' '))
+('Campy_FliGM_cring', 0, 'W', (' ', 101, ' '))
+ya 25.235933
+Time taken to order all tags =  0.221890926361
+['./FliM_1tag/2ajh.pdb']
+Donor list made
+ 
+################################################################
+ 
+Tags remaining = 0 / 1
+Elapsed time (minutes) = 0.00706238349279
+Current tag being checked = ./FliM_1tag/2ajh.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+=========================================================================================================
+Time taken (tag tested) = 0.144814968109 Donor = ./FliM_1tag/2ajh.pdb Current checkpoint = 3.0
+=========================================================================================================
+Time taken (failed) = 0.568558931351
