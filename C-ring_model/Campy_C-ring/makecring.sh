@@ -9,9 +9,9 @@
 
 #FliM chain IDs W,X,Y,Z,a
 
-../../bin/align_domains.py  -a C-ring_portion_15mer -b Campy_FliM_m -c 49 -d 228 -e 51 -f 230 -x W
-../../bin/align_domains.py  -a C-ring_portion_15mer -b Campy_FliM_m -c 49 -d 228 -e 51 -f 230 -x X
-../../bin/align_domains.py  -a C-ring_portion_15mer -b Campy_FliM_m -c 49 -d 228 -e 51 -f 230 -x Y
-../../bin/align_domains.py  -a C-ring_portion_15mer -b Campy_FliM_m -c 49 -d 228 -e 51 -f 230 -x Z
-../../bin/align_domains.py  -a C-ring_portion_15mer -b Campy_FliM_m -c 49 -d 228 -e 51 -f 230 -x a
+../../bin/align_domains.py  -a C-ring_portion_15mer -b Campy_FliM_par -c 49 -d 228 -e 51 -f 230 -x W
+../../bin/align_domains.py  -a C-ring_portion_15mer -b Campy_FliM_par -c 49 -d 228 -e 51 -f 230 -x X
+../../bin/align_domains.py  -a C-ring_portion_15mer -b Campy_FliM_par -c 49 -d 228 -e 51 -f 230 -x Y
+../../bin/align_domains.py  -a C-ring_portion_15mer -b Campy_FliM_par -c 49 -d 228 -e 51 -f 230 -x Z
+../../bin/align_domains.py  -a C-ring_portion_15mer -b Campy_FliM_par -c 49 -d 228 -e 51 -f 230 -x a
 

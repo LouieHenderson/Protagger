@@ -30,7 +30,6 @@ def databaseorder(Databaseloc, accdist):
             firstlast = []
             firstlast.append(getFirstAndLastResiduesInChain(Donor))
             firlasdist = firstlast[0][2]['CA']-firstlast[0][3]['CA']
-
             #Converts to positive int and appends tup of tag + dist to chekc list
             truedist = abs(accdist - firlasdist)
             distlist.append((donor, truedist))

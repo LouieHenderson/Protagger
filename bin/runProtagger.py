@@ -160,32 +160,6 @@ else:
 Acceptor = HETscrubber(Acceptor1)
 print 'Acceptor acquired'
 
-#Returns list of structure object tags (donors)
-#Ranks list of potential tags based on pairwise distance of N/C terminals of donors
-Acchains = Acceptor.get_chains()
-accfirstlast = []
-for chain in Acchains:
-    accfirstlast.append(chain.__getitem__(nterm))
-    accfirstlast.append(chain.__getitem__(cterm))
-    break
-
-accfirlasdist = accfirstlast[0]['CA']-accfirstlast[1]['CA']
-taglist = databaseorder(Databaseloc, accfirlasdist)
-
-print "Donor list made"
-
-#Creates objects to monitor remaining tags
-tagsrem = len(taglist)
-tagstot = len(taglist)
-
-#Create a series of objects for subsequent steps
-#global Checkpoint
-#global Optimal
-#global chainregx
-globalvars.Checkpoint  = RMSDthreshold
-Besttag     = []
-Notagsfound = 0
-
 #Creates the list containing parameters for the regular expression for chain IDs
 if chainlabel != None and ((',' in chainlabel) == True):
     globalvars.chainregx = str(chainlabel).split(",")
@@ -193,6 +167,51 @@ elif chainlabel != None and ((',' in chainlabel) != True):
     globalvars.chainregx.append(str(chainlabel))
 else:
     globalvars.chainregx.append('\D')
+
+#Returns list of structure object tags (donors)
+#Ranks list of potential tags based on pairwise distance of N/C terminals of donors
+Acchains = Acceptor.get_chains()
+accfirstlast = []
+for chain in Acchains:
+    if globalvars.chainregx != []:
+        for regex in globalvars.chainregx:
+            if re.search('['+regex+']', chain.id):
+                print chain.id
+                #print chain.id
+                for residue in chain:
+                #    print residue.id
+                    accfirstlast.append(chain.__getitem__(nterm))
+                    accfirstlast.append(chain.__getitem__(cterm))
+                    break
+            else:
+                break
+    else:
+        #print chain.id
+        for residue in chain:
+        #    print residue.id
+            accfirstlast.append(chain.__getitem__(nterm))
+            accfirstlast.append(chain.__getitem__(cterm))
+            break
+
+print "yo", accfirstlast
+
+print accfirstlast[0].get_full_id()
+print accfirstlast[1].get_full_id()
+
+accfirlasdist = accfirstlast[0]['CA']-accfirstlast[1]['CA']
+print "ya", accfirlasdist
+taglist = databaseorder(Databaseloc, accfirlasdist)
+print taglist
+print "Donor list made"
+
+#Creates objects to monitor remaining tags
+tagsrem = len(taglist)
+tagstot = len(taglist)
+
+#Create a series of objects for subsequent steps
+globalvars.Checkpoint  = RMSDthreshold
+Besttag     = []
+Notagsfound = 0
 
 #Iterate through donors and apply tagging algorithms
 for donor in taglist:
@@ -219,8 +238,8 @@ for donor in taglist:
 	   # print "run test length", Donor[0].get_list()[0].get_list()[0].get_list()
 
             if len(Donor[0].get_list()[0].get_list()[0].get_list()) < Minlength:
-		print "Donor length below minimum threshold, aborting loop..."
-		continue
+		        print "Donor length below minimum threshold, aborting loop..."
+		        continue
 
             #Identifies first/last residues in Donors
             firstlast = []
@@ -231,11 +250,25 @@ for donor in taglist:
             firlasdist = firstlast[0][2]['CA']-firstlast[0][3]['CA']
 
             #Appends standard input N/C terminal from user input of Acceptor
+            #for Model in Acceptor:
+            #    for Chain in Model:
+            #        Nres = Chain.__getitem__(nterm)
+            #        Cres = Chain.__getitem__(cterm)
+            #        break
+
             for Model in Acceptor:
-                for Chain in Model:
-                    Nres = Chain.__getitem__(nterm)
-                    Cres = Chain.__getitem__(cterm)
-                    break
+                for chain in Model:
+                    if globalvars.chainregx != []:
+                        for regex in globalvars.chainregx:
+                            if re.search('['+regex+']', chain.id):
+                                Nres = chain.__getitem__(nterm)
+                                Cres = chain.__getitem__(cterm)
+                                break
+                    else:
+                        Nres = Chain.__getitem__(nterm)
+                        Cres = Chain.__getitem__(cterm)
+                        break
+
 
             NCtagsites.append((Nres,Cres))
 
