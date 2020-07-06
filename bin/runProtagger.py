@@ -193,15 +193,15 @@ for chain in Acchains:
             accfirstlast.append(chain.__getitem__(cterm))
             break
 
-print "yo", accfirstlast
+#print "yo", accfirstlast
 
-print accfirstlast[0].get_full_id()
-print accfirstlast[1].get_full_id()
+#print accfirstlast[0].get_full_id()
+#print accfirstlast[1].get_full_id()
 
 accfirlasdist = accfirstlast[0]['CA']-accfirstlast[1]['CA']
-print "ya", accfirlasdist
+#print "ya", accfirlasdist
 taglist = databaseorder(Databaseloc, accfirlasdist)
-print taglist
+#print taglist
 print "Donor list made"
 
 #Creates objects to monitor remaining tags
@@ -265,8 +265,8 @@ for donor in taglist:
                                 Cres = chain.__getitem__(cterm)
                                 break
                     else:
-                        Nres = Chain.__getitem__(nterm)
-                        Cres = Chain.__getitem__(cterm)
+                        Nres = chain.__getitem__(nterm)
+                        Cres = chain.__getitem__(cterm)
                         break
 
 
@@ -274,7 +274,7 @@ for donor in taglist:
 
             #If deep search algorithm is to be used, various Acceptor sites for tagging are generated
             if specsearch == True:
-                NCtagsites = AccPairGenerator(Acceptor, firlasdist, nterm, cterm)
+                NCtagsites = AccPairGenerator(Acceptor, firlasdist, nterm, cterm, globalvars.chainregx)
 
             #Object to monitor number of insert sites checked
             tupnum = None
