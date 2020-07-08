@@ -1,0 +1,45 @@
+Protagger_Campy_FliGM_cring_N_229_C_238_RMSD_3.log
+Database of tags = ./thermdata_200707/*
+Target pdb = Campy_FliGM_cring
+PDB stored locally? =True
+Run specific search? =False
+N-terminal of insertion = 229
+C-terminal of insertion = 238
+Overlap alignment length = 3
+RMSD threshold = 3.0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing = 10
+Minimum length of pruned Donor chain =80
+ 
+
+# 1 Name = <Structure id=['1vr8']>, RMSD = 2.8018287234040637
+Donor N term = <Residue HIS het=  resseq=-2 icode= >
+Donor C term = <Residue TYR het=  resseq=149 icode= >
+Acceptor N term = <Residue TYR het=  resseq=228 icode= >
+Acceptor C term = <Residue GLU het=  resseq=238 icode= > 
+
+# 2 Name = <Structure id=['1xkr']>, RMSD = 1.4888013238696014
+Donor N term = <Residue LYS het=  resseq=8 icode= >
+Donor C term = <Residue GLY het=  resseq=202 icode= >
+Acceptor N term = <Residue ILE het=  resseq=229 icode= >
+Acceptor C term = <Residue THR het=  resseq=239 icode= >
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Best Tag~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ RMSD match of N/C overlap = 1.4888013238696014                             
+                                                                                 
+ Acceptor = <Structure id=Campy_FliGM_cring>                                                
+ Acceptor optimal N terminal start residue is<Residue ILE het=  resseq=229 icode= >              
+ Acceptor optimal C terminal end residue is<Residue THR het=  resseq=239 icode= >                 
+                                                                                 
+ Donor = <Structure id=['1xkr']>                                                 
+ Donor optimal N terminal start residue is<Residue LYS het=  resseq=8 icode= >                 
+ Donor optimal C terminal end residue is<Residue GLY het=  resseq=202 icode= >                   
+                                                                                 
+ Protagger suggests truncating Donor to residue numbers:                         
+ N terminal = 11                                 
+ C terminal = 199                                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Total time taken (seconds) = 3313.50759816
