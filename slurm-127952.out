@@ -1,0 +1,10 @@
+/usr/local/lib/python2.7/dist-packages/Bio/PDB/StructureBuilder.py:91: PDBConstructionWarning: WARNING: Chain I is discontinuous at line 3996.
+  PDBConstructionWarning)
+/usr/local/lib/python2.7/dist-packages/Bio/PDB/StructureBuilder.py:91: PDBConstructionWarning: WARNING: Chain J is discontinuous at line 5066.
+  PDBConstructionWarning)
+/usr/local/lib/python2.7/dist-packages/Bio/PDB/StructureBuilder.py:91: PDBConstructionWarning: WARNING: Chain K is discontinuous at line 6136.
+  PDBConstructionWarning)
+/usr/local/lib/python2.7/dist-packages/Bio/PDB/StructureBuilder.py:91: PDBConstructionWarning: WARNING: Chain L is discontinuous at line 7206.
+  PDBConstructionWarning)
+/usr/local/lib/python2.7/dist-packages/Bio/PDB/StructureBuilder.py:91: PDBConstructionWarning: WARNING: Chain M is discontinuous at line 8276.
+  PDBConstructionWarning)
