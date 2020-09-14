@@ -1,0 +1,247 @@
+Database of tags = ./1zx8_db/*
+Target pdb = FlgEKL_partial_multimer
+PDB stored locally? =  True
+Run specific search? =  False
+N-terminal of insertion = 569
+C-terminal of insertion = 590
+Overlap alignment length = 3
+RMSD search threshold = 3.0
+RMSD exit threshold = 0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing= 15
+Minimum length of pruned Donor chain = 80
+ID's of chains to tag = L,M,N,O,P,Q
+Acceptor acquired
+L
+Time taken to order all tags =  0.155153036118
+Donor list made
+ 
+################################################################
+ 
+Tags remaining = 0 / 1
+Elapsed time (minutes) = 0.046016116937
+Current tag being checked = ./1zx8_db/1zx8.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue MET het=  resseq=569 icode= >, <Residue SER het=  resseq=590 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.9370236146303803
+Time taken (tagallchain) = 6.69134998322
+Time taken (sphereget) = 1.43225979805
+Time taken (courseclash) = 0.00186991691589
+False was found
+Time taken (fineclash) = 8.43118095398
+Fine clash passed? False
+ 
+2.0772514043957724
+Time taken (tagallchain) = 7.40049600601
+Time taken (sphereget) = 1.82306408882
+Time taken (courseclash) = 0.00231194496155
+False was found
+Time taken (fineclash) = 8.2611489296
+Fine clash passed? False
+ 
+2.6607149985966405
+Time taken (tagallchain) = 7.2984521389
+Time taken (sphereget) = 1.53821492195
+Time taken (courseclash) = 0.00230693817139
+False was found
+Time taken (fineclash) = 5.96401286125
+Fine clash passed? False
+ 
+3.262827139338455
+3.006944210384057
+3.005467149568421
+3.100173882172078
+3.111199860216457
+2.8674585399121693
+Time taken (tagallchain) = 7.92805290222
+Time taken (sphereget) = 1.48702716827
+Time taken (courseclash) = 0.00353407859802
+False was found
+Time taken (fineclash) = 33.0281949043
+Fine clash passed? False
+ 
+2.061531626337561
+Time taken (tagallchain) = 10.8415269852
+Time taken (sphereget) = 2.11830091476
+Time taken (courseclash) = 0.00245118141174
+False was found
+Time taken (fineclash) = 9.36589789391
+Fine clash passed? False
+ 
+2.629596791958167
+Time taken (tagallchain) = 9.76423215866
+Time taken (sphereget) = 1.39407610893
+Time taken (courseclash) = 0.00239992141724
+False was found
+Time taken (fineclash) = 7.81053519249
+Fine clash passed? False
+ 
+3.2788588614911682
+2.775726164614163
+Time taken (tagallchain) = 8.73791909218
+Time taken (sphereget) = 1.76895213127
+Time taken (courseclash) = 0.0024619102478
+Time taken (fineclash) = 106.591757059
+Fine clash passed? True
+ 
+Donor = <Structure id=['1zx8']>
+RMSD of current optimal Donor without clashes 2.775726164614163
+ 
+3.372891832683298
+3.72458334732951
+2.628944152463341
+Time taken (tagallchain) = 7.52761602402
+Time taken (sphereget) = 1.39245796204
+Time taken (courseclash) = 0.00242590904236
+False was found
+Time taken (fineclash) = 46.1334400177
+Fine clash passed? False
+ 
+3.4666665976543
+3.6860978531121664
+2.135639069167966
+Time taken (tagallchain) = 7.44123888016
+Time taken (sphereget) = 1.43670392036
+Time taken (courseclash) = 0.00254321098328
+Time taken (fineclash) = 119.673071861
+Fine clash passed? True
+ 
+Donor = <Structure id=['1zx8']>
+RMSD of current optimal Donor without clashes 2.135639069167966
+ 
+2.261068213427471
+2.9126873496918333
+2.2735106856016003
+2.4761146340069584
+2.870543387998498
+2.2734114079773895
+2.6176846979018973
+2.8498573405595895
+3.7573774655757126
+3.382893817392941
+3.3571931296877224
+3.7582198636241233
+3.2340098807642086
+3.2915892140074283
+4.024644114450032
+3.3779198315718904
+3.04183033654694
+3.378059499981222
+3.701987714370395
+3.9368942687991892
+3.387495040585051
+3.790410394573197
+4.399321865561095
+3.61684618531556
+3.841733873582068
+4.141950700035371
+2.782215369868102
+2.8038059803807434
+2.966834483160173
+3.275893093218929
+3.571974037213219
+3.7356294179790965
+3.314717557447634
+3.7089225858897907
+3.842658657254845
+3.694269489031044
+3.220388754086825
+3.355843240471249
+3.0172242935374043
+2.0384540180046518
+Time taken (tagallchain) = 7.31933784485
+Time taken (sphereget) = 1.30141401291
+Time taken (courseclash) = 0.00264692306519
+False was found
+Time taken (fineclash) = 15.0084760189
+Fine clash passed? False
+ 
+2.3420114245131862
+3.3629724766049254
+2.38499248006915
+1.8179158361034022
+Time taken (tagallchain) = 7.26867699623
+Time taken (sphereget) = 1.62236094475
+Time taken (courseclash) = 0.00289607048035
+False was found
+False was found
+False was found
+False was found
+Time taken (fineclash) = 97.9316260815
+Fine clash passed? False
+ 
+3.1542421776973106
+3.615384703919265
+4.386471637379073
+2.1020450697774336
+Time taken (tagallchain) = 7.89268112183
+Time taken (sphereget) = 1.55434703827
+Time taken (courseclash) = 0.00295805931091
+False was found
+Time taken (fineclash) = 16.2452309132
+Fine clash passed? False
+ 
+2.6462273226742905
+3.5407053246204474
+2.5647130213339286
+2.7441877378646757
+3.0970727565690503
+3.0821862555448947
+3.3351680350522486
+3.611733887518477
+3.2823977614215174
+3.7686808906195264
+3.989709056757777
+3.3522930923134555
+3.8722210409679265
+3.892632021252228
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 809.259310007 Donor = ./1zx8_db/1zx8.pdb
+Tag site N = 569 Tag site C = 590 Current checkpoint = 2.135639069167966
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+New optimal found! = <Structure id=['1zx8']> 2.135639069167966 ('No clashes?', True)
+ 
+=========================================================================================================
+Time taken (tag tested) = 809.444350004 Donor = ./1zx8_db/1zx8.pdb Current checkpoint = 2.135639069167966
+=========================================================================================================
+Optimal tag = <Structure id=['1zx8']> 2.135639069167966 ('No clashes?', True)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Best Tag~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ RMSD match of N/C overlap =  2.135639069167966                                           
+                                                                                       
+ Acceptor =  <Structure id=FlgEKL_partial_multimer>                                                              
+ Acceptor optimal N terminal start residue is <Residue MET het=  resseq=569 icode= >                            
+ Acceptor optimal C terminal end residue is <Residue SER het=  resseq=592 icode= >                              
+                                                                                       
+ Donor =  <Structure id=['1zx8']>                                                               
+ Donor optimal N terminal start residue is <Residue GLU het=  resseq=8 icode= >                               
+ Donor optimal C terminal end residue is <Residue GLU het=  resseq=115 icode= >                                 
+                                                                                       
+ Protagger suggests truncating Donor to residue numbers:                               
+ N terminal =  11                                                           
+ C terminal =  112                                                           
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Optimal acceptor/donor pruned
+L tag.pdb saved
+M tag.pdb saved
+N tag.pdb saved
+O tag.pdb saved
+P tag.pdb saved
+Q tag.pdb saved
+Optimised FlgEKL_partial_multimer .pdb saved
+ 
+Optimal acceptor/donor pairs generated and saved
+Protagger is done!
+Time taken (total) = 848.13993597
