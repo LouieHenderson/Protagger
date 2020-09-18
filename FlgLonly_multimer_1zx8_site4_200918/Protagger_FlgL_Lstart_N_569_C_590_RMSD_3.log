@@ -1,0 +1,39 @@
+Protagger_FlgL_Lstart_N_569_C_590_RMSD_3.log
+Database of tags = ./1zx8_db/*
+Target pdb = FlgL_Lstart
+PDB stored locally? =True
+Run specific search? =False
+N-terminal of insertion = 569
+C-terminal of insertion = 590
+Overlap alignment length = 3
+RMSD threshold = 3.0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing = 15
+Minimum length of pruned Donor chain =80
+ 
+
+# 1 Name = <Structure id=['1zx8']>, RMSD = 2.135639069167966
+Donor N term = <Residue GLU het=  resseq=8 icode= >
+Donor C term = <Residue GLU het=  resseq=115 icode= >
+Acceptor N term = <Residue MET het=  resseq=569 icode= >
+Acceptor C term = <Residue SER het=  resseq=592 icode= >
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Best Tag~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ RMSD match of N/C overlap = 2.135639069167966                             
+                                                                                 
+ Acceptor = <Structure id=FlgL_Lstart>                                                
+ Acceptor optimal N terminal start residue is<Residue MET het=  resseq=569 icode= >              
+ Acceptor optimal C terminal end residue is<Residue SER het=  resseq=592 icode= >                 
+                                                                                 
+ Donor = <Structure id=['1zx8']>                                                 
+ Donor optimal N terminal start residue is<Residue GLU het=  resseq=8 icode= >                 
+ Donor optimal C terminal end residue is<Residue GLU het=  resseq=115 icode= >                   
+                                                                                 
+ Protagger suggests truncating Donor to residue numbers:                         
+ N terminal = 11                                 
+ C terminal = 112                                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Total time taken (seconds) = 305.694516182
