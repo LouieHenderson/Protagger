@@ -1,4 +1,4 @@
-Database of tags = ../../../tagdatabase_1tag//*
+Database of tags = ../1m40_db//*
 Target pdb = YYYY
 PDB stored locally? =  True
 Run specific search? =  False
@@ -40,14 +40,14 @@ Y
 Z
 a
 b
-Time taken to order all tags =  0.749299049377
+Time taken to order all tags =  0.458512067795
 Donor list made
  
 ################################################################
  
-Tags remaining = 2 / 3
-Elapsed time (minutes) = 0.0408227841059
-Current tag being checked = ../../../tagdatabase_1tag/1btl.pdb
+Tags remaining = 0 / 1
+Elapsed time (minutes) = 0.0398699998856
+Current tag being checked = ../1m40_db/1m40.pdb
 Current optimal = None
 RMSD threshold = 3.0
 
@@ -59,435 +59,161 @@ Current insert site N/C tested = (<Residue SER het=  resseq=205 icode= >, <Resid
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 RMSD of aligned acceptor/donor pairs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-2.8438542950997716
-Time taken (tagallchain) = 9.1304500103
-Time taken (sphereget) = 1.41322398186
-Time taken (courseclash) = 0.0114901065826
-Time taken (fineclash) = 817.716665983
-Fine clash passed? True
- 
-Donor = <Structure id=['1btl']>
-RMSD of current optimal Donor without clashes 2.8438542950997716
- 
-2.4158052643648955
-Time taken (tagallchain) = 13.0328381062
-Time taken (sphereget) = 1.46063899994
-Time taken (courseclash) = 0.0122830867767
-False was found
-Time taken (fineclash) = 18.2617788315
-Fine clash passed? False
- 
-3.2220522965152334
-3.680167942940884
-3.5289488698972287
-4.168366591219829
-3.967375396384104
-3.842810498382722
-4.4752474030180664
-2.798739403679421
-Time taken (tagallchain) = 9.48947000504
-Time taken (sphereget) = 1.42621207237
-Time taken (courseclash) = 0.0130219459534
-False was found
-Time taken (fineclash) = 19.7913749218
-Fine clash passed? False
- 
-2.389057126698445
-Time taken (tagallchain) = 12.8427629471
-Time taken (sphereget) = 1.34732890129
-Time taken (courseclash) = 0.0134859085083
-False was found
-Time taken (fineclash) = 5.31940698624
-Fine clash passed? False
- 
-2.655450436379332
-Time taken (tagallchain) = 11.272988081
-Time taken (sphereget) = 1.49257588387
-Time taken (courseclash) = 0.0131249427795
-False was found
-Time taken (fineclash) = 11.688863039
-Fine clash passed? False
- 
-3.636478472057991
-3.377266414702334
-3.6081566043454223
-4.093076571951119
-3.993518922393847
-4.266980895992232
-2.751987695230475
-Time taken (tagallchain) = 9.97483682632
-Time taken (sphereget) = 1.44219017029
-Time taken (courseclash) = 0.0138709545135
-False was found
-Time taken (fineclash) = 15.4039959908
-Fine clash passed? False
- 
-2.375080320165908
-Time taken (tagallchain) = 13.0278990269
-Time taken (sphereget) = 1.51188397408
-Time taken (courseclash) = 0.0147948265076
-False was found
-Time taken (fineclash) = 5.13004302979
-Fine clash passed? False
- 
-2.159447307295248
-Time taken (tagallchain) = 9.04278492928
-Time taken (sphereget) = 1.36903500557
-Time taken (courseclash) = 0.0134599208832
-False was found
-False was found
-Time taken (fineclash) = 9.80062794685
-Fine clash passed? False
- 
-3.427704309232404
-3.0783814304175845
-2.988345774351634
-3.9671992279465744
-3.8269494205167853
-3.716630366124331
-3.94332290448473
-3.7435093295286705
-4.263732793560797
-3.8307203140260166
-3.9818493059624807
-4.541808007978418
-3.7051624054185304
-3.30616746562025
-3.987831116938541
-3.7328755752246723
-3.463409968992706
-3.585010102105463
-3.7890127652297214
-3.9628179088799254
-4.106600978429229
-3.665042314602199
-3.325173783755752
-3.626285282879854
-3.4789877978291894
-3.159025284489439
-2.9285996356510187
-3.675923224174717
-3.853200914061113
-3.487102556168845
-3.283857545758051
-3.04291482681443
-2.8686972220826275
-4.478269874906251
-4.229887864352542
-4.818378999605685
-3.7528739193894456
-3.635421982670312
-4.299299349836822
-4.075184771686719
-3.6082297096187315
-4.2779741094973005
-4.41016750562502
-4.166613031620816
-4.448872219973424
-3.6193916450453454
-3.5491035666242827
-3.846592910562882
-4.005560092153784
-3.4687824008478536
-3.8476940543164466
-4.2563134173973785
-3.9603477576797297
-3.923059435957559
-3.3272846211846954
-3.3278095613204774
-3.104742626753498
-3.4605848682531075
-2.96085167196237
-2.9721232785818117
- 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Time taken (insert site tested) = 1102.02702999 Donor = ../../../tagdatabase_1tag/1btl.pdb
-Tag site N = 205 Tag site C = 212 Current checkpoint = 2.8438542950997716
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-New optimal found! = <Structure id=['1btl']> 2.8438542950997716 ('No clashes?', True)
- 
-=========================================================================================================
-Time taken (tag tested) = 1102.1884079 Donor = ../../../tagdatabase_1tag/1btl.pdb Current checkpoint = 2.8438542950997716
-=========================================================================================================
- 
-################################################################
- 
-Tags remaining = 1 / 3
-Elapsed time (minutes) = 18.4106297652
-Current tag being checked = ../../../tagdatabase_1tag/1m40.pdb
-Current optimal = <Structure id=['1btl']>
-RMSD threshold = 2.8438542950997716
-
-
- 
-Insert sites remaining = 1 / 1
-Current insert site N/C tested = (<Residue SER het=  resseq=205 icode= >, <Residue THR het=  resseq=212 icode= >)
- 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-RMSD of aligned acceptor/donor pairs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-2.718202987615155
-Time taken (tagallchain) = 17.9139699936
-Time taken (sphereget) = 1.91996598244
-Time taken (courseclash) = 0.0117800235748
-Time taken (fineclash) = 1818.09835315
+2.8070384908044352
+Time taken (tagallchain) = 36.4527180195
+Time taken (sphereget) = 1.57465195656
+Time taken (courseclash) = 0.01029920578
+Time taken (fineclash) = 1427.68699408
 Fine clash passed? True
  
 Donor = <Structure id=['1m40']>
-RMSD of current optimal Donor without clashes 2.718202987615155
+RMSD of current optimal Donor without clashes 2.8070384908044352
  
-2.3435636822290014
-Time taken (tagallchain) = 17.452256918
-Time taken (sphereget) = 2.16372799873
-Time taken (courseclash) = 0.0140550136566
+2.399425202216917
+Time taken (tagallchain) = 11.8723959923
+Time taken (sphereget) = 1.68524098396
+Time taken (courseclash) = 0.0122599601746
 False was found
-Time taken (fineclash) = 32.6572420597
+Time taken (fineclash) = 25.2797830105
 Fine clash passed? False
  
-3.1314393532987572
-3.5555338334850033
-3.447928226831849
-4.082813478495345
-3.827311576548912
-3.7479288203673513
-4.391257339926822
-2.667518705608536
-Time taken (tagallchain) = 17.8424060345
-Time taken (sphereget) = 2.42621994019
-Time taken (courseclash) = 0.0143249034882
+3.1728093624917424
+3.593268384306872
+3.475397900691385
+4.107048855562574
+3.838664133476073
+3.765333893615847
+4.3935583888050544
+2.7378290136418344
+Time taken (tagallchain) = 15.8947770596
+Time taken (sphereget) = 1.63498401642
+Time taken (courseclash) = 0.0115149021149
 False was found
-Time taken (fineclash) = 38.3002500534
+Time taken (fineclash) = 38.0254859924
 Fine clash passed? False
  
-2.316818113892718
-Time taken (tagallchain) = 17.0048348904
-Time taken (sphereget) = 1.88637495041
-Time taken (courseclash) = 0.011873960495
+2.349421025941129
+Time taken (tagallchain) = 11.3771319389
+Time taken (sphereget) = 1.61098718643
+Time taken (courseclash) = 0.0106830596924
 False was found
-Time taken (fineclash) = 13.3108921051
+Time taken (fineclash) = 11.340690136
 Fine clash passed? False
  
-2.5740984023638536
-Time taken (tagallchain) = 16.6211950779
-Time taken (sphereget) = 1.91387605667
-Time taken (courseclash) = 0.0117678642273
+2.6030720859242584
+Time taken (tagallchain) = 15.6557319164
+Time taken (sphereget) = 1.90608215332
+Time taken (courseclash) = 0.0137310028076
 False was found
-Time taken (fineclash) = 30.5290989876
+Time taken (fineclash) = 24.4034779072
 Fine clash passed? False
  
-3.4958463736700742
-3.282019105299157
-3.5224310017804616
-3.933570429224559
-3.8825807112301853
-4.174208718219348
-2.690911668481102
-Time taken (tagallchain) = 17.1929380894
-Time taken (sphereget) = 1.94493699074
-Time taken (courseclash) = 0.0220160484314
+3.540033217081413
+3.3124920666242463
+3.552249039520819
+3.946160390223264
+3.9008375452054933
+4.17254732499859
+2.713510513077492
+Time taken (tagallchain) = 11.2982230186
+Time taken (sphereget) = 1.95452189445
+Time taken (courseclash) = 0.0137479305267
 False was found
-Time taken (fineclash) = 37.6260919571
+Time taken (fineclash) = 20.1946530342
 Fine clash passed? False
  
-2.3994393870471153
-Time taken (tagallchain) = 16.7515060902
-Time taken (sphereget) = 2.10360908508
-Time taken (courseclash) = 0.0142140388489
+2.3906515944924025
+Time taken (tagallchain) = 66.4085640907
+Time taken (sphereget) = 1.80885696411
+Time taken (courseclash) = 0.0141279697418
 False was found
-Time taken (fineclash) = 10.4957180023
+Time taken (fineclash) = 7.21996092796
 Fine clash passed? False
  
-2.1664595678807697
-Time taken (tagallchain) = 89.9612720013
-Time taken (sphereget) = 1.85920286179
-Time taken (courseclash) = 0.0122430324554
+2.162051217073352
+Time taken (tagallchain) = 12.96986413
+Time taken (sphereget) = 1.9703309536
+Time taken (courseclash) = 0.0196459293365
 False was found
 False was found
-Time taken (fineclash) = 14.1137850285
+Time taken (fineclash) = 14.801222086
 Fine clash passed? False
  
-3.333587384348204
-3.0466715135999345
-2.9567739290098
-3.84829398702989
-3.7704986697822993
-3.6733933649785477
-3.8274700794426892
-3.661919766681872
-4.154984757599886
-3.721283734716123
-3.8997765675800404
-4.459542874255448
-3.5667777235339746
-3.199898089558164
-3.892404367115412
-3.587681450471106
-3.361290962053497
-3.4687935534643293
-3.644311386451435
-3.851823158316235
-4.001744653781733
-3.497516288166233
-3.180982859979829
-3.5098151027088447
-3.3695042593172584
-3.1184765500192806
-2.8587276520259532
-3.5581278103934495
-3.783024901273295
-3.4369583850003838
-3.1401376616384598
-2.9481406717833836
-2.7959028658144343
-4.407949474511012
-4.17363071336565
-4.738820210047946
-3.6793210804414413
-3.5869593591753333
-4.235171215032961
-3.9663061833620334
-3.5384251366827773
-4.211820554600292
-4.297628013779153
-4.072826401753526
-4.344841000806669
-3.491312332154995
-3.446206912167728
-3.745069078787125
-3.8477551972501067
-3.3325090917315645
-3.7408977519372493
-4.152714296981923
-3.8989333219041895
-3.8355244933044257
-3.2035102925174446
-3.252004498416086
-3.028016239912458
-3.300025403822119
-2.842389432301507
-2.8634514329148715
+3.3522402708022083
+3.052474660124187
+2.9618738559505706
+3.837641740735844
+3.7726726881312387
+3.6431922968074235
+3.910856414785295
+3.7303249305822592
+4.223503091808904
+3.747841021550946
+3.9292791639866635
+4.484124946378264
+3.6135772668800823
+3.2443654229802954
+3.9196185499796075
+3.676115049987237
+3.424739137840924
+3.5385101403179413
+3.681695692417344
+3.889448788849004
+4.0355516531550215
+3.5485610830754664
+3.2363780240619655
+3.5460250882653526
+3.4303891084092917
+3.1534330664284718
+2.9130615213609086
+3.5781938948253327
+3.805035177407716
+3.4521345428473826
+3.1732332595426884
+2.984627316031614
+2.807740853454706
+4.459517902949457
+4.226208954242656
+4.782653539711075
+3.714531857849513
+3.619503952708418
+4.263835140273954
+3.97937734978427
+3.5423696370038167
+4.210571209763386
+4.35464635810993
+4.125856750154139
+4.3953020070027105
+3.5414100627145646
+3.4955560237794336
+3.7911415571935643
+3.885399069584374
+3.3699424509222524
+3.7694045107519467
+4.199309178799265
+3.9367451826647897
+3.877365317303162
+3.2416985115056534
+3.290576973519606
+3.062817846463525
+3.339774142261146
+2.8851778260421055
+2.8935518198526475
  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Time taken (insert site tested) = 2328.4442091 Donor = ../../../tagdatabase_1tag/1m40.pdb
-Tag site N = 205 Tag site C = 212 Current checkpoint = 2.718202987615155
+Time taken (insert site tested) = 1867.48329902 Donor = ../1m40_db/1m40.pdb
+Tag site N = 205 Tag site C = 212 Current checkpoint = 2.8070384908044352
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-New optimal found! = <Structure id=['1m40']> 2.718202987615155 ('No clashes?', True)
+New optimal found! = <Structure id=['1m40']> 2.8070384908044352 ('No clashes?', True)
  
 =========================================================================================================
-Time taken (tag tested) = 2330.97055316 Donor = ../../../tagdatabase_1tag/1m40.pdb Current checkpoint = 2.718202987615155
+Time taken (tag tested) = 1867.71895289 Donor = ../1m40_db/1m40.pdb Current checkpoint = 2.8070384908044352
 =========================================================================================================
- 
-################################################################
- 
-Tags remaining = 0 / 3
-Elapsed time (minutes) = 57.260139215
-Current tag being checked = ../../../tagdatabase_1tag/1bsk.pdb
-Current optimal = <Structure id=['1m40']>
-RMSD threshold = 2.718202987615155
-
-
- 
-Insert sites remaining = 1 / 1
-Current insert site N/C tested = (<Residue SER het=  resseq=205 icode= >, <Residue THR het=  resseq=212 icode= >)
- 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-RMSD of aligned acceptor/donor pairs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-6.998337704926077
-7.026338246575747
-6.343827561625096
-7.4663588992779335
-7.4153254172317515
-6.854537661613276
-8.624440074240146
-8.446969852139606
-8.077851417148185
-7.252128298293042
-7.063798389458938
-6.381871347051245
-7.6764704630047245
-7.419871908181611
-6.812690012568979
-8.75606476751459
-8.412566897492344
-7.997899513755828
-6.650486909091066
-6.231325597712165
-5.694522203089879
-7.047000191612427
-6.519315309106655
-6.005136148942462
-8.02158039012759
-7.508282847391885
-7.1187594039850755
-6.794085924389655
-6.828520760729872
-6.189497171430642
-7.6690482012975
-7.590596565456828
-7.271852509820175
-9.019855944351047
-8.849667757446296
-8.433502909755084
-7.116295962575538
-6.917550589064013
-6.1908661704246954
-7.887145435123397
-7.640217964017658
-7.208734926137002
-9.250042870650452
-8.910931457361611
-8.499027534303679
-6.592039816444264
-6.05474731508369
-5.421154887768948
-7.227667589325563
-6.774803234466101
-6.3417374672858395
-8.53531296865609
-8.05427955924935
-7.727391508235956
-6.750207845246545
-6.818875009770388
-6.331567064674066
-7.666002967209234
-7.627867607908491
-7.424727366599894
-8.889649328248197
-8.805071708141432
-8.376030946837702
-7.221004883019775
-7.104958486920109
-6.492359575967269
-8.176547498274967
-7.997622377714935
-7.71194241098522
-9.458885428672938
-9.246403544762178
-8.716520667275638
-6.812102135652598
-6.4235011546207375
-5.810286803461889
-7.73484726450757
-7.386814733028105
-7.098105674007302
-9.076461133257379
-8.683421299369348
-8.157815446282097
- 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Time taken (insert site tested) = 0.15681385994 Donor = ../../../tagdatabase_1tag/1bsk.pdb
-Tag site N = 205 Tag site C = 212 Current checkpoint = 2.718202987615155
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
-=========================================================================================================
-Time taken (tag tested) = 0.237370014191 Donor = ../../../tagdatabase_1tag/1bsk.pdb Current checkpoint = 2.718202987615155
-=========================================================================================================
-Optimal tag = <Structure id=['1m40']> 2.718202987615155 ('No clashes?', True)
+Optimal tag = <Structure id=['1m40']> 2.8070384908044352 ('No clashes?', True)
  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Best Tag~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- RMSD match of N/C overlap =  2.718202987615155                                           
+ RMSD match of N/C overlap =  2.8070384908044352                                           
                                                                                        
  Acceptor =  <Structure id=YYYY>                                                              
  Acceptor optimal N terminal start residue is <Residue SER het=  resseq=205 icode= >                            
@@ -503,3 +229,36 @@ Optimal tag = <Structure id=['1m40']> 2.718202987615155 ('No clashes?', True)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Optimal acceptor/donor pruned
+A tag.pdb saved
+B tag.pdb saved
+C tag.pdb saved
+D tag.pdb saved
+E tag.pdb saved
+F tag.pdb saved
+G tag.pdb saved
+H tag.pdb saved
+I tag.pdb saved
+J tag.pdb saved
+K tag.pdb saved
+L tag.pdb saved
+M tag.pdb saved
+N tag.pdb saved
+O tag.pdb saved
+P tag.pdb saved
+Q tag.pdb saved
+R tag.pdb saved
+S tag.pdb saved
+T tag.pdb saved
+U tag.pdb saved
+V tag.pdb saved
+W tag.pdb saved
+X tag.pdb saved
+Y tag.pdb saved
+Z tag.pdb saved
+a tag.pdb saved
+b tag.pdb saved
+Optimised YYYY .pdb saved
+ 
+Optimal acceptor/donor pairs generated and saved
+Protagger is done!
+Time taken (total) = 1975.43287301

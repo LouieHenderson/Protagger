@@ -1,5 +1,5 @@
 Protagger_YYYY_N_205_C_212_RMSD_3.log
-Database of tags = ../../../tagdatabase_1tag//*
+Database of tags = ../1m40_db//*
 Target pdb = YYYY
 PDB stored locally? =True
 Run specific search? =False
@@ -12,13 +12,7 @@ Number of CPUs used for processing = 50
 Minimum length of pruned Donor chain =0
  
 
-# 1 Name = <Structure id=['1btl']>, RMSD = 2.8438542950997716
-Donor N term = <Residue GLU het=  resseq=28 icode= >
-Donor C term = <Residue TRP het=  resseq=290 icode= >
-Acceptor N term = <Residue SER het=  resseq=205 icode= >
-Acceptor C term = <Residue THR het=  resseq=212 icode= > 
-
-# 2 Name = <Structure id=['1m40']>, RMSD = 2.718202987615155
+# 1 Name = <Structure id=['1m40']>, RMSD = 2.8070384908044352
 Donor N term = <Residue GLU het=  resseq=28 icode= >
 Donor C term = <Residue TRP het=  resseq=290 icode= >
 Acceptor N term = <Residue SER het=  resseq=205 icode= >
@@ -26,7 +20,7 @@ Acceptor C term = <Residue THR het=  resseq=212 icode= >
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Best Tag~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- RMSD match of N/C overlap = 2.718202987615155                             
+ RMSD match of N/C overlap = 2.8070384908044352                             
                                                                                  
  Acceptor = <Structure id=YYYY>                                                
  Acceptor optimal N terminal start residue is<Residue SER het=  resseq=205 icode= >              
@@ -42,4 +36,4 @@ Acceptor C term = <Residue THR het=  resseq=212 icode= >
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Total time taken (seconds) = 3435.84579706
+Total time taken (seconds) = 1870.11122799
