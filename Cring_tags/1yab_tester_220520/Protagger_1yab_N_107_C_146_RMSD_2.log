@@ -1,0 +1,45 @@
+Protagger_1yab_N_107_C_146_RMSD_2.log
+Database of tags = ./tagdatabase_1tag/*
+Target pdb = 1yab
+PDB stored locally? =True
+Run specific search? =True
+N-terminal of insertion = 107
+C-terminal of insertion = 146
+Overlap alignment length = 3
+RMSD threshold = 2.0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing = 3
+Minimum length of pruned Donor chain =0
+ 
+
+# 1 Name = <Structure id=['1bsk']>, RMSD = 1.803647092298895
+Donor N term = <Residue GLU het=  resseq=11 icode= >
+Donor C term = <Residue LYS het=  resseq=165 icode= >
+Acceptor N term = <Residue ASP het=  resseq=107 icode= >
+Acceptor C term = <Residue VAL het=  resseq=137 icode= > 
+
+# 2 Name = <Structure id=['1bsk']>, RMSD = 1.8036365869396898
+Donor N term = <Residue GLU het=  resseq=11 icode= >
+Donor C term = <Residue LYS het=  resseq=165 icode= >
+Acceptor N term = <Residue ASP het=  resseq=107 icode= >
+Acceptor C term = <Residue VAL het=  resseq=137 icode= >
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Best Tag~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ RMSD match of N/C overlap = 1.8036365869396898                             
+                                                                                 
+ Acceptor = <Structure id=1yab>                                                
+ Acceptor optimal N terminal start residue is<Residue ASP het=  resseq=107 icode= >              
+ Acceptor optimal C terminal end residue is<Residue VAL het=  resseq=137 icode= >                 
+                                                                                 
+ Donor = <Structure id=['1bsk']>                                                 
+ Donor optimal N terminal start residue is<Residue GLU het=  resseq=11 icode= >                 
+ Donor optimal C terminal end residue is<Residue LYS het=  resseq=165 icode= >                   
+                                                                                 
+ Protagger suggests truncating Donor to residue numbers:                         
+ N terminal = 14                                 
+ C terminal = 162                                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Total time taken (seconds) = 192.083704948

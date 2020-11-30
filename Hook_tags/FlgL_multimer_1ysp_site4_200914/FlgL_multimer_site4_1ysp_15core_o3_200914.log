@@ -1,0 +1,218 @@
+Database of tags = ./1ysp_db/*
+Target pdb = FlgEKL_partial_multimer
+PDB stored locally? =  True
+Run specific search? =  False
+N-terminal of insertion = 569
+C-terminal of insertion = 590
+Overlap alignment length = 3
+RMSD search threshold = 3.0
+RMSD exit threshold = 0
+Atomic clash threshold = 2.5
+Number of CPUs used for processing= 15
+Minimum length of pruned Donor chain = 80
+ID's of chains to tag = L,M,N,O,P,Q
+Acceptor acquired
+L
+Time taken to order all tags =  0.0813071727753
+Donor list made
+ 
+################################################################
+ 
+Tags remaining = 0 / 1
+Elapsed time (minutes) = 0.0425177971522
+Current tag being checked = ./1ysp_db/1ysp.pdb
+Current optimal = None
+RMSD threshold = 3.0
+
+
+ 
+Insert sites remaining = 1 / 1
+Current insert site N/C tested = (<Residue MET het=  resseq=569 icode= >, <Residue SER het=  resseq=590 icode= >)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RMSD of aligned acceptor/donor pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.638078649974341
+Time taken (tagallchain) = 9.11063885689
+Time taken (sphereget) = 1.7791249752
+Time taken (courseclash) = 0.00185799598694
+False was found
+Time taken (fineclash) = 26.6752450466
+Fine clash passed? False
+ 
+3.198425882925563
+2.8366574893907748
+Time taken (tagallchain) = 6.69093203545
+Time taken (sphereget) = 1.29685306549
+Time taken (courseclash) = 0.00178503990173
+False was found
+Time taken (fineclash) = 6.49137401581
+Fine clash passed? False
+ 
+2.6220147952774533
+Time taken (tagallchain) = 7.21457099915
+Time taken (sphereget) = 1.43958306313
+Time taken (courseclash) = 0.00247502326965
+False was found
+Time taken (fineclash) = 20.8429460526
+Fine clash passed? False
+ 
+3.2204560935605957
+3.043370644252109
+2.423058568975254
+Time taken (tagallchain) = 10.0360729694
+Time taken (sphereget) = 1.52363204956
+Time taken (courseclash) = 0.00231003761292
+Time taken (fineclash) = 150.877856016
+Fine clash passed? True
+ 
+Donor = <Structure id=['1ysp']>
+RMSD of current optimal Donor without clashes 2.423058568975254
+ 
+3.3343150733671543
+2.4522712305524035
+3.1392088731211514
+2.4632293689267093
+2.5862914822868905
+3.403794411900301
+2.694231396962584
+2.912920018090152
+3.6312361555907673
+2.6641444846176623
+2.0841937956302514
+Time taken (tagallchain) = 7.85945510864
+Time taken (sphereget) = 1.41853713989
+Time taken (courseclash) = 0.00246000289917
+False was found
+Time taken (fineclash) = 51.0196919441
+Fine clash passed? False
+ 
+2.839799214722941
+2.6717015170386573
+3.4697180634755136
+3.0743510592456866
+2.9075627594219218
+4.046736720782849
+2.744471362787193
+1.8827608841986612
+Time taken (tagallchain) = 6.9520201683
+Time taken (sphereget) = 1.40790200233
+Time taken (courseclash) = 0.00259494781494
+Time taken (fineclash) = 169.957818031
+Fine clash passed? True
+ 
+Donor = <Structure id=['1ysp']>
+RMSD of current optimal Donor without clashes 1.8827608841986612
+ 
+2.913881201885574
+2.9466481343813395
+3.5447002622533734
+2.7954374160776614
+2.1756913481597904
+3.1217932837798057
+2.075284421179213
+2.640834221879608
+3.735296346447187
+2.7702087154782356
+3.562711013182461
+2.73512659430109
+2.577418693503889
+3.3513105091959265
+2.2439052747404125
+1.3707776868459398
+Time taken (tagallchain) = 7.01177287102
+Time taken (sphereget) = 1.35345292091
+Time taken (courseclash) = 0.00250387191772
+False was found
+Time taken (fineclash) = 43.9751591682
+Fine clash passed? False
+ 
+3.6059185944950367
+3.402190359040383
+2.121213735875525
+2.944238455101736
+2.5183801662464758
+3.4240838906819007
+2.4485029637842097
+1.208794482563447
+Time taken (tagallchain) = 5.68825006485
+Time taken (sphereget) = 1.3630399704
+Time taken (courseclash) = 0.00256490707397
+Time taken (fineclash) = 137.656830788
+Fine clash passed? True
+ 
+Donor = <Structure id=['1ysp']>
+RMSD of current optimal Donor without clashes 1.208794482563447
+ 
+2.588328929340196
+3.091566176996701
+1.9453114668760814
+1.9859626146721145
+2.3050052189259342
+3.2749252506579265
+1.9856933896866216
+2.675563656435183
+3.746413207596798
+2.831346751882504
+2.9204634569243906
+3.727605358774927
+3.5601913393942892
+3.5080932117714707
+2.488795224106154
+1.3792859348548303
+3.8087795295989526
+3.169096496764308
+1.9613989248153185
+3.447835124047952
+3.700250683803302
+3.3473662330491862
+2.566416804396174
+1.241524595100935
+2.1715320043642183
+3.1105708128736587
+1.8480138269541027
+2.29057333288105
+3.5981504724556315
+3.219772579569379
+2.7300494680238594
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Time taken (insert site tested) = 817.547096968 Donor = ./1ysp_db/1ysp.pdb
+Tag site N = 569 Tag site C = 590 Current checkpoint = 1.208794482563447
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+New optimal found! = <Structure id=['1ysp']> 1.208794482563447 ('No clashes?', True)
+ 
+=========================================================================================================
+Time taken (tag tested) = 817.629502058 Donor = ./1ysp_db/1ysp.pdb Current checkpoint = 1.208794482563447
+=========================================================================================================
+Optimal tag = <Structure id=['1ysp']> 1.208794482563447 ('No clashes?', True)
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Best Tag~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ RMSD match of N/C overlap =  1.208794482563447                                           
+                                                                                       
+ Acceptor =  <Structure id=FlgEKL_partial_multimer>                                                              
+ Acceptor optimal N terminal start residue is <Residue SER het=  resseq=568 icode= >                            
+ Acceptor optimal C terminal end residue is <Residue SER het=  resseq=592 icode= >                              
+                                                                                       
+ Donor =  <Structure id=['1ysp']>                                                               
+ Donor optimal N terminal start residue is <Residue ILE het=  resseq=4 icode= >                               
+ Donor optimal C terminal end residue is <Residue MET het=  resseq=170 icode= >                                 
+                                                                                       
+ Protagger suggests truncating Donor to residue numbers:                               
+ N terminal =  7                                                           
+ C terminal =  167                                                           
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Optimal acceptor/donor pruned
+L tag.pdb saved
+M tag.pdb saved
+N tag.pdb saved
+O tag.pdb saved
+P tag.pdb saved
+Q tag.pdb saved
+Optimised FlgEKL_partial_multimer .pdb saved
+ 
+Optimal acceptor/donor pairs generated and saved
+Protagger is done!
+Time taken (total) = 852.126482964

@@ -1,0 +1,4 @@
+#!/bin/sh
+#SBATCH --ntasks=15 --partition=heartofgoldCPU
+
+./bin/runProtagger.py -b ./database_200625 -o FlgL_multimer_site1_ecolidb_200831 -p FlgEKL_partial_multimer -n 340 -c 379 -r 3 -u 15 -m 80 -t 2.5 -v 3 -x L,M,N,O,P,Q -l > FlgL_multimer_site1_ecolidb_15core_o3_200831.log
